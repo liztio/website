@@ -3,18 +3,19 @@
 
 Current
 -----------
-* Check the includes.md
 * en/docs/reference/setup-tools. Generated?
 * /netlify_noindex_headers.txt? => static/_headers?
-* % assign reference_docs_url = ‘/docs/reference/generated/kubernetes-api/’ | append: site.latest %}
 * CSS  highlight, Chroma styles
 * Remove superflous "layout:"
 * GetPage in top partials
 - Check noedit
 * Remove permalink: /blog/:year/:month/:title in blog
 * Blog, handle {:
+* Blog archive + style diff
 * 404 checker and diff
 * Rewrite style-guide.md
+* Rewrite /home/contribute/includes.md
+
 
 For Migration
 -----------
@@ -52,11 +53,18 @@ Notes for guide
 
 * TIP: ▶ hugo server --renderToDisk
 
+Talk
+----
+* http://localhost:1313/docs/home/contribute/style-guide/
+* Chrome vs Safari http://localhost:1313/docs/home/contribute/style-guide/
+
 
 Suggestions for future
 -----------
 
+* Avoid scrolling to top on window.location.reload() in Chrome;
 * Consider moving cannonical-tags to > Hugo taxonomies and in general use Hugo taxonomies for "indexing content". Also see Hugo's Related Content feature.
 * Use Hugo leaf bundles for tutorials; shared resources (YAML files, images) between languages, simpler maintainance etc.
 * Redirects from aliases
 * A strategy for translations of UI vs content
+

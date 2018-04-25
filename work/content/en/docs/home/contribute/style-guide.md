@@ -1,8 +1,11 @@
 ---
 title: Documentation Style Guide
+content_template: templates/concept
 ---
 
-{% capture overview %}
+
+
+{{% capture overview %}}
 This page gives writing style guidelines for the Kubernetes documentation.
 These are guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
@@ -11,12 +14,13 @@ For additional information on creating new content for the Kubernetes
 docs, follow the instructions on
 [using page templates](/docs/home/contribute/page-templates/) and
 [creating a documentation pull request](/docs/home/contribute/create-pull-request/).
-{% endcapture %}
+{{% /capture %}}
 
-{% capture body %}
+{{% capture body %}}
 
+{{< note >}}
 **Note:** Kubernetes documentation uses [GitHub Flavored Markdown](https://github.github.com/gfm/) along with a few [local jekyll includes](/docs/home/contribute/includes/) to support glossary entries, tabs, and representing feature state.
-{: .note}
+{{< /note >}}
 
 ## Language
 
@@ -184,110 +188,94 @@ A list of Kubernetes-specific terms and words to be used consistently across the
   <tr><td>SIG Docs</td><td>SIG Docs rather than SIG-DOCS or other variations.</td></tr>
 </table>
 
-## Callout Formatting
-Callouts help create different rhetorical appeal levels. Our documentation supports three different callouts: **Note:** {: .note}, **Caution:** {: .caution}, and **Warning:** {: .warning}.
+## Shortcodes
+Hugo [Shortcodes](https://gohugo.io/content-management/shortcodes) help create different rhetorical appeal levels. Our documentation supports three different shortcodes in this category: **Note:** {{</* note */>}}, **Caution:** {{</* caution */>}}, and **Warning:** {{</* warning */>}}.
 
-1. Start each callout with the appropriate prefix.
+1. Surround the text with an opening and closing shortcode.
 
 2. Use the following syntax to apply a style:
+    
+    ```md
+    {{</* note */>}}
+    **Note:** The prefix you use is the same text you use in the tag.
+    {: .note} <!-- This tag must appear on a new line. -->
+    {{</* /note */>}}
+    ```
 
-       **Note:** The prefix you use is the same text you use in the tag.
-       {: .note} <!-- This tag must appear on a new line. -->
 
 The output is:
 
+{{< note >}}
 **Note:** The prefix you choose is the same text for the tag.
-{: .note}
+{{< /note >}}
 
 ### Note
 
-Use {: .note} to highlight a tip or a piece of information that may be helpful to know.
+Use {{</* note */>}} to highlight a tip or a piece of information that may be helpful to know.
 
 For example:
-
-    **Note:** You can _still_ use Markdown inside these callouts.
-    {: .note}
+    
+```
+{{</* note */>}}
+**Note:** You can _still_ use Markdown inside these callouts.
+{{</* /note */>}}
+```
 
 The output is:
 
+{{< note >}}
 **Note:** You can _still_ use Markdown inside these callouts.
-{: .note}
+{{< /note >}}
 
 ### Caution
 
-Use {: .caution} to call attention to an important piece of information to avoid pitfalls.
+Use {{</* caution */>}} to call attention to an important piece of information to avoid pitfalls.
 
 For example:
 
-    **Caution:** The callout style only applies to the line directly above the tag.
-    {: .caution}
+```
+{{</* caution */>}}
+**Caution:** The callout style only applies to the line directly above the tag.
+{{</* /caution */>}}
+```
 
 The output is:
 
+{{< caution >}}
 **Caution:** The callout style only applies to the line directly above the tag.
-{: .caution}
+{{< /caution >}}
 
 ### Warning
 
-Use {: .warning} to indicate danger or a piece of information that is crucial to follow.
+Use {{</* warning */>}} to indicate danger or a piece of information that is crucial to follow.
 
 For example:
 
-    **Warning:** Beware.
-    {: .warning}
-
-The output is:
-
+```
+{{</* warning */>}}
 **Warning:** Beware.
-{: .warning}
+{{</* /warning */>}}
+```
 
-## Common Callout Issues
-
-### Style Does Not Apply
-
-Callout tags must be on a new line to apply the style. Github's Preview Changes feature further obfuscates this fact by rendering the tag on the same line, but your code must match the following syntax:
-
-    **Note:** Your text goes here.
-    {: .note} <!-- This tag must appear on a new line. -->
-
-### Multiple Lines
-
-Callouts automatically span multiple lines. However, you can use `<br/>` tags if you need to create multiple lines.
-
-For example:
-
-    **Note:"** This is my note. Use `<br/>` to create multiple lines. <br/> <br/> You can still use _Markdown_ to **format** text!
-    {: .note}
 
 The output is:
 
-**Note:** This is my note. Use `<br/>` to create multiple lines. <br/> <br/> You can still use _Markdown_ to **format** text!
-{: .note}
+{{< warning >}}
+**Warning:** Beware.
+{{< /warning >}}
 
-Typing multiple lines does **not** work. The callout style only applies to the line directly above the tag.
-
-    **Note:** This is my note.
-
-    I didn't read the style guide.
-    {: .note}
-
-**Note:** This is my note.
-
-I didn't read the style guide.
-{: .note}
+## Common Shortcode Issues
 
 ### Ordered Lists
 
-Callouts will interrupt numbered lists unless you indent three spaces before the notice and the tag.
+Shortcodes will interrupt numbered lists unless you indent four spaces before the notice and the tag.
 
 For example:
 
     1. Preheat oven to 350˚F
 
     1. Prepare the batter, and pour into springform pan.
-
-       **Note:** Grease the pan for best results.
-       {: .note}
+       {{</* note */>}}**Note:** Grease the pan for best results.{{</* note */>}}
 
     1. Bake for 20-25 minutes or until set.
 
@@ -296,9 +284,7 @@ The output is:
 1. Preheat oven to 350˚F
 
 1. Prepare the batter, and pour into springform pan.
-
-   **Note:** Grease the pan for best results.
-   {: .note}
+    {{< note >}}**Note:** Grease the pan for best results.{{< /note >}}
 
 1. Bake for 20-25 minutes or until set.
 
@@ -399,15 +385,13 @@ considered new in a few months.
     <tr><td>The Federation feature provides ...</td><td>The new Federation feature provides ...</td></tr>
 </table>
 
-{% endcapture %}
+{{% /capture %}}
 
-{% capture whatsnext %}
+{{% capture whatsnext %}}
 
 * Learn about [writing a new topic](/docs/home/contribute/write-new-topic/).
 * Learn about [using page templates](/docs/home/contribute/page-templates/).
 * Learn about [staging your changes](/docs/home/contribute/stage-documentation-changes/)
 * Learn about [creating a pull request](/docs/home/contribute/create-pull-request/).
 
-{% endcapture %}
-
-{% include templates/concept.md %}
+{{% /capture %}}

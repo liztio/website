@@ -139,6 +139,11 @@ func (m *mover) contentMigrate_Step1_Basic_Copy_And_Rename() error {
 		return err
 	}
 
+	// Remove the includes.md -- it is rewritten as a Hugo bundle.
+	if err := os.Remove(m.absFilename("content/en/docs/home/contribute/includes.md")); err != nil {
+		return err
+	}
+
 	// Remove this for now. TODO(bep)
 	if err := os.RemoveAll(m.absFilename("content/en/docs/reference/generated")); err != nil {
 		return err
