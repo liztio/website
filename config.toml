@@ -3,8 +3,9 @@ title = "Kubernetes"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
 
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap", "robotsTXT"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 ignoreFiles = [ "^OWNERS$", "README.md", "^node_modules$" ]
 
@@ -25,7 +26,6 @@ pygmentsStyle = "emacs"
 hrefTargetBlank = true
 fractions = false
 
-
 # TODO(bep)
 [social]
 twitter = "kubernetesio"
@@ -36,8 +36,7 @@ date = ["date", ":filename", "publishDate", "lastmod"]
 [permalinks]
   blog = "/:section/:year/:month/:day/:slug/"
 
-
-# Be explicit about the output formats. We only want an RSS feed for the sections.
+# Be explicit about the output formats. We (currently) only want an RSS feed for the sections.
 [outputs]
 home = [ "HTML"]
 page = [ "HTML"]
