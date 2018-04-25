@@ -148,22 +148,36 @@ println "This is tab 2."
 {{< /tab >}}
 {{< /tabs >}}
 
-### Tabs demo: Inline Markdown
+### Tabs demo: Inline Markdown and HTML
 
-```go-text-template
+```go-html-template
 {{</* tabs name="tab_with_md" >}}
-{{% tab name="Tab 1" %}}
+{{% tab name="Markdown" %}}
 This is **some markdown.**
+{{< note >}}**Note:** It can even contain shortcodes.{{< /note >}}
 {{% /tab %}}
+{{< tab name="HTML" >}}
+<div>
+	<h3>Plain HTML</h3>
+	<p>This is some <i>plain</i> HTML.</p>
+</div>
+{{< /tab >}}
 {{< /tabs */>}}
 ```
 
 Will be rendered as:
 
 {{< tabs name="tab_with_md" >}}
-{{% tab name="Tab 1" %}}
+{{% tab name="Markdown" %}}
 This is **some markdown.**
+{{< note >}}**Note:** It can even contain shortcodes.{{< /note >}}
 {{% /tab %}}
+{{< tab name="HTML" >}}
+<div>
+	<h3>Plain HTML</h3>
+	<p>This is some <i>plain</i> HTML.</p>
+</div>
+{{< /tab >}}
 {{< /tabs >}}
 
 ### Tabs demo: File include
