@@ -150,10 +150,7 @@ The output is similar to this:
 
 Code examples and configuration examples that include version information should be consistent with the accompanying text. Identify the Kubernetes version in the **Before you begin** section.
 
-To specify the Kubernetes version for a task or tutorial page:
-
-- Include `min-kubernetes-server-version` in the front matter of the page.
-- In the **Before you begin** section, use `{{ "{% include tasks-tutorial-prereqs.md "}} %}`.
+To specify the Kubernetes version for a task or tutorial page, include `min-kubernetes-server-version` in the front matter of the page.
 
 If the example YAML is in a standalone file, find and review the topics that include it as a reference.
 Verify that any topics using the standalone YAML have the appropriate version information defined.
@@ -198,7 +195,6 @@ Hugo [Shortcodes](https://gohugo.io/content-management/shortcodes) help create d
     ```md
     {{</* note */>}}
     **Note:** The prefix you use is the same text you use in the tag.
-    {: .note} <!-- This tag must appear on a new line. -->
     {{</* /note */>}}
     ```
 
