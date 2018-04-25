@@ -19,7 +19,7 @@ docs, follow the instructions on
 {{% capture body %}}
 
 {{< note >}}
-**Note:** Kubernetes documentation uses [GitHub Flavored Markdown](https://github.github.com/gfm/) along with a few [local jekyll includes](/docs/home/contribute/includes/) to support glossary entries, tabs, and representing feature state.
+**Note:** Kubernetes documentation uses [Blackfriday Markdown Renderer](https://github.com/russross/blackfriday) along with a few [Hugo Shortcodes](/docs/home/contribute/includes/) to support glossary entries, tabs, and representing feature state.
 {{< /note >}}
 
 ## Language
