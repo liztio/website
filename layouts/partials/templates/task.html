@@ -8,16 +8,4 @@
 {{ .Scratch.Add "blocks" (dict "page" . "block" "discussion" "optional" true )  }}
 {{ .Scratch.Add "blocks" (dict "page" . "block" "whatsnext" "heading" "What's next" "optional" true )  }}
 
-{{ $blocks := .Scratch.Get "blocks" }}
-{{/* The built-in ToC in Blackfriday only works for the Markdown it render itself. */}}
-<ul id="markdown-toc">
-{{ range $blocks }}
-{{ if .heading }}
-<li><a href="#{{ .heading | anchorize }}">{{.heading }}</a></li>
-{{ end }}
-{{ end }}
-</ul>
-
-{{ range $i, $e := $blocks }}
-{{ partial "templates/block" . }}
-{{ end }}
+{{ partial "templates/blocks" . }}

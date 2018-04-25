@@ -15,7 +15,7 @@ Current
 * 404 checker and diff
 * Rewrite style-guide.md
 * Rewrite /home/contribute/includes.md
-
+* Tooltip anchor name => 	term-cluster
 
 For Migration
 -----------
@@ -67,4 +67,5 @@ Suggestions for future
 * Use Hugo leaf bundles for tutorials; shared resources (YAML files, images) between languages, simpler maintainance etc.
 * Redirects from aliases
 * A strategy for translations of UI vs content
+* Archetypes. Also see https://github.com/gohugoio/hugo/issues/4535 for a directory based approach.
 
