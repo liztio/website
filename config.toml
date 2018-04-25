@@ -52,6 +52,8 @@ time_format_blog = "Monday, January 02, 2006"
 description = "Production-Grade Container Orchestration"
 showedit = true
 
+latest = "v1.10"
+
 fullversion = "v1.10.0"
 version = "v1.10"
 githubbranch = "master"

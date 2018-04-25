@@ -529,6 +529,17 @@ func (m *mover) contentMigrate_Replacements() error {
 			return s, nil
 		},
 
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`{% assign reference_docs_url.*?%}`)
+			return re.ReplaceAllString(s, ""), nil
+			return s, nil
+		},
+
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`\[(Kubernetes )?API reference.*?\]\({{ reference_docs_url }}\).*?"_blank"}`)
+			return re.ReplaceAllString(s, "{{< reference_docs >}}"), nil
+		},
+
 		replaceCaptures,
 
 		calloutsToShortCodes,

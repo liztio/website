@@ -7,7 +7,7 @@ Current
 * en/docs/reference/setup-tools. Generated?
 * /netlify_noindex_headers.txt? => static/_headers?
 * % assign reference_docs_url = ‘/docs/reference/generated/kubernetes-api/’ | append: site.latest %}
-* CSS  highlight
+* CSS  highlight, Chroma styles
 * Remove superflous "layout:"
 * GetPage in top partials
 - Check noedit

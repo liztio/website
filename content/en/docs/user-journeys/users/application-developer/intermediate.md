@@ -8,7 +8,7 @@ title: Intermediate
 track: "USERS › APPLICATION DEVELOPER › INTERMEDIATE"
 content_template: templates/user-journey-content
 ---
-{% assign reference_docs_url = '/docs/reference/generated/kubernetes-api/' | append: site.latest %}
+
 
 {{% capture overview %}}
 
@@ -67,7 +67,7 @@ In contrast to Deployments, these API objects are finite. They stop once the spe
 
 #### Other resources
 
-For more info, you can check out [a list of additional Kubernetes resource types](/docs/reference/kubectl/overview/#resource-types){:target="_blank"} as well as the [API reference docs]({{ reference_docs_url }}){:target="_blank"}.
+For more info, you can check out [a list of additional Kubernetes resource types](/docs/reference/kubectl/overview/#resource-types){:target="_blank"} as well as the {{< reference_docs >}}.
 
 There may be additional features not mentioned here that you may find useful, which are covered in the [full Kubernetes documentation](/docs/home/?path=browse){:target="_blank"}.
 
@@ -144,7 +144,7 @@ For writing your own Kubernetes app configurations, there is a [thriving ecosyst
 Now that you're fairly familiar with Kubernetes, you may find it useful to browse the following reference pages. Doing so provides a high level view of what other features may exist:
 
 * [Commonly used `kubectl` commands](/docs/reference/kubectl/cheatsheet/){:target="_blank"}
-* [Kubernetes API reference]({{ reference_docs_url }}){:target="_blank"}
+* {{< reference_docs >}}
 * [Standardized Glossary](/docs/reference/glossary/){:target="_blank"}
 
 In addition, [the Kubernetes blog](http://blog.kubernetes.io/){:target="_blank"} often has helpful posts on Kubernetes design patterns and case studies.
