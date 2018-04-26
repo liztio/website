@@ -414,6 +414,7 @@ user@test-instance-us:~$ curl 130.211.40.186
 
 
 slug: globally-distributed-services-kubernetes-cluster-federation
+url: /blog/2016/10/globally-distributed-services-kubernetes-cluster-federation/
 ----
  ```
 

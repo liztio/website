@@ -6,6 +6,7 @@ date: 2016-07-21
 pagination:
   enabled: true
 slug: oh-the-places-you-will-go
+url: /blog/2016/07/oh-the-places-you-will-go/
 ---
 _Editor’s note, Today’s guest post is from an independent Kubernetes contributor, Justin Santa Barbara, sharing his reflection on growth of the project from inception to its future._  
 

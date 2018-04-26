@@ -6,6 +6,7 @@ date: 2017-12-15
 pagination:
   enabled: true
 slug: kubernetes-19-workloads-expanded-ecosystem
+url: /blog/2017/12/kubernetes-19-workloads-expanded-ecosystem/
 ---
 We’re pleased to announce the delivery of Kubernetes 1.9, our fourth and final release this year.  
 

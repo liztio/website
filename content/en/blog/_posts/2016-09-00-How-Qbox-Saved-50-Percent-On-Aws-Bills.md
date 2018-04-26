@@ -6,6 +6,7 @@ date: 2016-09-27
 pagination:
   enabled: true
 slug: how-qbox-saved-50-percent-on-aws-bills
+url: /blog/2016/09/how-qbox-saved-50-percent-on-aws-bills/
 ---
 _Editor’s Note: Today’s post is by the team at Qbox, a hosted Elasticsearch provider sharing their experience with Kubernetes and how it helped save them fifty-percent off their cloud bill.&nbsp;_  
 

@@ -6,6 +6,7 @@ date: 2016-03-01
 pagination:
   enabled: true
 slug: kubernetes-community-meeting-notes
+url: /blog/2016/03/kubernetes-community-meeting-notes/
 ---
 #####  February 25th - Redspread demo, 1.2 update and planning 1.3, newbie introductions, SIG-networking and a shout out to CoreOS blog post.
 

@@ -6,6 +6,7 @@ date: 2017-11-17
 pagination:
   enabled: true
 slug: autoscaling-in-kubernetes
+url: /blog/2017/11/autoscaling-in-kubernetes/
 ---
 
 

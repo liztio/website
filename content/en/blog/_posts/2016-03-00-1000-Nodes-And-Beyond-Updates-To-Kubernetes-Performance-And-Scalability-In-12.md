@@ -6,6 +6,7 @@ date: 2016-03-28
 pagination:
   enabled: true
 slug: 1000-nodes-and-beyond-updates-to-kubernetes-performance-and-scalability-in-12
+url: /blog/2016/03/1000-nodes-and-beyond-updates-to-kubernetes-performance-and-scalability-in-12/
 ---
 _Editor's&nbsp;note: this is the first in a [series of in-depth posts](http://blog.kubernetes.io/2016/03/five-days-of-kubernetes-12.html) on what's new in Kubernetes 1.2_  
 

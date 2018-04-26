@@ -6,6 +6,7 @@ date: 2015-04-22
 pagination:
   enabled: true
 slug: kubernetes-and-mesosphere-dcos
+url: /blog/2015/04/kubernetes-and-mesosphere-dcos/
 ---
 
 # Kubernetes and the Mesosphere DCOS

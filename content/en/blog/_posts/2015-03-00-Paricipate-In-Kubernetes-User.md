@@ -6,6 +6,7 @@ date: 2015-03-31
 pagination:
   enabled: true
 slug: paricipate-in-kubernetes-user
+url: /blog/2015/03/paricipate-in-kubernetes-user/
 ---
 We need your help in shaping the future of Kubernetes and Google Container Engine, and we'd love to have you participate in a remote UX research study to help us learn about your experiences!&nbsp; If you're interested in participating, we invite you to take [this brief survey](http://goo.gl/AXFFMs) to see if you qualify. If you’re selected to participate, we’ll follow up with you directly.
 

@@ -6,6 +6,7 @@ date: 2016-11-07
 pagination:
   enabled: true
 slug: skytap-modernizing-microservice-architecture-with-kubernetes
+url: /blog/2016/11/skytap-modernizing-microservice-architecture-with-kubernetes/
 ---
 _Editor's note: Today’s guest post is by the Tools and Infrastructure Engineering team at Skytap, a public cloud provider focused on empowering DevOps workflows, sharing their experience on adopting Kubernetes.&nbsp;_  
 

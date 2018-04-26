@@ -4,6 +4,7 @@ layout: blog
 title: " Kubernetes 1.4: Making it easy to run on Kubernetes anywhere "
 date: 2016-09-26
 slug: kubernetes-1.4-making-it-easy-to-run-on-kuberentes-anywhere
+url: /blog/2016/09/kubernetes-1.4-making-it-easy-to-run-on-kuberentes-anywhere/
 ---
 Today we’re happy to announce the release of Kubernetes 1.4.  
   

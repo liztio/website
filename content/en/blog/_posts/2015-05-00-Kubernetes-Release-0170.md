@@ -6,6 +6,7 @@ date: 2015-05-15
 pagination:
   enabled: true
 slug: kubernetes-release-0170
+url: /blog/2015/05/kubernetes-release-0170/
 ---
 Release Notes:  
 

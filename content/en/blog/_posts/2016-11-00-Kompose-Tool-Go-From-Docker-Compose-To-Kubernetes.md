@@ -4,6 +4,7 @@ layout: blog
 title: " Kompose: a tool to go from Docker-compose to Kubernetes "
 date: 2016-11-22
 slug: kompose-tool-go-from-docker-compose-to-kubernetes
+url: /blog/2016/11/kompose-tool-go-from-docker-compose-to-kubernetes/
 ---
 _Editor's note: Today’s post is by Sebastien Goasguen, Founder of Skippbox, showing a new tool to move from ‘docker-compose’ to Kubernetes._  
 

@@ -6,6 +6,7 @@ date: 2016-02-24
 pagination:
   enabled: true
 slug: kubecon-eu-2016-kubernetes-community-in
+url: /blog/2016/02/kubecon-eu-2016-kubernetes-community-in/
 ---
 
 KubeCon EU 2016 is the inaugural [European Kubernetes](http://kubernetes.io/) community conference that follows on the American launch in November 2015. KubeCon is fully dedicated to education and community engagement for[Kubernetes](http://kubernetes.io/) enthusiasts, production users and the surrounding ecosystem.

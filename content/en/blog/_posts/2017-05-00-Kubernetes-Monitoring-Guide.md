@@ -6,6 +6,7 @@ date: 2017-05-19
 pagination:
   enabled: true
 slug: kubernetes-monitoring-guide
+url: /blog/2017/05/kubernetes-monitoring-guide/
 ---
 _Today’s post is by Jean-Mathieu Saponaro, Research & Analytics Engineer at Datadog, discussing what Kubernetes changes for monitoring, and how you can prepare to properly monitor a containerized infrastructure orchestrated by Kubernetes._  
 

@@ -6,6 +6,7 @@ date: 2017-04-06
 pagination:
   enabled: true
 slug: rbac-support-in-kubernetes
+url: /blog/2017/04/rbac-support-in-kubernetes/
 ---
 _Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2017/03/five-days-of-kubernetes-1.6.html) on what's new in Kubernetes 1.6_  
 

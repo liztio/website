@@ -6,6 +6,7 @@ date: 2016-01-11
 pagination:
   enabled: true
 slug: simple-leader-election-with-kubernetes
+url: /blog/2016/01/simple-leader-election-with-kubernetes/
 ---
 
 ####  Overview

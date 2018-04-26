@@ -6,6 +6,7 @@ date: 2016-03-29
 pagination:
   enabled: true
 slug: appformix-helping-enterprises
+url: /blog/2016/03/appformix-helping-enterprises/
 ---
 _Today’s guest post is written Sumeet Singh, founder and CEO of [AppFormix](http://www.appformix.com/), a cloud infrastructure performance optimization service helping enterprise operators streamline their cloud operations on any OpenStack or Kubernetes cloud._  
 

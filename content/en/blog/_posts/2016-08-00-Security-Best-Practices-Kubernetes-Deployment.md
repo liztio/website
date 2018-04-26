@@ -6,6 +6,7 @@ date: 2016-08-31
 pagination:
   enabled: true
 slug: security-best-practices-kubernetes-deployment
+url: /blog/2016/08/security-best-practices-kubernetes-deployment/
 ---
 _Editor’s note: today’s post is by Amir Jerbi and Michael Cherny of Aqua Security, describing security best practices for Kubernetes deployments, based on data they’ve collected from various use-cases seen in both on-premises and cloud deployments._  
 

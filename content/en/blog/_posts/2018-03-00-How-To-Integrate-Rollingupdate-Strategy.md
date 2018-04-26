@@ -4,6 +4,7 @@ layout: blog
 title: "How to Integrate RollingUpdate Strategy for TPR in Kubernetes"
 date: 2018-03-13
 slug: how-to-integrate-rollingupdate-strategy
+url: /blog/2018/03/how-to-integrate-rollingupdate-strategy/
 ---
 
 With Kubernetes, it's easy to manage and scale stateless applications like web apps and API services right out of the box. To date, almost all of the talks about Kubernetes has been about microservices and stateless applications.

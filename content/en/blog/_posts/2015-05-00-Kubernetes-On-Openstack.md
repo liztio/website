@@ -6,6 +6,7 @@ date: 2015-05-19
 pagination:
   enabled: true
 slug: kubernetes-on-openstack
+url: /blog/2015/05/kubernetes-on-openstack/
 ---
 
 

@@ -6,6 +6,7 @@ date: 2016-08-02
 pagination:
   enabled: true
 slug: challenges-remotely-managed-onpremise-kubernetes-cluster
+url: /blog/2016/08/challenges-remotely-managed-onpremise-kubernetes-cluster/
 ---
 
 _Today's post is written by Bich Le, chief architect at Platform9, describing how their engineering team overcame challenges in remotely managing bare-metal Kubernetes clusters.&nbsp;_  

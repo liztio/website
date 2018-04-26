@@ -6,6 +6,7 @@ date: 2016-04-18
 pagination:
   enabled: true
 slug: kubernetes-network-policy-apis
+url: /blog/2016/04/kubernetes-network-policy-apis/
 ---
 _Editor’s note: This week we’re featuring [Kubernetes Special Interest Groups](https://github.com/kubernetes/kubernetes/wiki/Special-Interest-Groups-(SIGs)); Today’s post is by the Network-SIG team describing network policy APIs coming in 1.3 - policies for security, isolation and multi-tenancy._  
 

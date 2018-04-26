@@ -10,6 +10,7 @@ pagination:
 ---
  Note taker: Joe Beda
 slug: kubernetes-community-meeting-notes
+url: /blog/2016/01/kubernetes-community-meeting-notes/
 ---
 * Demonstration: Automated Deploy on Metal, AWS and others w/ Digital Rebar, Rob Hirschfeld  and Greg Althaus from RackN
 

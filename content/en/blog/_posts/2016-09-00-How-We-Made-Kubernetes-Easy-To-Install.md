@@ -6,6 +6,7 @@ date: 2016-09-28
 pagination:
   enabled: true
 slug: how-we-made-kubernetes-easy-to-install
+url: /blog/2016/09/how-we-made-kubernetes-easy-to-install/
 ---
 
 _Editor's note: Today’s post is by [Luke Marsden](https://twitter.com/lmarsden), Head of Developer Experience, at Weaveworks, showing the Special Interest Group Cluster-Lifecycle’s recent work on kubeadm, a tool to make installing Kubernetes much simpler._  

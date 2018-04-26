@@ -6,6 +6,7 @@ date: 2016-02-02
 pagination:
   enabled: true
 slug: kubernetes-community-meeting-notes-20160128
+url: /blog/2016/02/kubernetes-community-meeting-notes-20160128/
 ---
 ##### January 28 - 1.2 release update, Deis demo, flaky test surge and SIGs
 

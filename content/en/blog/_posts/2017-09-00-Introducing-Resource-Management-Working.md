@@ -6,6 +6,7 @@ date: 2017-09-21
 pagination:
   enabled: true
 slug: introducing-resource-management-working
+url: /blog/2017/09/introducing-resource-management-working/
 ---
 _**Editor's note: today's post is by Jeremy Eder, Senior Principal Software Engineer at Red Hat, on the formation of the Resource Management Working Group**_  
 

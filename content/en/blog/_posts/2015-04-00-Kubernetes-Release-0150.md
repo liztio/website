@@ -6,6 +6,7 @@ date: 2015-04-16
 pagination:
   enabled: true
 slug: kubernetes-release-0150
+url: /blog/2015/04/kubernetes-release-0150/
 ---
 
 Release Notes:

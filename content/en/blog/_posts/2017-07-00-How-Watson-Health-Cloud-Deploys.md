@@ -6,6 +6,7 @@ date: 2017-07-14
 pagination:
   enabled: true
 slug: how-watson-health-cloud-deploys
+url: /blog/2017/07/how-watson-health-cloud-deploys/
 ---
 Today’s post is by [Sandhya Kapoor](https://www.linkedin.com/in/sandhyakapoor/), Senior Technologist, Watson Platform for Health, IBM
 

@@ -4,6 +4,7 @@ layout: blog
 title: " Windows Networking at Parity with Linux for Kubernetes "
 date: 2017-09-08
 slug: windows-networking-at-parity-with-linux
+url: /blog/2017/09/windows-networking-at-parity-with-linux/
 ---
 _**Editor's note: today's post is by Jason Messer, Principal PM Manager at Microsoft, on improvements to the Windows network stack to support the Kubernetes CNI model.**_  
 

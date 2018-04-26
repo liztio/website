@@ -86,6 +86,7 @@ spec:
         ports:  
         - containerPort: 8091  
 slug: create-couchbase-cluster-using-kubernetes
+url: /blog/2016/08/create-couchbase-cluster-using-kubernetes/
 ----  
 apiVersion: v1  
 kind: Service  

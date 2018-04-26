@@ -6,6 +6,7 @@ date: 2015-08-04
 pagination:
   enabled: true
 slug: weekly-kubernetes-community-hangout
+url: /blog/2015/08/weekly-kubernetes-community-hangout/
 ---
 
 Every week the Kubernetes contributing community meet virtually over Google Hangouts. We want anyone who's interested to know what's discussed in this forum.  

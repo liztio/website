@@ -386,6 +386,7 @@ spec:
     app: nginx
 
 slug: stateful-applications-using-kubernetes-datera
+url: /blog/2016/08/stateful-applications-using-kubernetes-datera/
 ---
 
 apiVersion: apps/v1alpha1

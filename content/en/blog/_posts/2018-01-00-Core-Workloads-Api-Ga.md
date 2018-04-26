@@ -6,6 +6,7 @@ date: 2018-01-15
 pagination:
   enabled: true
 slug: core-workloads-api-ga
+url: /blog/2018/01/core-workloads-api-ga/
 ---
 
 ## DaemonSet, Deployment, ReplicaSet, and StatefulSet are GA

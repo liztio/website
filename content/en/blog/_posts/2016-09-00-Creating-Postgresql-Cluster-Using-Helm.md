@@ -6,6 +6,7 @@ date: 2016-09-09
 pagination:
   enabled: true
 slug: creating-postgresql-cluster-using-helm
+url: /blog/2016/09/creating-postgresql-cluster-using-helm/
 ---
 _Editor’s note: Today’s guest post is by Jeff McCormick, a developer at Crunchy Data, showing how to deploy a PostgreSQL cluster using Helm, a Kubernetes package manager._  
 

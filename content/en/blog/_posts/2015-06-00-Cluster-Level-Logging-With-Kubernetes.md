@@ -6,6 +6,7 @@ date: 2015-06-11
 pagination:
   enabled: true
 slug: cluster-level-logging-with-kubernetes
+url: /blog/2015/06/cluster-level-logging-with-kubernetes/
 ---
 
 

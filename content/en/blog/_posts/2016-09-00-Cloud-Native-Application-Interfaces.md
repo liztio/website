@@ -6,6 +6,7 @@ date: 2016-09-01
 pagination:
   enabled: true
 slug: cloud-native-application-interfaces
+url: /blog/2016/09/cloud-native-application-interfaces/
 ---
 
 

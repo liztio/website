@@ -6,6 +6,7 @@ date: 2016-01-28
 pagination:
   enabled: true
 slug: kubernetes-community-meeting-notes_28
+url: /blog/2016/01/kubernetes-community-meeting-notes_28/
 ---
 #### January 21 - Configuration, Federation and Testing, oh my.&nbsp;
 

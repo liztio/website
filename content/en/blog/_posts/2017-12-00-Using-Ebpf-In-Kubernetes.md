@@ -6,6 +6,7 @@ date: 2017-12-07
 pagination:
   enabled: true
 slug: using-ebpf-in-kubernetes
+url: /blog/2017/12/using-ebpf-in-kubernetes/
 ---
 
 ## Introduction

@@ -6,6 +6,7 @@ date: 2015-07-02
 pagination:
   enabled: true
 slug: how-did-quake-demo-from-dockercon-work
+url: /blog/2015/07/how-did-quake-demo-from-dockercon-work/
 ---
 Shortly after its release in 2013, Docker became a very popular open source container management tool for Linux.  Docker has a rich set of commands to control the execution of a container. Commands such as start, stop, restart, kill, pause, and unpause. However, what is still missing is the ability to Checkpoint and Restore (C/R) a container natively via Docker itself.
 

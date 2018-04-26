@@ -14,6 +14,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	pth "path"
 	"path/filepath"
 	"strings"
 	"time"
@@ -634,7 +635,21 @@ func (m *mover) contentMigrate_Replacements() error {
 			re := regexp.MustCompile(`\d{4}-\d{2}-\d{2}-(.*?)\.md`)
 			m := re.FindStringSubmatch(path)
 			slug := strings.ToLower(strings.Replace(strings.TrimSpace(m[1]), " ", "-", -1))
-			return addKeyValue("slug", slug)(path, s)
+			s, err := addKeyValue("slug", slug)(path, s)
+			if err != nil {
+				return s, err
+			}
+
+			re = regexp.MustCompile(`(\d{4}-\d{2})(-00)-(.*?)\.md`)
+
+			// For old blog posts with 2018-01-00 format type of filenames, set URL explicitly
+			m = re.FindStringSubmatch(path)
+			if len(m) > 1 {
+				spl := strings.Split(m[1], "-")
+				return addKeyValue("url", pth.Join("/blog", spl[0], spl[1], slug)+"/")(path, s)
+			}
+			return s, err
+
 		},
 	}
 

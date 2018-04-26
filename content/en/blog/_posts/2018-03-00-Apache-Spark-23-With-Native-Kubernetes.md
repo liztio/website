@@ -4,6 +4,7 @@ layout: blog
 title: "Apache Spark 2.3 with Native Kubernetes Support"
 date: 2018-03-06
 slug: apache-spark-23-with-native-kubernetes
+url: /blog/2018/03/apache-spark-23-with-native-kubernetes/
 ---
 ### Kubernetes and Big Data
 

@@ -6,6 +6,7 @@ date: 2015-07-23
 pagination:
   enabled: true
 slug: weekly-kubernetes-community-hangout_23
+url: /blog/2015/07/weekly-kubernetes-community-hangout_23/
 ---
 
 

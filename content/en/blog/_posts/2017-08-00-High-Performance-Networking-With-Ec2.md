@@ -6,6 +6,7 @@ date: 2017-08-11
 pagination:
   enabled: true
 slug: high-performance-networking-with-ec2
+url: /blog/2017/08/high-performance-networking-with-ec2/
 ---
 
 

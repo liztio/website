@@ -6,6 +6,7 @@ date: 2015-04-04
 pagination:
   enabled: true
 slug: weekly-kubernetes-community-hangout
+url: /blog/2015/04/weekly-kubernetes-community-hangout/
 ---
 # Kubernetes: Weekly Kubernetes Community Hangout Notes
 

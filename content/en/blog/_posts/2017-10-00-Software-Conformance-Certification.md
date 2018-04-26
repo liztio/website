@@ -6,6 +6,7 @@ date: 2017-10-19
 pagination:
   enabled: true
 slug: software-conformance-certification
+url: /blog/2017/10/software-conformance-certification/
 ---
 
 _**Editor's Note: Today's post is by William Denniss, Product Manager, Google Cloud on the new Certified Kubernetes Conformance Program.**_    

@@ -6,6 +6,7 @@ date: 2017-08-10
 pagination:
   enabled: true
 slug: kompose-helps-developers-move-docker
+url: /blog/2017/08/kompose-helps-developers-move-docker/
 ---
 _Editor's note: today's post is by Charlie Drage, Software Engineer at Red Hat giving an update about the Kubernetes project Kompose._  
 

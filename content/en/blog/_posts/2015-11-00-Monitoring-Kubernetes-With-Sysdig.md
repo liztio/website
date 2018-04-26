@@ -6,6 +6,7 @@ date: 2015-11-19
 pagination:
   enabled: true
 slug: monitoring-kubernetes-with-sysdig
+url: /blog/2015/11/monitoring-kubernetes-with-sysdig/
 ---
 _Today we’re sharing a guest post by Chris Crane from Sysdig about their monitoring integration into Kubernetes.&nbsp;_  
 
