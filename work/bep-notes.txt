@@ -7,11 +7,12 @@ Current
 * /netlify_noindex_headers.txt? => static/_headers?
 * CSS  highlight, Chroma styles
 
-*  find content -type f | xargs grep "{%" | grep -v "{{%" |
+OK *  find content -type f | xargs grep "{%" | grep -v "{{%" |
 
 * Remove superflous "layout:"
 * GetPage in top partials
-- Check noedit showedit = true
+
+- noedit = glossary only
 * Remove permalink: /blog/:year/:month/:title in blog
 * Blog, handle {:
 * Blog archive + style diff
