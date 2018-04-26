@@ -1,26 +1,24 @@
 
+Questions
+------------
+* Blog changed permalink format when moving to Jekyll. Assume keep old and continue with "/:section/:year/:month/:day/:slug/"?
 
+* CSS  highlight, Chroma styles. If the current style is fine, I can generate a stylesheet. For alternatives, see https://help.farbox.com/pygments.html
+* Any of the external generators needs updating for changed paths? Shortcodes?
+
+
+Andrew: * /netlify_noindex_headers.txt? => static/_headers?
 
 Current
 -----------
-* en/docs/reference/setup-tools. Generated?
-* /netlify_noindex_headers.txt? => static/_headers?
-* CSS  highlight, Chroma styles
-
-OK *  find content -type f | xargs grep "{%" | grep -v "{{%" |
-
 * Remove superflous "layout:"
 * GetPage in top partials
-
-- noedit = glossary only
+* Search page lots of space on top? padding
 * Remove permalink: /blog/:year/:month/:title in blog
-* Blog, handle {:
-* Blog archive + style diff
-* 404 checker and diff
-* ToC disk
-* docs/home/contribute/write-new-topic.md:<pre>&#123;% include code.html language="&lt;LEXERVALUE&gt;" file="&lt;RELATIVEPATH&gt;" ghlink="/&lt;PATHFROMROOT&gt;" %&#125;</pre>
-
-* Contribute/page-templates
+* Blog, handle callouts {:
+* Finish 404 checker and diff
+* ToC disk CSS
+* Merge master (font, header etc.)
 
 For Migration
 -----------
@@ -34,8 +32,6 @@ Root folders to delete
 ./_includes
 ./css
 ./images
-./archetypes
-./content
 ./blog
 ./case-studies
 ./work
@@ -77,4 +73,17 @@ Suggestions for future
 * Redirects from aliases
 * A strategy for translations of UI vs content
 * Archetypes. Also see https://github.com/gohugoio/hugo/issues/4535 for a directory based approach.
+
+
+Diffing with kubernetes.io
+
+---------------------------
+
+https://k8sio-hugo-migration.netlify.com/blog/2015/03/31/paricipate-in-kubernetes-user/
+https://kubernetes.io/blog/2015/03/paricipate-in-kubernetes-user
+
+https://k8sio-hugo-migration.netlify.com/blog/2018/03/02/first-beta-version-of-kubernetes-1-10/
+https://kubernetes.io/blog/2018/03/first-beta-version-of-kubernetes-1-10
+2018-03-00-First-Beta-Version-Of-Kubernetes-1-10.md
+
 
