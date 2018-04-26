@@ -117,7 +117,7 @@ We will use a one-line python script to convert the template to a file.
 First, copy and paste the following template of a Job object, into a file called `job.yaml.jinja2`:
 
 
-```liquid{% raw %}
+```liquid
 {%- set params = [{ "name": "apple", "url": "http://www.orangepippin.com/apples", },
                   { "name": "banana", "url": "https://en.wikipedia.org/wiki/Banana", },
                   { "name": "raspberry", "url": "https://www.raspberrypi.org/" }]
@@ -145,7 +145,7 @@ spec:
       restartPolicy: Never
 ---
 {%- endfor %}
-{% endraw %}
+
 ```
 
 The above template defines parameters for each job object using a list of

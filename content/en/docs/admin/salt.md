@@ -81,13 +81,13 @@ These keys may be leveraged by the Salt sls files to branch behavior.
 In addition, a cluster may be running a Debian based operating system or Red Hat based operating system (Centos, Fedora, RHEL, etc.).  As a result, it's important to sometimes distinguish behavior based on operating system using if branches like the following.
 
 ```liquid
-{% raw %}
+
 {% if grains['os_family'] == 'RedHat' %}
 // something specific to a RedHat environment (Centos, Fedora, RHEL) where you may use yum, systemd, etc.
 {% else %}
 // something specific to Debian environment (apt-get, initd)
 {% endif %}
-{% endraw %}
+
 ```
 
 ## Best Practices

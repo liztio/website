@@ -67,9 +67,9 @@ for database debugging.
 
 3. Verify that the Redis server is running in the pod and listening on port 6379:
 
-        {% raw %}
+        
        kubectl get pods redis-master-765d459796-258hz --template='{{(index (index .spec.containers 0).ports 0).containerPort}}{{"\n"}}'
-        {% endraw %}
+        
 
     The output displays the port:
 

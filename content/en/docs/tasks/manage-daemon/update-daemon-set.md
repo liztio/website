@@ -59,16 +59,16 @@ to 1) and `.spec.minReadySeconds` (default to 0) as well.
 First, check the update strategy of your DaemonSet, and make sure it's set to 
 `RollingUpdate`:
 
-```shell{% raw %}
+```shell
 kubectl get ds/<daemonset-name> -o go-template='{{.spec.updateStrategy.type}}{{"\n"}}'
-``` {% endraw %}
+``` 
 
 If you haven't created the DaemonSet in the system, check your DaemonSet
 manifest with the following command instead:
 
-```shell{% raw %}
+```shell
 kubectl create -f ds.yaml --dry-run -o go-template='{{.spec.updateStrategy.type}}{{"\n"}}'
-``` {% endraw %}
+``` 
 
 The output from both commands should be:
 

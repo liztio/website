@@ -469,12 +469,12 @@ web-0     1/1       Running   0         3s
 
 获取 `web` StatefulSet 的 Pod 来查看他们的容器镜像。
 
-```shell{% raw %}
+```shell
 kubectl get pod -l app=nginx -o jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
 web-0   k8s.gcr.io/nginx-slim:0.7
 web-1   k8s.gcr.io/nginx-slim:0.8
 web-2   k8s.gcr.io/nginx-slim:0.8
-{% endraw %}```
+```
 
 `web-0` has had its image updated, but `web-0` and `web-1` still have the original 
 image. Complete the update by deleting the remaining Pods.
@@ -512,12 +512,12 @@ web-2     1/1       Running   0         36s
 
 获取 Pod 来查看他们的容器镜像。
 
-```shell{% raw %}
+```shell
 kubectl get pod -l app=nginx -o jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.containers[0].image}{"\n"}{end}'
 web-0   k8s.gcr.io/nginx-slim:0.7
 web-1   k8s.gcr.io/nginx-slim:0.7
 web-2   k8s.gcr.io/nginx-slim:0.7
-{% endraw %}
+
 ```
 
 
@@ -588,12 +588,12 @@ StatefulSet 里的 Pod 采用和序号相反的顺序更新。在更新下一个
 
 获取 Pod 来查看他们的容器镜像。
 
-```shell{% raw %}
+```shell
 for p in 0 1 2; do kubectl get po web-$p --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'; echo; done
 k8s.gcr.io/nginx-slim:0.8
 k8s.gcr.io/nginx-slim:0.8
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 
 StatefulSet 中的所有 Pod 现在都在运行之前的容器镜像。
@@ -645,10 +645,10 @@ web-2     1/1       Running   0         18s
 
 获取 Pod 的容器。
 
-```shell{% raw %}
+```shell
 get po web-2 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 
 
@@ -682,10 +682,10 @@ web-2     1/1       Running   0         18s
 
 获取 Pod 的容器。
 
-```shell{% raw %}
+```shell
 kubectl get po web-2 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.7
-{% endraw %}
+
 ```
 
 
@@ -720,10 +720,10 @@ web-1     1/1       Running   0         18s
 
 获取 `web-1` Pod 的容器。
 
-```shell{% raw %}
+```shell
 get po web-1 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 
 `web-1` 被按照原来的配置恢复，因为 Pod 的序号小于分区。当指定了分区时，如果更新了 StatefulSet 的 `.spec.template`，则所有序号大于或等于分区的 Pod 都将被更新。如果一个序号小于分区的 Pod 被删除或者终止，它将被按照原来的配置恢复。
@@ -766,12 +766,12 @@ web-0     1/1       Running   0         3s
 
 获取 Pod 的容器。
 
-```shell{% raw %}
+```shell
 for p in 0 1 2; do kubectl get po web-$p --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'; echo; done
 k8s.gcr.io/nginx-slim:0.7
 k8s.gcr.io/nginx-slim:0.7
 k8s.gcr.io/nginx-slim:0.7
-{% endraw %}
+
 ```
 
 

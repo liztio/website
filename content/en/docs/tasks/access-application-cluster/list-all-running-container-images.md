@@ -98,11 +98,11 @@ kubectl get pods --namespace kube-system -o jsonpath="{..image}"
 As an alternative to jsonpath, Kubectl supports using [go-templates](https://golang.org/pkg/text/template/)
 for formatting the output:
 
-{% raw %}
+
 ```sh
 kubectl get pods --all-namespaces -o go-template --template="{{range .items}}{{range .spec.containers}}{{.image}} {{end}}{{end}}"
 ```
-{% endraw %}
+
 
 
 {{% /capture %}}

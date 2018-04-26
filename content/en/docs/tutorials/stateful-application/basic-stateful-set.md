@@ -521,12 +521,12 @@ in the presence of intermittent failures.
 
 Get the Pods to view their container images.
 
-```shell{% raw %}
+```shell
 for p in 0 1 2; do kubectl get po web-$p --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'; echo; done
 k8s.gcr.io/nginx-slim:0.8
 k8s.gcr.io/nginx-slim:0.8
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 
 All the Pods in the StatefulSet are now running the previous container image.
@@ -574,10 +574,10 @@ web-2     1/1       Running   0         18s
 
 Get the Pod's container.
 
-```shell{% raw %}
+```shell
 kubectl get po web-2 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 
 Notice that, even though the update strategy is `RollingUpdate` the StatefulSet 
@@ -609,10 +609,10 @@ web-2     1/1       Running   0         18s
 
 Get the Pod's container.
 
-```shell{% raw %}
+```shell
 kubectl get po web-2 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.7
-{% endraw %}
+
 ```
 
 When you changed the `partition`, the StatefulSet controller automatically 
@@ -645,10 +645,10 @@ web-1     1/1       Running   0         18s
 
 Get the `web-1` Pods container.
 
-```shell{% raw %}
+```shell
 kubectl get po web-1 --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'
 k8s.gcr.io/nginx-slim:0.8
-{% endraw %}
+
 ```
 `web-1` was restored to its original configuration because the Pod's ordinal 
 was less than the partition. When a partition is specified, all Pods with an 
@@ -694,12 +694,12 @@ web-0     1/1       Running   0         3s
 
 Get the Pod's containers.
 
-```shell{% raw %}
+```shell
 for p in 0 1 2; do kubectl get po web-$p --template '{{range $i, $c := .spec.containers}}{{$c.image}}{{end}}'; echo; done
 k8s.gcr.io/nginx-slim:0.7
 k8s.gcr.io/nginx-slim:0.7
 k8s.gcr.io/nginx-slim:0.7
-{% endraw %}
+
 ```
 
 By moving the `partition` to `0`, you allowed the StatefulSet controller to 

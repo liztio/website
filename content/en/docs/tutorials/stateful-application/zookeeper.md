@@ -508,7 +508,7 @@ the manifest.
 
 Get the `zk` StatefulSet.
 
-```shell{% raw %}
+```shell
  kubectl get sts zk -o yaml
 ...
  command:
@@ -533,7 +533,7 @@ Get the `zk` StatefulSet.
           --min_session_timeout=4000 \
           --log_level=INFO"
 ...
-```{% endraw %}
+```
 
 Notice that the command used to start the ZooKeeper servers passed the configuration 
 as command line parameter. Environment variables are another, equally good, way to 
@@ -677,11 +677,11 @@ The `zk` StatefulSet is configured to use the RollingUpdate update strategy.
 
 You can use `kubectl patch` to update the number of `cpus` allocated to the servers.
 
-```shell{% raw %}
+```shell
 kubectl patch sts zk --type='json' -p='[{"op": "replace", "path": "/spec/template/spec/containers/0/resources/requests/cpu", "value":"0.3"}]'
 
 statefulset "zk" patched
-```{% endraw %}
+```
 
 Use `kubectl rollout status` to watch the status of the update.
 
@@ -912,9 +912,9 @@ you should set `podAntiAffinity`.
 
 Get the nodes for Pods in the `zk` Stateful Set.
 
-```shell{% raw %}
+```shell
 for i in 0 1 2; do kubectl get pod zk-$i --template {{.spec.nodeName}}; echo ""; done
-``` {% endraw %}
+``` 
 
 All of the Pods in the `zk` StatefulSet are deployed on different nodes.
 
@@ -964,9 +964,9 @@ kubectl get nodes
 Use [`kubectl cordon`](/docs/user-guide/kubectl/{{< param "version" >}}/#cordon) to 
 cordon all but four of the nodes in your cluster.
 
-```shell{% raw %}
+```shell
 kubectl cordon < node name >
-```{% endraw %}
+```
 
 Get the `zk-pdb` PodDisruptionBudget.
 
@@ -990,24 +990,24 @@ kubectl get pods -w -l app=zk
 
 In another terminal, get the nodes that the Pods are currently scheduled on.
 
-```shell{% raw %}
+```shell
 for i in 0 1 2; do kubectl get pod zk-$i --template {{.spec.nodeName}}; echo ""; done
 kubernetes-minion-group-pb41
 kubernetes-minion-group-ixsl
 kubernetes-minion-group-i4c4
-{% endraw %}
+
 ```
 
 Use [`kubectl drain`](/docs/user-guide/kubectl/{{< param "version" >}}/#drain) to cordon and 
 drain the node on which the `zk-0` Pod is scheduled.
 
-```shell {% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-0 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-pb41" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-pb41, kube-proxy-kubernetes-minion-group-pb41; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-o5elz
 pod "zk-0" deleted
 node "kubernetes-minion-group-pb41" drained
-{% endraw %}```
+```
 
 As there are four nodes in your cluster, `kubectl drain`, succeeds and the 
 `zk-0` is rescheduled to another node.
@@ -1032,12 +1032,12 @@ zk-0      1/1       Running   0         1m
 Keep watching the StatefulSet's Pods in the first terminal and drain the node on which 
 `zk-1` is scheduled.
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-1 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data "kubernetes-minion-group-ixsl" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-ixsl, kube-proxy-kubernetes-minion-group-ixsl; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-voc74
 pod "zk-1" deleted
 node "kubernetes-minion-group-ixsl" drained
-{% endraw %}```
+```
 
 The `zk-1` Pod can not be scheduled. As the `zk` StatefulSet contains a 
 PodAntiAffinity rule preventing co-location of the Pods, and  as only 
@@ -1070,14 +1070,14 @@ zk-1      0/1       Pending   0         0s
 Continue to watch the Pods of the stateful set, and drain the node on which 
 `zk-2` is scheduled.
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-2 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-i4c4" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog
 WARNING: Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog; Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4
 There are pending pods when an error occurred: Cannot evict pod as it would violate the pod's disruption budget.
 pod/zk-2
-{% endraw %}```
+```
 
 Use `CTRL-C` to terminate to kubectl. 
 
@@ -1147,14 +1147,14 @@ zk-1      1/1       Running   0         13m
 
 Attempt to drain the node on which `zk-2` is scheduled.
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-2 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-i4c4" already cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog
 pod "heapster-v1.2.0-2604621511-wht1r" deleted
 pod "zk-2" deleted
 node "kubernetes-minion-group-i4c4" drained
-{% endraw %}```
+```
 
 This time `kubectl drain` succeeds.
 

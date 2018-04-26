@@ -91,11 +91,11 @@ Init Containers:
 You can also access the Init Container statuses programmatically by reading the
 `status.initContainerStatuses` field on the Pod Spec:
 
-{% raw %}
+
 ```shell
 kubectl get pod nginx --template '{{.status.initContainerStatuses}}'
 ```
-{% endraw %}
+
 
 This command will return the same information as above in raw JSON.
 

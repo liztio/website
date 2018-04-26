@@ -543,6 +543,18 @@ func (m *mover) contentMigrate_Replacements() error {
 			return s, nil
 		},
 
+		// re := regexp.MustCompile(`(?s){% capture (.*?) %}(.*?){% endcapture %}`)
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile("(?s)```shell\\s?\\{% raw %\\}(.*?)\\{% endraw %\\}(.*?)(\n)?```")
+			return re.ReplaceAllString(s, "```shell$1$2$3```"), nil
+		},
+
+		// Remove the rest of the "raw" markers
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`(?s)\{% raw %\}(.*?)\{% endraw %\}`)
+			return re.ReplaceAllString(s, "$1"), nil
+		},
+
 		func(path, s string) (string, error) {
 			re := regexp.MustCompile(`\[(Kubernetes )?API reference.*?\]\({{ reference_docs_url }}\).*?"_blank"}`)
 			return re.ReplaceAllString(s, "{{< reference_docs >}}"), nil

@@ -895,9 +895,9 @@ ZooKeeper 需要一个服务的 quorum 来成功的提交数据变动。对于�
 
 获取 `zk` Stateful Set 中的 Pods 的节点。
 
-```shell{% raw %}
+```shell
 for i in 0 1 2; do kubectl get pod zk-$i --template {{.spec.nodeName}}; echo ""; done
-``` {% endraw %}
+``` 
 
 
 `zk` StatefulSe 中所有的 Pods 都被部署在不同的节点。
@@ -947,9 +947,9 @@ kubectl get nodes
 
 使用 [`kubectl cordon`](/docs/user-guide/kubectl/{{< param "version" >}}/#cordon) cordon 你的集群中除4个节点以外的所有节点。
 
-```shell{% raw %}
+```shell
 kubectl cordon < node name >
-```{% endraw %}
+```
 
 
 获取 `zk-budget` PodDisruptionBudget。
@@ -977,23 +977,23 @@ kubectl get pods -w -l app=zk
 
 在另一个终端获取 Pods 当前调度的节点。
 
-```shell{% raw %}
+```shell
 for i in 0 1 2; do kubectl get pod zk-$i --template {{.spec.nodeName}}; echo ""; done
 kubernetes-minion-group-pb41
 kubernetes-minion-group-ixsl
 kubernetes-minion-group-i4c4
-{% endraw %}
+
 ```
 
 使用 [`kubectl drain`](/docs/user-guide/kubectl/{{< param "version" >}}/#drain) 来 cordon 和 drain `zk-0` Pod 调度的节点。
 
-```shell {% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-0 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-pb41" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-pb41, kube-proxy-kubernetes-minion-group-pb41; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-o5elz
 pod "zk-0" deleted
 node "kubernetes-minion-group-pb41" drained
-{% endraw %}
+
 ```
 
 
@@ -1019,12 +1019,12 @@ zk-0      1/1       Running   0         1m
 
 在第一个终端持续观察 StatefulSet 的 Pods并 drain `zk-1` 调度的节点。
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-1 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data "kubernetes-minion-group-ixsl" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-ixsl, kube-proxy-kubernetes-minion-group-ixsl; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-voc74
 pod "zk-1" deleted
 node "kubernetes-minion-group-ixsl" drained
-{% endraw %}
+
 ```
 
 
@@ -1057,14 +1057,14 @@ zk-1      0/1       Pending   0         0s
 
 继续观察 stateful set 的 Pods 并 drain `zk-2` 调度的节点。
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-2 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-i4c4" cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog
 WARNING: Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog; Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4
 There are pending pods when an error occurred: Cannot evict pod as it would violate the pod's disruption budget.
 pod/zk-2
-{% endraw %}
+
 ```
 
 
@@ -1141,14 +1141,14 @@ zk-1      1/1       Running   0         13m
 
 尝试 drain  `zk-2` 调度的节点。
 
-```shell{% raw %}
+```shell
 kubectl drain $(kubectl get pod zk-2 --template {{.spec.nodeName}}) --ignore-daemonsets --force --delete-local-data
 node "kubernetes-minion-group-i4c4" already cordoned
 WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, or DaemonSet: fluentd-cloud-logging-kubernetes-minion-group-i4c4, kube-proxy-kubernetes-minion-group-i4c4; Ignoring DaemonSet-managed pods: node-problem-detector-v0.1-dyrog
 pod "heapster-v1.2.0-2604621511-wht1r" deleted
 pod "zk-2" deleted
 node "kubernetes-minion-group-i4c4" drained
-{% endraw %}
+
 ```
 
 

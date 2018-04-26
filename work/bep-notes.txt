@@ -6,6 +6,9 @@ Current
 * en/docs/reference/setup-tools. Generated?
 * /netlify_noindex_headers.txt? => static/_headers?
 * CSS  highlight, Chroma styles
+
+*  find content -type f | xargs grep "{%" | grep -v "{{%" |
+
 * Remove superflous "layout:"
 * GetPage in top partials
 - Check noedit showedit = true
@@ -15,6 +18,8 @@ Current
 * 404 checker and diff
 * ToC disk
 * docs/home/contribute/write-new-topic.md:<pre>&#123;% include code.html language="&lt;LEXERVALUE&gt;" file="&lt;RELATIVEPATH&gt;" ghlink="/&lt;PATHFROMROOT&gt;" %&#125;</pre>
+
+* Contribute/page-templates
 
 For Migration
 -----------
