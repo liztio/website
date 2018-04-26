@@ -488,6 +488,23 @@ img.big-img {
   width: 100%;
 }
 
+#blog-archive  {
+  margin-top: 2em;
+}
+#blog-archive .panel-body {
+ padding: 0;
+}
+
+#blog-archive ul li {
+  margin-left: 0;
+}
+
+#blog-archive .date {
+  color: lightgrey;
+  font-style: italic;
+  padding-left: 5px;
+}
+
 /* .content img {
 max-width: 100%;
 } */

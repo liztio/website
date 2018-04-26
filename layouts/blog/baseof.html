@@ -18,10 +18,10 @@
 					{{ block "main" . }}{{ end }}
 				</div>
 				<div class="col-xs-1 col-sm-1 col-sm-3 col-lg-3 text">
-						<div class="widget-content">
+					<div class="widget-content">
 						{{ with .OutputFormats.Get "rss" -}}
-					  	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
-					  	<a class="widget-link" href="{{ .Permalink | safeURL }}"> <i class="fas fa-rss fab-icon"> </i> </a>
+						<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
+						<a class="widget-link" href="{{ .Permalink | safeURL }}"> <i class="fas fa-rss fab-icon"> </i> </a>
 						{{ end -}}
 						<a class="widget-link" href="https://twitter.com/kubernetesio"> <i class="fab fa-twitter-square fab-icon"> </i> @Kubernetesio</a>
 						<a class="widget-link" href="https://github.com/kubernetes/kubernetes"> <i class="fab fa-github-square fab-icon"></i> View on Github </a>
@@ -29,6 +29,7 @@
 						<a class="widget-link" href="http://stackoverflow.com/questions/tagged/kubernetes"><i class="fab fa-stack-overflow fab-icon"></i> Stack Overflow</a>
 						<a class="widget-link" href="http://get.k8s.io/"><i class="fab fa-stack-overflow fab-icon"></i> Download Kubernetes</a>
 					</div>
+					{{ .Render "archive" }}
 				</div>
 			</div>
 		</div>
