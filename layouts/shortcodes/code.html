@@ -6,7 +6,7 @@
 {{ $filename := path.Join $p.Dir $file }}
 {{ $ghlink := printf "https://%s/blob/master/content/%s/%s" .Page.Site.Params.githubWebsiteRepo .Page.Lang $filename | safeURL }}
 {{/* First assume this is a bundle and the file is inside it. */}}
-{{ $resource := $p.Resources.GetMatch (printf "**%s*" $fileDir.File) }}
+{{ $resource := $p.Resources.GetMatch (printf "%s*" $file ) }}
 {{ with $resource }}
 {{ $.Scratch.Set "content" .Content }}
 {{ else }}

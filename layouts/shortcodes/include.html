@@ -3,7 +3,7 @@
 {{- if $name -}}
 	{{- $bundle := $.Site.GetPage "page" "includes" -}}
 	{{- with $bundle -}}
-	{{- $pattern := printf "**%s*" $name -}}
+	{{- $pattern := printf "%s*" $name -}}
 	{{- range $bundle.Resources -}}
 	{{- end -}}
 	{{- $resource := $bundle.Resources.GetMatch $pattern -}}
