@@ -29,7 +29,7 @@
 						<a class="widget-link" href="http://stackoverflow.com/questions/tagged/kubernetes"><i class="fab fa-stack-overflow fab-icon"></i> Stack Overflow</a>
 						<a class="widget-link" href="http://get.k8s.io/"><i class="fab fa-stack-overflow fab-icon"></i> Download Kubernetes</a>
 					</div>
-					{{ .Render "archive" }}
+					{{ partialCached "blog/archive.html" . }}
 				</div>
 			</div>
 		</div>
