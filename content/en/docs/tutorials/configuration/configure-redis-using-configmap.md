@@ -23,7 +23,7 @@ This page provides a real world example of how to configure Redis using a Config
 
 {{% capture prerequisites %}}
 
-* {{< include "task-tutorial-prereqs.md" >}}
+* {{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}
 * Understand [Configure Containers Using a ConfigMap](/docs/tasks/configure-pod-container/configure-pod-configmap/).
 
 {{% /capture %}}

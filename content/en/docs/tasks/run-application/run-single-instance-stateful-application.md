@@ -23,7 +23,7 @@ application is MySQL.
 
 {{% capture prerequisites %}}
 
-* {{< include "task-tutorial-prereqs.md" >}}
+* {{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}
 
 * {{< include "default-storage-class-prereqs.md" >}}
 

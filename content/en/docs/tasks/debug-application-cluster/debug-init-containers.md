@@ -21,7 +21,7 @@ Init Containers. The example command lines below refer to the Pod as
 
 {{% capture prerequisites %}}
 
-{{< include "task-tutorial-prereqs.md" >}}
+{{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}
 
 * You should be familiar with the basics of
   [Init Containers](/docs/concepts/abstractions/init-containers/).

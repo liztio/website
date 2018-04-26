@@ -10,7 +10,7 @@ Kubernetes cluster.
 
 {{% capture prerequisites %}}
 
-* {{< include "task-tutorial-prereqs.md" >}}
+* {{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}
 
 * Make sure the [DNS feature](/docs/concepts/services-networking/dns-pod-service/) itself is enabled.
 

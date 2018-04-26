@@ -576,6 +576,16 @@ func (m *mover) contentMigrate_Replacements() error {
 			return re.ReplaceAllString(s, "{{< versions-other >}}"), nil
 		},
 
+		// The included content files does not share the same front matter etc.
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`{{< include "task-tutorial-prereqs.md" >}}`)
+			return re.ReplaceAllString(s, `{{< include "task-tutorial-prereqs.md" >}}
+{{< version-check >}}
+`), nil
+		},
+
+		//
+
 		func(path, s string) (string, error) {
 			re := regexp.MustCompile(`\[(Kubernetes )?API reference.*?\]\({{ reference_docs_url }}\).*?"_blank"}`)
 			return re.ReplaceAllString(s, "{{< reference_docs >}}"), nil
@@ -664,6 +674,10 @@ func (m *mover) contentMigrate_Replacements() error {
 			re := regexp.MustCompile(`{% include(_relative)? (.*?) %}`)
 			return re.ReplaceAllString(s, `{{< include "$2" >}}`), nil
 			return s, nil
+		},
+		// The included content files does not share the same front matter etc.
+		func(path, s string) (string, error) {
+			return strings.Replace(s, `{{< include "task-tutorial-prereqs.md" >}}`, `{{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}`, -1), nil
 		},
 	}
 
