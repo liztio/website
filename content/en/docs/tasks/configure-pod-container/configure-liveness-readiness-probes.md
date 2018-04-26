@@ -244,9 +244,9 @@ for it, and that containers are restarted when they fail.
 
 ## Configure Probes
 
-{% comment %}
+{{< comment >}}
 Eventually, some of this section could be moved to a concept topic.
-{% endcomment %}
+{{< /comment >}}
 
 [Probes](/docs/reference/generated/kubernetes-api/{{< param "version" >}}/#probe-v1-core) have a number of fields that
 you can use to more precisely control the behavior of liveness and readiness

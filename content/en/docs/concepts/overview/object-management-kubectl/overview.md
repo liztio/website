@@ -177,8 +177,8 @@ Disadvantages compared to imperative object configuration:
 - [Kubectl Command Reference](/docs/reference/generated/kubectl/kubectl/)
 - [Kubernetes API Reference](/docs/reference/generated/kubernetes-api/{{< param "version" >}}/)
 
-{% comment %}
-{% endcomment %}
+{{< comment >}}
+{{< /comment >}}
 {{% /capture %}}
 
 

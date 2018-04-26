@@ -351,9 +351,9 @@ configuration files. If an object matches the query, and it does not have a
 configuration file in the directory, and it has a `last-applied-configuration` annotation,
 it is deleted.
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): We need to change the behavior to prevent the user from running apply on subdirectories unintentionally.
-{% endcomment %}
+{{< /comment >}}
 
 ```shell
 kubectl apply -f <directory/> --prune -l <labels>
@@ -500,11 +500,11 @@ spec:
   # ...
 ```
 
-{% comment %}
+{{< comment >}}
 TODO(1.6): For 1.6, add the following bullet point to 1.
 
 - clear fields explicitly set to null in the local object configuration file regardless of whether they appear in the last-applied-configuration
-{% endcomment %}
+{{< /comment >}}
 
 ### How different types of fields are merged
 
@@ -675,7 +675,7 @@ the `patchStrategy` tag in [types.go](https://git.k8s.io/api/core/v1/types.go#L2
 If no `patchStrategy` is specified for a field of type list, then
 the list is replaced.
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): Uncomment this for 1.6
 
 - Treat the list as a set of primitives.  Replace or delete individual
@@ -684,7 +684,7 @@ TODO(pwittrock): Uncomment this for 1.6
 **Example:** Using apply to update the `finalizers` field of ObjectMeta
 keeps elements added to the live configuration.  Ordering of finalizers
 is lost.
-{% endcomment %}
+{{< /comment >}}
 
 ## Default field values
 
@@ -870,14 +870,14 @@ Option 2: Remove the field through the configuration file.
 1. Delete the field from the configuration file.
 1. Apply the configuration file; this deletes the field from the live object and annotation.
 
-{% comment %}
+{{< comment >}}
 TODO(1.6): Update this with the following for 1.6
 
 Fields that do not appear in the configuration file can be cleared by
 setting their values to `null` and then applying the configuration file.
 For fields defaulted by the server, this triggers re-defaulting
 the values.
-{% endcomment %}
+{{< /comment >}}
 
 ## How to change ownership of a field between the configuration file and direct imperative writers
 
@@ -907,13 +907,13 @@ Switching from one method to another is possible, but is a manual process.
 
 **Exception:** It is OK to use imperative deletion with declarative management.
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): We need to make using imperative commands with
 declarative object configuration work so that it doesn't write the
 fields to the annotation, and instead.  Then add this bullet point.
 
 - using imperative commands with declarative configuration to manage where each manages different fields.
-{% endcomment %}
+{{< /comment >}}
 
 ### Migrating from imperative command management to declarative object configuration
 
@@ -935,9 +935,9 @@ configuration involves several manual steps:
 
 1. Change processes to use `kubectl apply` for managing the object exclusively.
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): Why doesn't export remove the status field?  Seems like it should.
-{% endcomment %}
+{{< /comment >}}
 
 ### Migrating from imperative object configuration to declarative object configuration
 

@@ -106,14 +106,14 @@ kubectl delete deployment/nginx
 
 ## How to view an object
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): Uncomment this when implemented.
 
 You can use `kubectl view` to print specific fields of an object.
 
 - `view`: Prints the value of a specific field of an object.
 
-{% endcomment %}
+{{< /comment >}}
 
 
 

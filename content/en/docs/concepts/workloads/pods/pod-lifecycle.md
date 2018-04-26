@@ -5,8 +5,8 @@ content_template: templates/concept
 
 {{% capture overview %}}
 
-{% comment %}Updated: 4/14/2015{% endcomment %}
-{% comment %}Edited and moved to Concepts section: 2/2/17{% endcomment %}
+{{< comment >}}Updated: 4/14/2015{{< /comment >}}
+{{< comment >}}Edited and moved to Concepts section: 2/2/17{{< /comment >}}
 
 This page describes the lifecycle of a Pod.
 

@@ -83,14 +83,14 @@ kubectl delete deployment/nginx
 
 ## 如何查看对象
 
-{% comment %}
+{{< comment >}}
 TODO(pwittrock): 实现时取消注释。
 
 您可以使用 `kubectl view` 打印对象的指定字段。
 
 - `view`: 打印对象的特定字段的值。
 
-{% endcomment %}
+{{< /comment >}}
 
 
 

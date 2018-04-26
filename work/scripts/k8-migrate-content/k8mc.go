@@ -555,6 +555,12 @@ func (m *mover) contentMigrate_Replacements() error {
 			return re.ReplaceAllString(s, "$1"), nil
 		},
 
+		// Handle comments
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`(?s){% comment %}(.*?){% endcomment %}`)
+			return re.ReplaceAllString(s, "{{< comment >}}$1{{< /comment >}}"), nil
+		},
+
 		func(path, s string) (string, error) {
 			re := regexp.MustCompile(`\[(Kubernetes )?API reference.*?\]\({{ reference_docs_url }}\).*?"_blank"}`)
 			return re.ReplaceAllString(s, "{{< reference_docs >}}"), nil
