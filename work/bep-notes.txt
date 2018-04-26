@@ -13,9 +13,7 @@ Current
 * Blog, handle {:
 * Blog archive + style diff
 * 404 checker and diff
-* Rewrite style-guide.md
-* Rewrite /home/contribute/includes.md
-* Tooltip anchor name => 	term-cluster
+* ToC disk
 
 For Migration
 -----------
@@ -51,7 +49,7 @@ Notes
 
 Notes for guide
 
-* TIP: ▶ hugo server --renderToDisk
+* TIP: ▶ hugo server --navigateToChanged
 
 Talk
 ----
