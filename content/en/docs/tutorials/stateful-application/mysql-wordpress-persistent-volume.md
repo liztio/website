@@ -92,7 +92,7 @@ A [Secret](/docs/concepts/configuration/secret/) is an object that stores a piec
 
 The following manifest describes a single-instance MySQL Deployment. The MySQL container mounts the PersistentVolume at /var/lib/mysql. The `MYSQL_ROOT_PASSWORD` environment variable sets the database password from the Secret. 
 
-{{< code language="yaml" file="mysql-wordpress-persistent-volume/mysql-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/mysql-deployment.yaml" >}}
+{{< code file="mysql-wordpress-persistent-volume/mysql-deployment.yaml" >}}
 
 1. Deploy MySQL from the `mysql-deployment.yaml` file:
 
@@ -128,7 +128,7 @@ The following manifest describes a single-instance MySQL Deployment. The MySQL c
 
 The following manifest describes a single-instance WordPress Deployment and Service. It uses many of the same features like a PVC for persistent storage and a Secret for the password. But it also uses a different setting: `type: NodePort`. This setting exposes WordPress to traffic from outside of the cluster.
 
-{{< code language="yaml" file="mysql-wordpress-persistent-volume/wordpress-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/wordpress-deployment.yaml" >}}
+{{< code file="mysql-wordpress-persistent-volume/wordpress-deployment.yaml" >}}
 
 1. Create a WordPress Service and Deployment from the `wordpress-deployment.yaml` file:
 

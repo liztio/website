@@ -34,7 +34,7 @@ and the base-64 representation of your password is `Mzk1MjgkdmRnN0pi`.
 Here is a configuration file you can use to create a Secret that holds your
 username and password:
 
-{{< code language="yaml" file="secret.yaml" ghlink="/docs/tasks/inject-data-application/secret.yaml" >}}
+{{< code file="secret.yaml" >}}
 
 1. Create the Secret
 
@@ -79,7 +79,7 @@ username and password:
 
 Here is a configuration file you can use to create a Pod:
 
-{{< code language="yaml" file="secret-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-pod.yaml" >}}
+{{< code file="secret-pod.yaml" >}}
 
 1. Create the Pod:
 
@@ -126,7 +126,7 @@ is exposed:
 
 Here is a configuration file you can use to create a Pod:
 
-{{< code language="yaml" file="secret-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-envars-pod.yaml" >}}
+{{< code file="secret-envars-pod.yaml" >}}
 
 1. Create the Pod:
 

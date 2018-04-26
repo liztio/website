@@ -20,7 +20,7 @@ You can get an overview of PodPresets at
 This is a simple example to show how a Pod spec is modified by the Pod
 Preset.
 
-{{< code language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" >}}
+{{< code file="podpreset-preset.yaml" >}}
 
 Create the PodPreset:
 
@@ -38,7 +38,7 @@ allow-database   1m
 
 The new PodPreset will act upon any pod that has label `role: frontend`.
 
-{{< code language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" >}}
+{{< code file="podpreset-pod.yaml" >}}
 
 Create a pod:
 
@@ -56,7 +56,7 @@ website   1/1       Running   0          4m
 
 **Pod spec after admission controller:**
 
-{{< code language="yaml" file="podpreset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-merged.yaml" >}}
+{{< code file="podpreset-merged.yaml" >}}
 
 To see above output, run the following command:
 
@@ -71,19 +71,19 @@ that defines a `ConfigMap` for Environment Variables.
 
 **User submitted pod spec:**
 
-{{< code language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" >}}
+{{< code file="podpreset-pod.yaml" >}}
 
 **User submitted `ConfigMap`:**
 
-{{< code language="yaml" file="podpreset-configmap.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-configmap.yaml" >}}
+{{< code file="podpreset-configmap.yaml" >}}
 
 **Example Pod Preset:**
 
-{{< code language="yaml" file="podpreset-allow-db.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db.yaml" >}}
+{{< code file="podpreset-allow-db.yaml" >}}
 
 **Pod spec after admission controller:**
 
-{{< code language="yaml" file="podpreset-allow-db-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db-merged.yaml" >}}
+{{< code file="podpreset-allow-db-merged.yaml" >}}
 
 ### ReplicaSet with Pod Spec Example
 
@@ -92,18 +92,18 @@ Preset.
 
 **User submitted ReplicaSet:**
 
-{{< code language="yaml" file="podpreset-replicaset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset.yaml" >}}
+{{< code file="podpreset-replicaset.yaml" >}}
 
 **Example Pod Preset:**
 
-{{< code language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" >}}
+{{< code file="podpreset-preset.yaml" >}}
 
 **Pod spec after admission controller:**
 
 Note that the ReplicaSet spec was not changed, users have to check individual pods
 to validate that the PodPreset has been applied.
 
-{{< code language="yaml" file="podpreset-replicaset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset-merged.yaml" >}}
+{{< code file="podpreset-replicaset-merged.yaml" >}}
 
 ### Multiple PodPreset Example
 
@@ -112,19 +112,19 @@ Injection Policies.
 
 **User submitted pod spec:**
 
-{{< code language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" >}}
+{{< code file="podpreset-pod.yaml" >}}
 
 **Example Pod Preset:**
 
-{{< code language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" >}}
+{{< code file="podpreset-preset.yaml" >}}
 
 **Another Pod Preset:**
 
-{{< code language="yaml" file="podpreset-proxy.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-proxy.yaml" >}}
+{{< code file="podpreset-proxy.yaml" >}}
 
 **Pod spec after admission controller:**
 
-{{< code language="yaml" file="podpreset-multi-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-multi-merged.yaml" >}}
+{{< code file="podpreset-multi-merged.yaml" >}}
 
 ### Conflict Example
 
@@ -133,15 +133,15 @@ when there is a conflict.
 
 **User submitted pod spec:**
 
-{{< code language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" >}}
+{{< code file="podpreset-conflict-pod.yaml" >}}
 
 **Example Pod Preset:**
 
-{{< code language="yaml" file="podpreset-conflict-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-preset.yaml" >}}
+{{< code file="podpreset-conflict-preset.yaml" >}}
 
 **Pod spec after admission controller will not change because of the conflict:**
 
-{{< code language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" >}}
+{{< code file="podpreset-conflict-pod.yaml" >}}
 
 **If we run `kubectl describe...` we can see the event:**
 

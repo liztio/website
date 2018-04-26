@@ -45,7 +45,7 @@ component.
 Here is an example Cron Job. Every minute, it runs a simple job to print current time and then say
 hello.
 
-{{< code language="yaml" file="cronjob.yaml" ghlink="/docs/concepts/workloads/controllers/cronjob.yaml" >}}
+{{< code file="cronjob.yaml" >}}
 
 Run the example cron job by downloading the example file and then running this command:
 

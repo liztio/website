@@ -38,7 +38,7 @@ across the system: `--feature-gates=PodShareProcessNamespace=true`.
 Process Namespace Sharing is enabled using the `ShareProcessNamespace` field of
 `v1.PodSpec`. For example:
 
-{{< code language="yaml" file="share-process-namespace.yaml" ghlink="/docs/tasks/configure-pod-container/share-process-namespace.yaml" >}}
+{{< code file="share-process-namespace.yaml" >}}
 
 1. Create the pod `nginx` on your cluster:
 

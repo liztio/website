@@ -45,7 +45,7 @@ by default, the hosts file only includes ipv4 and ipv6 boilerplates like `localh
 
 In addition to the default boilerplate, we can add additional entries to the hosts file to resolve `foo.local`, `bar.local` to `127.0.0.1` and `foo.remote`, `bar.remote` to `10.1.2.3`, we can by adding HostAliases to the Pod under `.spec.hostAliases`:
 
-{{< code language="yaml" file="hostaliases-pod.yaml" ghlink="/docs/concepts/services-networking/hostaliases-pod.yaml" >}}
+{{< code file="hostaliases-pod.yaml" >}}
 
 This Pod can be started with the following commands:
 

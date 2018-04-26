@@ -120,7 +120,7 @@ default       fluentd-gcp-v2.0   3         3         3         beta.kubernetes.i
 To understand how logging with Stackdriver works, consider the following
 synthetic log generator pod specification [counter-pod.yaml](/docs/tasks/debug-application-cluster/counter-pod.yaml):
 
-{{< code language="yaml" file="counter-pod.yaml" ghlink="/docs/tasks/debug-application-cluster/counter-pod.yaml" >}}
+{{< code file="counter-pod.yaml" >}}
 
 This pod specification has one container that runs a bash script
 that writes out the value of a counter and the date once per

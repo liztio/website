@@ -39,7 +39,7 @@ The following are typical use cases for Deployments:
 
 The following is an example of a Deployment. It creates a ReplicaSet to bring up three `nginx` Pods:
 
-{{< code language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/workloads/controllers/nginx-deployment.yaml" >}}
+{{< code file="nginx-deployment.yaml" >}}
 
 In this example:
 

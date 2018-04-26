@@ -49,7 +49,7 @@ For a Pod to be given a QoS class of Guaranteed:
 Here is the configuration file for a Pod that has one Container. The Container has a memory limit and a
 memory request, both equal to 200 MiB. The Container has a cpu limit and a cpu request, both equal to 700 millicpu:
 
-{{< code language="yaml" file="qos-pod.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod.yaml" >}}
+{{< code file="qos-pod.yaml" >}}
 
 Create the Pod:
 
@@ -105,7 +105,7 @@ A Pod is given a QoS class of Burstable if:
 Here is the configuration file for a Pod that has one Container. The Container has a memory limit of 200 MiB
 and a memory request of 100 MiB.
 
-{{< code language="yaml" file="qos-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-2.yaml" >}}
+{{< code file="qos-pod-2.yaml" >}}
 
 Create the Pod:
 
@@ -150,7 +150,7 @@ have any memory or cpu limits or requests.
 Here is the configuration file for a Pod that has one Container. The Container has no memory or cpu
 limits or requests:
 
-{{< code language="yaml" file="qos-pod-3.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-3.yaml" >}}
+{{< code file="qos-pod-3.yaml" >}}
 
 Create the Pod:
 
@@ -186,7 +186,7 @@ kubectl delete pod qos-demo-3 --namespace=qos-example
 Here is the configuration file for a Pod that has two Containers. One container specifies a memory
 request of 200 MiB. The other Container does not specify any requests or limits.
 
-{{< code language="yaml" file="qos-pod-4.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-4.yaml" >}}
+{{< code file="qos-pod-4.yaml" >}}
 
 Notice that this Pod meets the criteria for QoS class Burstable. That is, it does not meet the
 criteria for QoS class Guaranteed, and one of its Containers has a memory request.

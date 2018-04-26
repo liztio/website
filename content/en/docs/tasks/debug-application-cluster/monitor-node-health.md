@@ -56,7 +56,7 @@ customized node problems.
 
 * **Step 1:** `node-problem-detector.yaml`:
 
-{{< code language="yaml" file="node-problem-detector.yaml" ghlink="/docs/tasks/debug-application-cluster/node-problem-detector.yaml" >}}
+{{< code file="node-problem-detector.yaml" >}}
 
 
 ***Notice that you should make sure the system log directory is right for your
@@ -90,7 +90,7 @@ following the steps:
 node-problem-detector-config --from-file=config/`.
 * **Step 3:** Change the `node-problem-detector.yaml` to use the ConfigMap:
 
-{{< code language="yaml" file="node-problem-detector-configmap.yaml" ghlink="/docs/tasks/debug-application-cluster/node-problem-detector-configmap.yaml" >}}
+{{< code file="node-problem-detector-configmap.yaml" >}}
 
 
 * **Step 4:** Re-create the node problem detector with the new yaml file:

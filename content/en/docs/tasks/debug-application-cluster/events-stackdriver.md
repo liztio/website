@@ -64,7 +64,7 @@ to allow event exporter to read events. To make sure that event exporter
 pod will not be evicted from the node, you can additionally set up resource
 requests. As mentioned earlier, 100Mb RAM and 100m CPU should be enough.
 
-{{< code language="yaml" file="event-exporter-deploy.yaml" ghlink="/docs/tasks/debug-application-cluster/event-exporter-deploy.yaml" >}}
+{{< code file="event-exporter-deploy.yaml" >}}
 
 ## User Guide
 

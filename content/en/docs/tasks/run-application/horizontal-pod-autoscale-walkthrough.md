@@ -369,7 +369,7 @@ HorizontalPodAutoscaler.
 Instead of using `kubectl autoscale` command to create a HorizontalPodAutoscaler imperatively we
 can use the following file to create it declaratively:
 
-{{< code language="yaml" file="hpa-php-apache.yaml" ghlink="/docs/tasks/run-application/hpa-php-apache.yaml" >}}
+{{< code file="hpa-php-apache.yaml" >}}
 
 We will create the autoscaler by executing the following command:
 

@@ -31,7 +31,7 @@ content_template: templates/task
 
 本示例中，将创建一个只包含单个容器的Pod。在Pod配置文件中设置了一个命令与两个入参：
 
-{{< code language="yaml" file="commands.yaml" ghlink="/cn/docs/tasks/inject-data-application/commands.yaml" >}}
+{{< code file="commands.yaml" >}}
 
 1. 基于YAML文件创建一个Pod：
 

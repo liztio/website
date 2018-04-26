@@ -8,12 +8,13 @@ Current
 * CSS  highlight, Chroma styles
 * Remove superflous "layout:"
 * GetPage in top partials
-- Check noedit
+- Check noedit showedit = true
 * Remove permalink: /blog/:year/:month/:title in blog
 * Blog, handle {:
 * Blog archive + style diff
 * 404 checker and diff
 * ToC disk
+* docs/home/contribute/write-new-topic.md:<pre>&#123;% include code.html language="&lt;LEXERVALUE&gt;" file="&lt;RELATIVEPATH&gt;" ghlink="/&lt;PATHFROMROOT&gt;" %&#125;</pre>
 
 For Migration
 -----------

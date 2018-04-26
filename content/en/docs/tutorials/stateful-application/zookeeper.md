@@ -94,7 +94,7 @@ a [Service](/docs/concepts/services-networking/service/),
 a [PodDisruptionBudget](/docs/concepts/workloads/pods/disruptions//#specifying-a-poddisruptionbudget), 
 and a [StatefulSet](/docs/concepts/workloads/controllers/statefulset/). 
 
-{{< code language="yaml" file="zookeeper.yaml" ghlink="/docs/tutorials/stateful-application/zookeeper.yaml" >}}
+{{< code file="zookeeper.yaml" >}}
 
 Open a command terminal, and use 
 [`kubectl apply`](/docs/user-guide/kubectl/{{< param "version" >}}/#apply) to create the 

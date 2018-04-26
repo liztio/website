@@ -55,7 +55,7 @@ Let's create two new namespaces to hold our work.
 
 Use the file [`namespace-dev.json`](/docs/tasks/administer-cluster/namespace-dev.json) which describes a development namespace:
 
-{{< code language="json" file="namespace-dev.json" ghlink="/docs/tasks/administer-cluster/namespace-dev.json" >}}
+{{< code language="json" file="namespace-dev.json" >}}
 
 Create the development namespace using kubectl.
 
@@ -65,7 +65,7 @@ $ kubectl create -f https://k8s.io/docs/tasks/administer-cluster/namespace-dev.j
 
 Save the following contents into file [`namespace-prod.json`](/docs/tasks/administer-cluster/namespace-prod.json) which describes a production namespace:
 
-{{< code language="json" file="namespace-prod.json" ghlink="/docs/tasks/administer-cluster/namespace-prod.json" >}}
+{{< code language="json" file="namespace-prod.json" >}}
 
 And then let's create the production namespace using kubectl.
 

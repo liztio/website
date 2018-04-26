@@ -526,12 +526,15 @@ func (m *mover) contentMigrate_Replacements() error {
 		},
 
 		// Code includes
-		// TODO(bep) ghlink looks superflous?
-		// {% include code.html file="frontend/frontend.conf" ghlink="/docs/tasks/access-application-cluster/frontend/frontend.conf" %}
 		func(path, s string) (string, error) {
-			re := regexp.MustCompile(`{% include code.html(.*?)%}`)
+			re := regexp.MustCompile(`{% include code.html\s*(language=".*?")?(\s*file=".*?").*?%}`)
+			return re.ReplaceAllString(s, `{{< code $1$2 >}}`), nil
+		},
+
+		// This is the most common. The language can be derived from the filename making it less chatty.
+		func(path, s string) (string, error) {
+			re := regexp.MustCompile(`{{< code language="yaml"(.*?)>}}`)
 			return re.ReplaceAllString(s, `{{< code$1>}}`), nil
-			return s, nil
 		},
 
 		func(path, s string) (string, error) {
