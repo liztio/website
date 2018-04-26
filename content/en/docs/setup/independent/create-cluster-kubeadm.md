@@ -541,6 +541,6 @@ addressed in due course.
 
 If you are running into difficulties with kubeadm, please consult our [troubleshooting docs](/docs/setup/independent/troubleshooting-kubeadm/).
 
-{% endcapture %}
+
 
 

@@ -679,6 +679,12 @@ func (m *mover) contentMigrate_Replacements() error {
 		func(path, s string) (string, error) {
 			return strings.Replace(s, `{{< include "task-tutorial-prereqs.md" >}}`, `{{< include "task-tutorial-prereqs.md" >}} {{< version-check >}}`, -1), nil
 		},
+
+		// Remove any endcapture leftovers
+		//
+		func(path, s string) (string, error) {
+			return strings.Replace(s, `{% endcapture %}`, ``, -1), nil
+		},
 	}
 
 	if err := m.applyContentFixers(lateContentFixSet, "md$"); err != nil {

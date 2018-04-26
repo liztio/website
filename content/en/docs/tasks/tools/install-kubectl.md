@@ -261,7 +261,7 @@ Or when using [Oh-My-Zsh](http://ohmyz.sh/), edit the ~/.zshrc file and update t
 source <(kubectl completion zsh)
 ```
 
-{% endcapture %}
+
 {{% capture whatsnext %}}
 [Learn how to launch and expose your application.](/docs/tasks/access-application-cluster/service-access-application-cluster/)
 {{% /capture %}}

@@ -540,6 +540,6 @@ Next provision and set up the worker nodes. To do this, you will need to provisi
    sudo systemctl restart kubelet
    ```
 
-{% endcapture %}
+
 
 
