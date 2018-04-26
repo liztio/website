@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"regexp"
+	"sort"
 
 	"bufio"
 	"bytes"
@@ -282,7 +283,15 @@ func (m *mover) contentMigrate_CreateSections() error {
 		return err
 	}
 
-	for _, vi := range mm {
+	// Sort the map to get stable diffs
+	var keys []string
+	for k, _ := range mm {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	for _, k := range keys {
+		vi := mm[k]
 		v := vi.(*SectionFromData)
 
 		for i, tocEntry := range v.Toc {
