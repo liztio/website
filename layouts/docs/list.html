@@ -4,7 +4,7 @@
 	 {{ else }}
     {{ if ge (len .Pages) 1 }}
     {{ $page := index .Pages 0 }}
-    {{ $page.Render "content_page" }}
+    {{ partial "docs/content_page" $page }}
     {{ end }}
     {{ end }}
 {{ end }}
