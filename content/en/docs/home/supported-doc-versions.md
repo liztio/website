@@ -19,11 +19,7 @@ The current version is
 
 ## Previous versions
 
-{% for v in page.versions %}
-{% if v.version != page.version %}
-* [{{ v.version }}]({{v.url}})
-{% endif %}
-{% endfor %}
+{{< versions-other >}}
 
 {{% /capture %}}
 
