@@ -504,7 +504,7 @@ func (m *mover) contentMigrate_Replacements() error {
 
 	htmlAndMDContentFixSet := contentFixers{
 		func(path, s string) (string, error) {
-			return strings.Replace(s, `layout: basic`, `type: basic`, 1), nil
+			return strings.Replace(s, `layout: basic`, ``, 1), nil
 		},
 	}
 
