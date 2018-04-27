@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Configuration management with Containers "
 date: 2016-04-04
-pagination:
-  enabled: true
 slug: configuration-management-with-containers
 url: /blog/2016/04/configuration-management-with-containers/
 ---

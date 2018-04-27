@@ -1,9 +1,6 @@
 
 Questions
 ------------
-* Blog changed permalink format when moving to Jekyll. Assume keep old and continue with "/:section/:year/:month/:day/:slug/"?
-
-* CSS  highlight, Chroma styles. If the current style is fine, I can generate a stylesheet. For alternatives, see https://help.farbox.com/pygments.html
 * Any of the external generators needs updating for changed paths? Shortcodes?
 
 
@@ -14,7 +11,6 @@ Current
 * Remove superflous "layout:"
 * GetPage in top partials
 * Search page lots of space on top? padding
-* Remove permalink: /blog/:year/:month/:title in blog
 * Blog, handle callouts {:
 * Finish 404 checker and diff
 * ToC disk CSS
@@ -74,7 +70,7 @@ Suggestions for future
 * Redirects from aliases
 * A strategy for translations of UI vs content
 * Archetypes. Also see https://github.com/gohugoio/hugo/issues/4535 for a directory based approach.
-
+* CSS chroma. 
 
 Diffing with kubernetes.io
 

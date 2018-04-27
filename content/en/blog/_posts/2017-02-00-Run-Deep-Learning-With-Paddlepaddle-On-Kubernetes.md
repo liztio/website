@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Run Deep Learning with PaddlePaddle on Kubernetes "
 date: 2017-02-08
-pagination:
-  enabled: true
 slug: run-deep-learning-with-paddlepaddle-on-kubernetes
 url: /blog/2017/02/run-deep-learning-with-paddlepaddle-on-kubernetes/
 ---

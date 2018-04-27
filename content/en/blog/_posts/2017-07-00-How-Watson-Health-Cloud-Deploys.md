@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How Watson Health Cloud Deploys Applications with Kubernetes "
 date: 2017-07-14
-pagination:
-  enabled: true
 slug: how-watson-health-cloud-deploys
 url: /blog/2017/07/how-watson-health-cloud-deploys/
 ---

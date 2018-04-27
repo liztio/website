@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Container Runtime Interface (CRI) in Kubernetes "
 date: 2016-12-19
-pagination:
-  enabled: true
 slug: container-runtime-interface-cri-in-kubernetes
 url: /blog/2016/12/container-runtime-interface-cri-in-kubernetes/
 ---

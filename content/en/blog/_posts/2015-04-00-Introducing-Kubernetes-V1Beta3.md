@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Kubernetes API Version v1beta3 "
 date: 2015-04-16
-pagination:
-  enabled: true
 slug: introducing-kubernetes-v1beta3
 url: /blog/2015/04/introducing-kubernetes-v1beta3/
 ---

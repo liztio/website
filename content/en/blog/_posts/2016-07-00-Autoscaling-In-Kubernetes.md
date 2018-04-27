@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Autoscaling in Kubernetes "
 date: 2016-07-12
-pagination:
-  enabled: true
 slug: autoscaling-in-kubernetes
 url: /blog/2016/07/autoscaling-in-kubernetes/
 ---

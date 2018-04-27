@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " State of the Container World, February 2016 "
 date: 2016-03-01
-pagination:
-  enabled: true
 slug: state-of-container-world-february-2016
 url: /blog/2016/03/state-of-container-world-february-2016/
 ---

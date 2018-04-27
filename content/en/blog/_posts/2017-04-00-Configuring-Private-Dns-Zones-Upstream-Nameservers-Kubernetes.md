@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Configuring Private DNS Zones and Upstream Nameservers in Kubernetes "
 date: 2017-04-04
-pagination:
-  enabled: true
 slug: configuring-private-dns-zones-upstream-nameservers-kubernetes
 url: /blog/2017/04/configuring-private-dns-zones-upstream-nameservers-kubernetes/
 ---

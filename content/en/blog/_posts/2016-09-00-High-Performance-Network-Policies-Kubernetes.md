@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " High performance network policies in Kubernetes clusters "
 date: 2016-09-21
-pagination:
-  enabled: true
 slug: high-performance-network-policies-kubernetes
 url: /blog/2016/09/high-performance-network-policies-kubernetes/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Cluster Level Logging with Kubernetes "
 date: 2015-06-11
-pagination:
-  enabled: true
 slug: cluster-level-logging-with-kubernetes
 url: /blog/2015/06/cluster-level-logging-with-kubernetes/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " The K8sPort: Engaging Kubernetes Community One Activity at a Time "
 date: 2017-03-24
-pagination:
-  enabled: true
 slug: k8sport-engaging-the-kubernetes-community
 url: /blog/2017/03/k8sport-engaging-the-kubernetes-community/
 ---

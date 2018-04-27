@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " The Bet on Kubernetes, a Red Hat Perspective "
 date: 2016-07-21
-pagination:
-  enabled: true
 slug: the-bet-on-kubernetes
 url: /blog/2016/07/the-bet-on-kubernetes/
 ---

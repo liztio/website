@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " AppC Support for Kubernetes through RKT "
 date: 2015-05-04
-pagination:
-  enabled: true
 slug: appc-support-for-kubernetes-through-rkt
 url: /blog/2015/05/appc-support-for-kubernetes-through-rkt/
 ---

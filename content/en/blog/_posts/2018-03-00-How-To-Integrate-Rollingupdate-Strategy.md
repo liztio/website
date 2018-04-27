@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "How to Integrate RollingUpdate Strategy for TPR in Kubernetes"
 date: 2018-03-13
 slug: how-to-integrate-rollingupdate-strategy

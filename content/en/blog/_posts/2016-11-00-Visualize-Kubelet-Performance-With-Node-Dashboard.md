@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Visualize Kubelet Performance with Node Dashboard "
 date: 2016-11-17
-pagination:
-  enabled: true
 slug: visualize-kubelet-performance-with-node-dashboard
 url: /blog/2016/11/visualize-kubelet-performance-with-node-dashboard/
 ---

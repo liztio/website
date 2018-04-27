@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Release: 0.17.0 "
 date: 2015-05-15
-pagination:
-  enabled: true
 slug: kubernetes-release-0170
 url: /blog/2015/05/kubernetes-release-0170/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " ElasticBox introduces ElasticKube to help manage Kubernetes within the enterprise "
 date: 2016-03-11
-pagination:
-  enabled: true
 slug: elasticbox-introduces-elastickube-to
 url: /blog/2016/03/elasticbox-introduces-elastickube-to/
 ---

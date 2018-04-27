@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Meets High-Performance Computing "
 date: 2017-08-22
-pagination:
-  enabled: true
 slug: kubernetes-meets-high-performance
 url: /blog/2017/08/kubernetes-meets-high-performance/
 ---

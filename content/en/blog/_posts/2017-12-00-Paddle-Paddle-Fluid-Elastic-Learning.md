@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " PaddlePaddle Fluid: Elastic Deep Learning on Kubernetes "
 date: 2017-12-06
-pagination:
-  enabled: true
 slug: paddle-paddle-fluid-elastic-learning
 url: /blog/2017/12/paddle-paddle-fluid-elastic-learning/
 ---

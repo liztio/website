@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Slides: Cluster Management with Kubernetes, talk given at the University of Edinburgh "
 date: 2015-06-26
-pagination:
-  enabled: true
 slug: slides-cluster-management-with
 url: /blog/2015/06/slides-cluster-management-with/
 ---

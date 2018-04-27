@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " A Stronger Foundation for Creating and Managing Kubernetes Clusters "
 date: 2017-01-12
-pagination:
-  enabled: true
 slug: stronger-foundation-for-creating-and-managing-kubernetes-clusters
 url: /blog/2017/01/stronger-foundation-for-creating-and-managing-kubernetes-clusters/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Create a Couchbase cluster using Kubernetes "
 date: 2016-08-15
-pagination:
-  enabled: true
 slug: create-couchbase-cluster-using-kubernetes
 url: /blog/2016/08/create-couchbase-cluster-using-kubernetes/
 ---

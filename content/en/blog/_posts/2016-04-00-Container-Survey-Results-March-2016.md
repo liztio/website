@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Container survey results - March 2016 "
 date: 2016-04-08
-pagination:
-  enabled: true
 slug: container-survey-results-march-2016
 url: /blog/2016/04/container-survey-results-march-2016/
 ---

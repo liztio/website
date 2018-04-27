@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Deploying PostgreSQL Clusters using StatefulSets "
 date: 2017-02-24
-pagination:
-  enabled: true
 slug: postgresql-clusters-kubernetes-statefulsets
 url: /blog/2017/02/postgresql-clusters-kubernetes-statefulsets/
 ---

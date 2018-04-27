@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Borg: The Predecessor to Kubernetes "
 date: 2015-04-23
-pagination:
-  enabled: true
 slug: borg-predecessor-to-kubernetes
 url: /blog/2015/04/borg-predecessor-to-kubernetes/
 ---

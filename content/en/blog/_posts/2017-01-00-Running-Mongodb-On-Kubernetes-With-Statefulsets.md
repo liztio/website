@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Running MongoDB on Kubernetes with StatefulSets "
 date: 2017-01-30
-pagination:
-  enabled: true
 slug: running-mongodb-on-kubernetes-with-statefulsets
 url: /blog/2017/01/running-mongodb-on-kubernetes-with-statefulsets/
 ---

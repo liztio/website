@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How we made Kubernetes insanely easy to install "
 date: 2016-09-28
-pagination:
-  enabled: true
 slug: how-we-made-kubernetes-easy-to-install
 url: /blog/2016/09/how-we-made-kubernetes-easy-to-install/
 ---

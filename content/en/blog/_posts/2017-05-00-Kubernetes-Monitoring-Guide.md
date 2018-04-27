@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes: a monitoring guide "
 date: 2017-05-19
-pagination:
-  enabled: true
 slug: kubernetes-monitoring-guide
 url: /blog/2017/05/kubernetes-monitoring-guide/
 ---

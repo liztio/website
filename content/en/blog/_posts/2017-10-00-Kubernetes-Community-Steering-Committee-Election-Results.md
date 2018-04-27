@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Community Steering Committee Election Results "
 date: 2017-10-05
-pagination:
-  enabled: true
 slug: kubernetes-community-steering-committee-election-results
 url: /blog/2017/10/kubernetes-community-steering-committee-election-results/
 ---

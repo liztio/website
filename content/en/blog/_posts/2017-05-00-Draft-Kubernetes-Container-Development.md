@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Draft: Kubernetes container development made easy "
 date: 2017-05-31
-pagination:
-  enabled: true
 slug: draft-kubernetes-container-development
 url: /blog/2017/05/draft-kubernetes-container-development/
 ---

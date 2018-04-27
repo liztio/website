@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Modernizing the Skytap Cloud Micro-Service Architecture with Kubernetes "
 date: 2016-11-07
-pagination:
-  enabled: true
 slug: skytap-modernizing-microservice-architecture-with-kubernetes
 url: /blog/2016/11/skytap-modernizing-microservice-architecture-with-kubernetes/
 ---

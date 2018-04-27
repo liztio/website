@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "Extensible Admission is Beta"
 date: 2018-01-11
-pagination:
-  enabled: true
 slug: extensible-admission-is-beta
 url: /blog/2018/01/extensible-admission-is-beta/
 ---

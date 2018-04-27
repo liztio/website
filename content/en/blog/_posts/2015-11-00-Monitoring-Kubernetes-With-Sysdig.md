@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Monitoring Kubernetes with Sysdig "
 date: 2015-11-19
-pagination:
-  enabled: true
 slug: monitoring-kubernetes-with-sysdig
 url: /blog/2015/11/monitoring-kubernetes-with-sysdig/
 ---

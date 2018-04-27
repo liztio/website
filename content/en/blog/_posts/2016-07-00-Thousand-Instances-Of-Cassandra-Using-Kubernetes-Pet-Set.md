@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Thousand Instances of Cassandra using Kubernetes Pet Set "
 date: 2016-07-13
-pagination:
-  enabled: true
 slug: thousand-instances-of-cassandra-using-kubernetes-pet-set
 url: /blog/2016/07/thousand-instances-of-cassandra-using-kubernetes-pet-set/
 ---

@@ -649,6 +649,16 @@ func (m *mover) contentMigrate_Replacements() error {
 			return s, err
 
 		},
+
+		func(path, s string) (string, error) {
+			// Superflous
+			s = strings.Replace(s, "permalink: /blog/:year/:month/:title\n", "", 1)
+			s = strings.Replace(s, "layout: blog\n", "", 1)
+			s = strings.Replace(s, `pagination:
+  enabled: true
+`, "", 1)
+			return s, nil
+		},
 	}
 
 	if err := m.applyContentFixers(blogFixers, ".*blog/.*md$"); err != nil {

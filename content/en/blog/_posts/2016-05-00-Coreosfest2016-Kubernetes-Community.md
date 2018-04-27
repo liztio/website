@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " CoreOS Fest 2016: CoreOS and Kubernetes Community meet in Berlin (& San Francisco) "
 date: 2016-05-03
-pagination:
-  enabled: true
 slug: coreosfest2016-kubernetes-community
 url: /blog/2016/05/coreosfest2016-kubernetes-community/
 ---

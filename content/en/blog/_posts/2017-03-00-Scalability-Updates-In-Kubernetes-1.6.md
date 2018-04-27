@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Scalability updates in Kubernetes 1.6: 5,000 node and 150,000 pod clusters "
 date: 2017-03-30
-pagination:
-  enabled: true
 slug: scalability-updates-in-kubernetes-1.6
 url: /blog/2017/03/scalability-updates-in-kubernetes-1.6/
 ---

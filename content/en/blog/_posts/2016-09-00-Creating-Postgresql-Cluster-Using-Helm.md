@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Creating a PostgreSQL Cluster using Helm "
 date: 2016-09-09
-pagination:
-  enabled: true
 slug: creating-postgresql-cluster-using-helm
 url: /blog/2016/09/creating-postgresql-cluster-using-helm/
 ---

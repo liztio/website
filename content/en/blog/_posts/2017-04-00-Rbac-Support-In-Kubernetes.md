@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " RBAC Support in Kubernetes "
 date: 2017-04-06
-pagination:
-  enabled: true
 slug: rbac-support-in-kubernetes
 url: /blog/2017/04/rbac-support-in-kubernetes/
 ---

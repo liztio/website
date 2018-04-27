@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Software Certification for Kubernetes "
 date: 2017-10-19
-pagination:
-  enabled: true
 slug: software-conformance-certification
 url: /blog/2017/10/software-conformance-certification/
 ---

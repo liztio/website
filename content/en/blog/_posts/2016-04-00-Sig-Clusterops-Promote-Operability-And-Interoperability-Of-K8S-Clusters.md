@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " SIG-ClusterOps: Promote operability and interoperability of Kubernetes clusters "
 date: 2016-04-19
-pagination:
-  enabled: true
 slug: sig-clusterops-promote-operability-and-interoperability-of-k8s-clusters
 url: /blog/2016/04/sig-clusterops-promote-operability-and-interoperability-of-k8s-clusters/
 ---

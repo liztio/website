@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Strong, Simple SSL for Kubernetes Services "
 date: 2015-07-14
-pagination:
-  enabled: true
 slug: strong-simple-ssl-for-kubernetes
 url: /blog/2015/07/strong-simple-ssl-for-kubernetes/
 ---

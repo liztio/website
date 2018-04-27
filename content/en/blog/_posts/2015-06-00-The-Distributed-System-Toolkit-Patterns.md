@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " The Distributed System ToolKit: Patterns for Composite Containers "
 date: 2015-06-29
-pagination:
-  enabled: true
 slug: the-distributed-system-toolkit-patterns
 url: /blog/2015/06/the-distributed-system-toolkit-patterns/
 ---

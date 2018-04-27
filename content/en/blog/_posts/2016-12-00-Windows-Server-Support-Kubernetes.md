@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Windows Server Support Comes to Kubernetes "
 date: 2016-12-21
-pagination:
-  enabled: true
 slug: windows-server-support-kubernetes
 url: /blog/2016/12/windows-server-support-kubernetes/
 ---

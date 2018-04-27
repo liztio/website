@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Deploying to Multiple Kubernetes Clusters with kit "
 date: 2016-09-06
-pagination:
-  enabled: true
 slug: deploying-to-multiple-kubernetes-with-kit
 url: /blog/2016/09/deploying-to-multiple-kubernetes-with-kit/
 ---

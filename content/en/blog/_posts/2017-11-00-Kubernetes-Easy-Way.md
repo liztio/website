@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes the Easy Way "
 date: 2017-11-01
-pagination:
-  enabled: true
 slug: kubernetes-easy-way
 url: /blog/2017/11/kubernetes-easy-way/
 ---

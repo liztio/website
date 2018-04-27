@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.0 Launch Event at OSCON "
 date: 2015-07-02
-pagination:
-  enabled: true
 slug: kubernetes-10-launch-party-at-oscon
 url: /blog/2015/07/kubernetes-10-launch-party-at-oscon/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Adding Support for Kubernetes in Rancher "
 date: 2016-04-08
-pagination:
-  enabled: true
 slug: adding-support-for-kubernetes-in-rancher
 url: /blog/2016/04/adding-support-for-kubernetes-in-rancher/
 ---

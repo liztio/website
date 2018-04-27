@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Scaling Kubernetes deployments with Policy-Based Networking "
 date: 2017-01-19
-pagination:
-  enabled: true
 slug: scaling-kubernetes-deployments-with-policy-base-networking
 url: /blog/2017/01/scaling-kubernetes-deployments-with-policy-base-networking/
 ---

@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: Welcome to the Kubernetes Blog! 
 date: 2015-03-20
 slug: welcome-to-kubernetes-blog

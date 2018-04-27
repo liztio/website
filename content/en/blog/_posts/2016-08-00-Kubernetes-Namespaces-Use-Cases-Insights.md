@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Namespaces: use cases and insights "
 date: 2016-08-16
-pagination:
-  enabled: true
 slug: kubernetes-namespaces-use-cases-insights
 url: /blog/2016/08/kubernetes-namespaces-use-cases-insights/
 ---

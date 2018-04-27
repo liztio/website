@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Kubernetes Service Partners program and a redesigned Partners page "
 date: 2016-10-31
-pagination:
-  enabled: true
 slug: kubernetes-service-technology-partners-program
 url: /blog/2016/10/kubernetes-service-technology-partners-program/
 ---

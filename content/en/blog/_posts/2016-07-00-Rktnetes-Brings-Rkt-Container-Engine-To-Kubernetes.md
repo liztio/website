@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " rktnetes brings rkt container engine to Kubernetes "
 date: 2016-07-11
-pagination:
-  enabled: true
 slug: rktnetes-brings-rkt-container-engine-to-kubernetes
 url: /blog/2016/07/rktnetes-brings-rkt-container-engine-to-kubernetes/
 ---

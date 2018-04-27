@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes UX Survey Infographic "
 date: 2017-01-09
-pagination:
-  enabled: true
 slug: kubernetes-ux-survey-infographic
 url: /blog/2017/01/kubernetes-ux-survey-infographic/
 ---

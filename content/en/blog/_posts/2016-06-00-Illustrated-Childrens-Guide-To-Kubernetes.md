@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " The Illustrated Children's Guide to Kubernetes "
 date: 2016-06-09
-pagination:
-  enabled: true
 slug: illustrated-childrens-guide-to-kubernetes
 url: /blog/2016/06/illustrated-childrens-guide-to-kubernetes/
 ---

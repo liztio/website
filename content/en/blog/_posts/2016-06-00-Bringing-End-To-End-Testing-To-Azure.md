@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Bringing End-to-End Kubernetes Testing to Azure (Part 1) "
 date: 2016-06-06
-pagination:
-  enabled: true
 slug: bringing-end-to-end-testing-to-azure
 url: /blog/2016/06/bringing-end-to-end-testing-to-azure/
 ---

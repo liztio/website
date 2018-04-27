@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes is Still Hard (for Developers) "
 date: 2017-11-15
-pagination:
-  enabled: true
 slug: kubernetes-is-still-hard-for-developers
 url: /blog/2017/11/kubernetes-is-still-hard-for-developers/
 ---

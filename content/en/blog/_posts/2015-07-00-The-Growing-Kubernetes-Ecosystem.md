@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " The Growing Kubernetes Ecosystem "
 date: 2015-07-24
-pagination:
-  enabled: true
 slug: the-growing-kubernetes-ecosystem
 url: /blog/2015/07/the-growing-kubernetes-ecosystem/
 ---

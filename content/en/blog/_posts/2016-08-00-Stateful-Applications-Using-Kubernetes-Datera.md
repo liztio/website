@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Scaling Stateful Applications using Kubernetes Pet Sets and FlexVolumes with Datera Elastic Data Fabric "
 date: 2016-08-29
-pagination:
-  enabled: true
 slug: stateful-applications-using-kubernetes-datera
 url: /blog/2016/08/stateful-applications-using-kubernetes-datera/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Container Design Patterns "
 date: 2016-06-21
-pagination:
-  enabled: true
 slug: container-design-patterns
 url: /blog/2016/06/container-design-patterns/
 ---

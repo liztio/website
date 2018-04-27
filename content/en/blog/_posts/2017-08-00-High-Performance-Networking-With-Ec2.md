@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " High Performance Networking with EC2 Virtual Private Clouds "
 date: 2017-08-11
-pagination:
-  enabled: true
 slug: high-performance-networking-with-ec2
 url: /blog/2017/08/high-performance-networking-with-ec2/
 ---

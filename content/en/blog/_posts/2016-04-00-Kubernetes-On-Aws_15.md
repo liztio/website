@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How to deploy secure, auditable, and reproducible Kubernetes clusters on AWS "
 date: 2016-04-15
-pagination:
-  enabled: true
 slug: kubernetes-on-aws_15
 url: /blog/2016/04/kubernetes-on-aws_15/
 ---

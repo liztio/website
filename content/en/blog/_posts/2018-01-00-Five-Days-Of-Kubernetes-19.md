@@ -1,10 +1,6 @@
 ---
-layout: blog
-permalink: /blog/:year/:month/:title
 title: " Five Days of Kubernetes 1.9 "
 date: 2018-01-08
-pagination:
-  enabled: true
 slug: five-days-of-kubernetes-19
 url: /blog/2018/01/five-days-of-kubernetes-19/
 ---

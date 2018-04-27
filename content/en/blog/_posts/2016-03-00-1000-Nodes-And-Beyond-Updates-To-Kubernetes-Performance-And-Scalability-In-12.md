@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " 1000 nodes and beyond: updates to Kubernetes performance and scalability in 1.2 "
 date: 2016-03-28
-pagination:
-  enabled: true
 slug: 1000-nodes-and-beyond-updates-to-kubernetes-performance-and-scalability-in-12
 url: /blog/2016/03/1000-nodes-and-beyond-updates-to-kubernetes-performance-and-scalability-in-12/
 ---

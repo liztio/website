@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Tail Kubernetes with Stern "
 date: 2016-10-31
-pagination:
-  enabled: true
 slug: tail-kubernetes-with-stern
 url: /blog/2016/10/tail-kubernetes-with-stern/
 ---

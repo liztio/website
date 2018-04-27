@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.2: Even more performance upgrades, plus easier application deployment and management  "
 date: 2016-03-17
-pagination:
-  enabled: true
 slug: kubernetes-1.2-even-more-performance-upgrades-plus-easier-application-deployment-and-management-
 url: /blog/2016/03/kubernetes-1.2-even-more-performance-upgrades-plus-easier-application-deployment-and-management-/
 ---

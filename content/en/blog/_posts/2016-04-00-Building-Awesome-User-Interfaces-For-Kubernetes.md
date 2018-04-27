@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " SIG-UI: the place for building awesome user interfaces for Kubernetes "
 date: 2016-04-20
-pagination:
-  enabled: true
 slug: building-awesome-user-interfaces-for-kubernetes
 url: /blog/2016/04/building-awesome-user-interfaces-for-kubernetes/
 ---

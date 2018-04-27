@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Containers as a Service, the foundation for next generation PaaS "
 date: 2017-02-21
-pagination:
-  enabled: true
 slug: caas-the-foundation-for-next-gen-paas
 url: /blog/2017/02/caas-the-foundation-for-next-gen-paas/
 ---

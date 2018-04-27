@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes in the Enterprise with Fujitsu’s Cloud Load Control "
 date: 2016-03-11
-pagination:
-  enabled: true
 slug: kubernetes-in-enterprise-with-fujitsus
 url: /blog/2016/03/kubernetes-in-enterprise-with-fujitsus/
 ---

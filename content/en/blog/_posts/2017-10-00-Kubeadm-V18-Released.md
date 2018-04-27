@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "  kubeadm v1.8 Released: Introducing Easy Upgrades for Kubernetes Clusters "
 date: 2017-10-25
-pagination:
-  enabled: true
 slug: kubeadm-v18-released
 url: /blog/2017/10/kubeadm-v18-released/
 ---

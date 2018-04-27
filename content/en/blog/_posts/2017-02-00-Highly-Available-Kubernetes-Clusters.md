@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Highly Available Kubernetes Clusters "
 date: 2017-02-02
-pagination:
-  enabled: true
 slug: highly-available-kubernetes-clusters
 url: /blog/2017/02/highly-available-kubernetes-clusters/
 ---

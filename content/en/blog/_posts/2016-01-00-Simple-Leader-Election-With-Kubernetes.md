@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Simple leader election with Kubernetes and Docker "
 date: 2016-01-11
-pagination:
-  enabled: true
 slug: simple-leader-election-with-kubernetes
 url: /blog/2016/01/simple-leader-election-with-kubernetes/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Release: 0.16.0 "
 date: 2015-05-11
-pagination:
-  enabled: true
 slug: kubernetes-release-0160
 url: /blog/2015/05/kubernetes-release-0160/
 ---

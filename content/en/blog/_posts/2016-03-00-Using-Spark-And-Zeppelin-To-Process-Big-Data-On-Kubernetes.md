@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Using Spark and Zeppelin to process big data on Kubernetes 1.2 "
 date: 2016-03-30
-pagination:
-  enabled: true
 slug: using-spark-and-zeppelin-to-process-big-data-on-kubernetes
 url: /blog/2016/03/using-spark-and-zeppelin-to-process-big-data-on-kubernetes/
 ---

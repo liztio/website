@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " SIG-Networking: Kubernetes Network Policy APIs Coming in 1.3 "
 date: 2016-04-18
-pagination:
-  enabled: true
 slug: kubernetes-network-policy-apis
 url: /blog/2016/04/kubernetes-network-policy-apis/
 ---

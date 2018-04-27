@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "Introducing client-go version 6"
 date: 2018-01-12
-pagination:
-  enabled: true
 slug: introducing-client-go-version-6
 url: /blog/2018/01/introducing-client-go-version-6/
 ---

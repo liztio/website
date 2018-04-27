@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes in Rancher: the further evolution "
 date: 2016-07-12
-pagination:
-  enabled: true
 slug: kubernetes-in-rancher-further-evolution
 url: /blog/2016/07/kubernetes-in-rancher-further-evolution/
 ---

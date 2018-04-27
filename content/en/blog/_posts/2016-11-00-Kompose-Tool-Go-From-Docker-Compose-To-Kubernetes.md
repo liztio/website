@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kompose: a tool to go from Docker-compose to Kubernetes "
 date: 2016-11-22
 slug: kompose-tool-go-from-docker-compose-to-kubernetes

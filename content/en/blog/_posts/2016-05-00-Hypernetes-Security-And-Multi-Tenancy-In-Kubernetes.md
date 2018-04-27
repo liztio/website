@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Hypernetes: Bringing Security and Multi-tenancy to Kubernetes "
 date: 2016-05-24
-pagination:
-  enabled: true
 slug: hypernetes-security-and-multi-tenancy-in-kubernetes
 url: /blog/2016/05/hypernetes-security-and-multi-tenancy-in-kubernetes/
 ---

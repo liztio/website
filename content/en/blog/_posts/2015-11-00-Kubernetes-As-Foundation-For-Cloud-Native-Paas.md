@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes as Foundation for Cloud Native PaaS "
 date: 2015-11-03
-pagination:
-  enabled: true
 slug: kubernetes-as-foundation-for-cloud-native-paas
 url: /blog/2015/11/kubernetes-as-foundation-for-cloud-native-paas/
 ---

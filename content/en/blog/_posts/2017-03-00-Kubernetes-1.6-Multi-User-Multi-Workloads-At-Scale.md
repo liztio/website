@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.6: Multi-user, Multi-workloads at Scale "
 date: 2017-03-28
-pagination:
-  enabled: true
 slug: kubernetes-1.6-multi-user-multi-workloads-at-scale
 url: /blog/2017/03/kubernetes-1.6-multi-user-multi-workloads-at-scale/
 ---

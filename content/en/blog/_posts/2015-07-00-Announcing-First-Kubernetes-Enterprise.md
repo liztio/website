@@ -1,10 +1,6 @@
 ---
-layout: blog
-permalink: /blog/:year/:month/:title
 title: " Announcing the First Kubernetes Enterprise Training Course "
 date: 2015-07-08
-pagination:
-  enabled: true
 slug: announcing-first-kubernetes-enterprise
 url: /blog/2015/07/announcing-first-kubernetes-enterprise/
 ---

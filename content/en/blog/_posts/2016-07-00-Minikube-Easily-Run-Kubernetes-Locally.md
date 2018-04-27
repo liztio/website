@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Minikube: easily run Kubernetes locally  "
 date: 2016-07-11
-pagination:
-  enabled: true
 slug: minikube-easily-run-kubernetes-locally
 url: /blog/2016/07/minikube-easily-run-kubernetes-locally/
 ---

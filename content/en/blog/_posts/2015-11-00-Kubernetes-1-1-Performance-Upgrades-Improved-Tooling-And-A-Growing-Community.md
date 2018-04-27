@@ -1,10 +1,6 @@
 ---
-layout: blog
-permalink: /blog/:year/:month/:title
 title: " Kubernetes 1.1 Performance upgrades, improved tooling and a growing community  "
 date: 2015-11-09
-pagination:
-  enabled: true
 slug: kubernetes-1-1-performance-upgrades-improved-tooling-and-a-growing-community
 url: /blog/2015/11/kubernetes-1-1-performance-upgrades-improved-tooling-and-a-growing-community/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Citrix + Kubernetes = A Home Run "
 date: 2016-07-14
-pagination:
-  enabled: true
 slug: citrix-netscaler-and-kubernetes
 url: /blog/2016/07/citrix-netscaler-and-kubernetes/
 ---

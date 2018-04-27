@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " AppFormix: Helping Enterprises Operationalize Kubernetes "
 date: 2016-03-29
-pagination:
-  enabled: true
 slug: appformix-helping-enterprises
 url: /blog/2016/03/appformix-helping-enterprises/
 ---

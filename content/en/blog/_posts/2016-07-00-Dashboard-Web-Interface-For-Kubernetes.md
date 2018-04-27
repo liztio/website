@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Dashboard - Full Featured Web Interface for Kubernetes "
 date: 2016-07-15
-pagination:
-  enabled: true
 slug: dashboard-web-interface-for-kubernetes
 url: /blog/2016/07/dashboard-web-interface-for-kubernetes/
 ---

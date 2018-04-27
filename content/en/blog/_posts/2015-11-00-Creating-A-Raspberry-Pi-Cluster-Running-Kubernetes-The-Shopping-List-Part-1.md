@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Creating a Raspberry Pi cluster running Kubernetes, the shopping list (Part 1) "
 date: 2015-11-25
-pagination:
-  enabled: true
 slug: creating-a-raspberry-pi-cluster-running-kubernetes-the-shopping-list-part-1
 url: /blog/2015/11/creating-a-raspberry-pi-cluster-running-kubernetes-the-shopping-list-part-1/
 ---

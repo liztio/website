@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Weekly Kubernetes Community Hangout Notes - April 24 2015 "
 date: 2015-04-30
-pagination:
-  enabled: true
 slug: weekly-kubernetes-community-hangout_29
 url: /blog/2015/04/weekly-kubernetes-community-hangout_29/
 ---

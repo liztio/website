@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes supports OpenAPI "
 date: 2016-12-23
-pagination:
-  enabled: true
 slug: kubernetes-supports-openapi
 url: /blog/2016/12/kubernetes-supports-openapi/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Helm Charts: making it simple to package and deploy common applications on Kubernetes "
 date: 2016-10-10
-pagination:
-  enabled: true
 slug: helm-charts-making-it-simple-to-package-and-deploy-apps-on-kubernetes
 url: /blog/2016/10/helm-charts-making-it-simple-to-package-and-deploy-apps-on-kubernetes/
 ---

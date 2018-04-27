@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Updates to Performance and Scalability in Kubernetes 1.3 -- 2,000 node 60,000 pod clusters "
 date: 2016-07-07
-pagination:
-  enabled: true
 slug: update-on-kubernetes-for-windows-server-containers
 url: /blog/2016/07/update-on-kubernetes-for-windows-server-containers/
 ---

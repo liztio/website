@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " KubeCon EU 2016: Kubernetes Community in London "
 date: 2016-02-24
-pagination:
-  enabled: true
 slug: kubecon-eu-2016-kubernetes-community-in
 url: /blog/2016/02/kubecon-eu-2016-kubernetes-community-in/
 ---

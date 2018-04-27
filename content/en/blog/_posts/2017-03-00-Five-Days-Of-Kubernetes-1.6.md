@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Five Days of Kubernetes 1.6 "
 date: 2017-03-29
-pagination:
-  enabled: true
 slug: five-days-of-kubernetes-1.6
 url: /blog/2017/03/five-days-of-kubernetes-1.6/
 ---

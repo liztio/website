@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes and the Mesosphere DCOS "
 date: 2015-04-22
-pagination:
-  enabled: true
 slug: kubernetes-and-mesosphere-dcos
 url: /blog/2015/04/kubernetes-and-mesosphere-dcos/
 ---

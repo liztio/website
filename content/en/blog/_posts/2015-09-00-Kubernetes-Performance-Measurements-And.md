@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Performance Measurements and Roadmap "
 date: 2015-09-10
-pagination:
-  enabled: true
 slug: kubernetes-performance-measurements-and
 url: /blog/2015/09/kubernetes-performance-measurements-and/
 ---

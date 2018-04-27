@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.5: Supporting Production Workloads "
 date: 2016-12-13
-pagination:
-  enabled: true
 slug: kubernetes-1.5-supporting-production-workloads
 url: /blog/2016/12/kubernetes-1.5-supporting-production-workloads/
 ---

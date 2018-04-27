@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Docker and Kubernetes and AppC  "
 date: 2015-05-18
-pagination:
-  enabled: true
 slug: docker-and-kubernetes-and-appc
 url: /blog/2015/05/docker-and-kubernetes-and-appc/
 ---

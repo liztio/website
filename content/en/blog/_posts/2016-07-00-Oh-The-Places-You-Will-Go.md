@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Happy Birthday Kubernetes. Oh, the places you’ll go! "
 date: 2016-07-21
-pagination:
-  enabled: true
 slug: oh-the-places-you-will-go
 url: /blog/2016/07/oh-the-places-you-will-go/
 ---

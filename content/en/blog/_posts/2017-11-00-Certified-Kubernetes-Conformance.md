@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Certified Kubernetes Conformance Program: Launch Celebration Round Up "
 date: 2017-11-16
-pagination:
-  enabled: true
 slug: certified-kubernetes-conformance
 url: /blog/2017/11/certified-kubernetes-conformance/
 ---

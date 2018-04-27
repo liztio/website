@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Advanced Scheduling in Kubernetes "
 date: 2017-03-31
-pagination:
-  enabled: true
 slug: advanced-scheduling-in-kubernetes
 url: /blog/2017/03/advanced-scheduling-in-kubernetes/
 ---

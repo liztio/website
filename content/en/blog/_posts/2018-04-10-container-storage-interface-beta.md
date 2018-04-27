@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: Container Storage Interface (CSI) for Kubernetes Goes Beta
 date: 2018-04-10
 slug: container-storage-interface-beta

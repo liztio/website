@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Dynamic Provisioning and Storage Classes in Kubernetes "
 date: 2017-03-29
-pagination:
-  enabled: true
 slug: dynamic-provisioning-and-storage-classes-kubernetes
 url: /blog/2017/03/dynamic-provisioning-and-storage-classes-kubernetes/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How container metadata changes your point of view "
 date: 2016-03-28
-pagination:
-  enabled: true
 slug: how-container-metadata-changes-your-point-of-view
 url: /blog/2016/03/how-container-metadata-changes-your-point-of-view/
 ---

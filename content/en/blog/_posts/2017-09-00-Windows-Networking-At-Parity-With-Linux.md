@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Windows Networking at Parity with Linux for Kubernetes "
 date: 2017-09-08
 slug: windows-networking-at-parity-with-linux

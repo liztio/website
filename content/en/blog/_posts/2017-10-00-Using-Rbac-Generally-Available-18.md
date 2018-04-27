@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Using RBAC, Generally Available in Kubernetes v1.8 "
 date: 2017-10-28
-pagination:
-  enabled: true
 slug: using-rbac-generally-available-18
 url: /blog/2017/10/using-rbac-generally-available-18/
 ---

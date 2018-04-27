@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Steering an Automation Platform at Wercker with Kubernetes "
 date: 2016-07-15
-pagination:
-  enabled: true
 slug: automation-platform-at-wercker-with-kubernetes
 url: /blog/2016/07/automation-platform-at-wercker-with-kubernetes/
 ---

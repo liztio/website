@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing the Resource Management Working Group "
 date: 2017-09-21
-pagination:
-  enabled: true
 slug: introducing-resource-management-working
 url: /blog/2017/09/introducing-resource-management-working/
 ---

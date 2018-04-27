@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How Bitmovin is Doing Multi-Stage Canary Deployments with Kubernetes in the Cloud and On-Prem "
 date: 2017-04-21
-pagination:
-  enabled: true
 slug: multi-stage-canary-deployments-with-kubernetes-in-the-cloud-onprem
 url: /blog/2017/04/multi-stage-canary-deployments-with-kubernetes-in-the-cloud-onprem/
 ---

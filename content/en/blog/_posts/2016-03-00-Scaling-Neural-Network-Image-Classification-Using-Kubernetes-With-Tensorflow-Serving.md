@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Scaling neural network image classification using Kubernetes with TensorFlow Serving  "
 date: 2016-03-23
-pagination:
-  enabled: true
 slug: scaling-neural-network-image-classification-using-kubernetes-with-tensorflow-serving
 url: /blog/2016/03/scaling-neural-network-image-classification-using-kubernetes-with-tensorflow-serving/
 ---

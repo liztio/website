@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title:  Resource Usage Monitoring in Kubernetes
 date: 2015-05-12
-pagination:
-  enabled: true
 slug: resource-usage-monitoring-kubernetes
 url: /blog/2015/05/resource-usage-monitoring-kubernetes/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.7: Security Hardening, Stateful Application Updates and Extensibility "
 date: 2017-06-30
-pagination:
-  enabled: true
 slug: kubernetes-1.7-security-hardening-stateful-application-extensibility-updates
 url: /blog/2017/06/kubernetes-1.7-security-hardening-stateful-application-extensibility-updates/
 ---

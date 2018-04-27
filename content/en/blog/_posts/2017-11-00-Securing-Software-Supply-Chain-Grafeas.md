@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Securing Software Supply Chain with Grafeas "
 date: 2017-11-03
-pagination:
-  enabled: true
 slug: securing-software-supply-chain-grafeas
 url: /blog/2017/11/securing-software-supply-chain-grafeas/
 ---

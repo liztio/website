@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " From Network Policies to Security Policies "
 date: 2016-12-08
-pagination:
-  enabled: true
 slug: from-network-policies-to-security-policies
 url: /blog/2016/12/from-network-policies-to-security-policies/
 ---

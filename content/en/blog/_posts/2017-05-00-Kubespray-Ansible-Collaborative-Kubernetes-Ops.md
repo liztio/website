@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubespray Ansible Playbooks foster Collaborative Kubernetes Ops "
 date: 2017-05-19
-pagination:
-  enabled: true
 slug: kubespray-ansible-collaborative-kubernetes-ops
 url: /blog/2017/05/kubespray-ansible-collaborative-kubernetes-ops/
 ---

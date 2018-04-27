@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Enforcing Network Policies in Kubernetes "
 date: 2017-10-30
-pagination:
-  enabled: true
 slug: enforcing-network-policies-in-kubernetes
 url: /blog/2017/10/enforcing-network-policies-in-kubernetes/
 ---

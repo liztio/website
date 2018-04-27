@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Using Deployment objects with Kubernetes 1.2 "
 date: 2016-04-01
-pagination:
-  enabled: true
 slug: using-deployment-objects-with
 url: /blog/2016/04/using-deployment-objects-with/
 ---

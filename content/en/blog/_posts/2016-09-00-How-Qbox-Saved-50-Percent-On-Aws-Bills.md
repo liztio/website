@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How Qbox Saved 50% per Month on AWS Bills Using Kubernetes and Supergiant "
 date: 2016-09-27
-pagination:
-  enabled: true
 slug: how-qbox-saved-50-percent-on-aws-bills
 url: /blog/2016/09/how-qbox-saved-50-percent-on-aws-bills/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing the Kubernetes OpenStack Special Interest Group "
 date: 2016-04-22
-pagination:
-  enabled: true
 slug: introducing-kubernetes-openstack-sig
 url: /blog/2016/04/introducing-kubernetes-openstack-sig/
 ---

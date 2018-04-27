@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Building Globally Distributed Services using Kubernetes Cluster Federation "
 date: 2016-10-14
-pagination:
-  enabled: true
 slug: globally-distributed-services-kubernetes-cluster-federation
 url: /blog/2016/10/globally-distributed-services-kubernetes-cluster-federation/
 ---

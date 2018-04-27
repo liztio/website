@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " A Very Happy Birthday Kubernetes "
 date: 2016-07-21
-pagination:
-  enabled: true
 slug: happy-k8sbday-1
 url: /blog/2016/07/happy-k8sbday-1/
 ---

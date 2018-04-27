@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Container Storage Interface (CSI) Alpha for Kubernetes "
 date: 2018-01-10
-pagination:
-  enabled: true
 slug: introducing-container-storage-interface
 url: /blog/2018/01/introducing-container-storage-interface/
 ---

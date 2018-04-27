@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Fission: Serverless Functions as a Service for Kubernetes "
 date: 2017-01-30
-pagination:
-  enabled: true
 slug: fission-serverless-functions-as-service-for-kubernetes
 url: /blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/
 ---

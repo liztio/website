@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "  Containerd Brings More Container Runtime Options for Kubernetes "
 date: 2017-11-02
-pagination:
-  enabled: true
 slug: containerd-container-runtime-options-kubernetes
 url: /blog/2017/11/containerd-container-runtime-options-kubernetes/
 ---

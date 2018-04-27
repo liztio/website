@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Paricipate in a Kubernetes User Experience Study "
 date: 2015-03-31
-pagination:
-  enabled: true
 slug: paricipate-in-kubernetes-user
 url: /blog/2015/03/paricipate-in-kubernetes-user/
 ---

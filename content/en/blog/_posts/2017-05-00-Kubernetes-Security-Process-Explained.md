@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Dancing at the Lip of a Volcano: The Kubernetes Security Process - Explained "
 date: 2017-05-18
-pagination:
-  enabled: true
 slug: kubernetes-security-process-explained
 url: /blog/2017/05/kubernetes-security-process-explained/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " ShareThis: Kubernetes In Production "
 date: 2016-02-11
-pagination:
-  enabled: true
 slug: sharethis-kubernetes-in-production
 url: /blog/2016/02/sharethis-kubernetes-in-production/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: Kubernetes v1.9 releases beta support for Windows Server Containers
 date: 2018-01-09
-pagination:
-  enabled: true
 slug: kubernetes-v19-beta-windows-support
 url: /blog/2018/01/kubernetes-v19-beta-windows-support/
 ---

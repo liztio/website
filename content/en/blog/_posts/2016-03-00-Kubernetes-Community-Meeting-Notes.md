@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Community Meeting Notes - 20160225 "
 date: 2016-03-01
-pagination:
-  enabled: true
 slug: kubernetes-community-meeting-notes
 url: /blog/2016/03/kubernetes-community-meeting-notes/
 ---

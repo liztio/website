@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.8: Security, Workloads and Feature Depth "
 date: 2017-09-29
-pagination:
-  enabled: true
 slug: kubernetes-18-security-workloads-and
 url: /blog/2017/09/kubernetes-18-security-workloads-and/
 ---

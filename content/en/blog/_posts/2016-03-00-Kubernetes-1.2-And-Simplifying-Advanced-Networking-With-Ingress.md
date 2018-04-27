@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.2 and simplifying advanced networking with Ingress "
 date: 2016-03-31
-pagination:
-  enabled: true
 slug: kubernetes-1.2-and-simplifying-advanced-networking-with-ingress
 url: /blog/2016/03/kubernetes-1.2-and-simplifying-advanced-networking-with-ingress/
 ---

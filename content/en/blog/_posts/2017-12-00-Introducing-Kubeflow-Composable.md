@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Introducing Kubeflow - A Composable, Portable, Scalable ML Stack Built for Kubernetes "
 date: 2017-12-21
-pagination:
-  enabled: true
 slug: introducing-kubeflow-composable
 url: /blog/2017/12/introducing-kubeflow-composable/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Building highly available applications using Kubernetes new multi-zone clusters (a.k.a. 'Ubernetes Lite') "
 date: 2016-03-29
-pagination:
-  enabled: true
 slug: building-highly-available-applications-using-kubernetes-new-multi-zone-clusters-a.k.a-ubernetes-lite
 url: /blog/2016/03/building-highly-available-applications-using-kubernetes-new-multi-zone-clusters-a.k.a-ubernetes-lite/
 ---

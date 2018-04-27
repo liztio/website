@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Bringing Kubernetes Support to Azure Container Service "
 date: 2016-11-07
 slug: bringing-kubernetes-support-to-azure

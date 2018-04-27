@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Inside JD.com's Shift to Kubernetes from OpenStack "
 date: 2017-02-10
-pagination:
-  enabled: true
 slug: inside-jd-com-shift-to-kubernetes-from-openstack
 url: /blog/2017/02/inside-jd-com-shift-to-kubernetes-from-openstack/
 ---

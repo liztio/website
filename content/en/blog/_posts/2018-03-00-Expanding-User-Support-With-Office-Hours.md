@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "Expanding User Support with Office Hours"
 date: 2018-03-14
-pagination:
-  enabled: true
 slug: expanding-user-support-with-office-hours
 url: /blog/2018/03/expanding-user-support-with-office-hours/
 ---

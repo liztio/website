@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " It Takes a Village to Raise a Kubernetes "
 date: 2017-10-26
-pagination:
-  enabled: true
 slug: it-takes-village-to-raise-kubernetes
 url: /blog/2017/10/it-takes-village-to-raise-kubernetes/
 ---

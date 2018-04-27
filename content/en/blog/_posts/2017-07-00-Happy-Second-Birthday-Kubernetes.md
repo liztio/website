@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Happy Second Birthday: A Kubernetes Retrospective "
 date: 2017-07-28
-pagination:
-  enabled: true
 slug: happy-second-birthday-kubernetes
 url: /blog/2017/07/happy-second-birthday-kubernetes/
 ---

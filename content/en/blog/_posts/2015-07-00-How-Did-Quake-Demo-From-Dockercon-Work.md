@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How did the Quake demo from DockerCon Work? "
 date: 2015-07-02
-pagination:
-  enabled: true
 slug: how-did-quake-demo-from-dockercon-work
 url: /blog/2015/07/how-did-quake-demo-from-dockercon-work/
 ---

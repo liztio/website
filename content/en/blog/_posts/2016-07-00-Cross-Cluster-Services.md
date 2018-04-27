@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Cross Cluster Services - Achieving Higher Availability for your Kubernetes Applications "
 date: 2016-07-14
-pagination:
-  enabled: true
 slug: cross-cluster-services
 url: /blog/2016/07/cross-cluster-services/
 ---

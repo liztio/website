@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " SIG Apps: build apps for and operate them in Kubernetes "
 date: 2016-08-16
-pagination:
-  enabled: true
 slug: sig-apps-running-apps-in-kubernetes
 url: /blog/2016/08/sig-apps-running-apps-in-kubernetes/
 ---

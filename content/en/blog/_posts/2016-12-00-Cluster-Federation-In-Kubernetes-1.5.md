@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Cluster Federation in Kubernetes 1.5 "
 date: 2016-12-22
-pagination:
-  enabled: true
 slug: cluster-federation-in-kubernetes-1.5
 url: /blog/2016/12/cluster-federation-in-kubernetes-1.5/
 ---

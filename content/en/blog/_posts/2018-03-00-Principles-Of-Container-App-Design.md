@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "Principles of Container-based Application Design"
 date: 2018-03-15
 slug: principles-of-container-app-design

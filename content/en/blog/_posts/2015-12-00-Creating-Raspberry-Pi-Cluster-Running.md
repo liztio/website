@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Creating a Raspberry Pi cluster running Kubernetes, the installation (Part 2) "
 date: 2015-12-22
-pagination:
-  enabled: true
 slug: creating-raspberry-pi-cluster-running
 url: /blog/2015/12/creating-raspberry-pi-cluster-running/
 ---

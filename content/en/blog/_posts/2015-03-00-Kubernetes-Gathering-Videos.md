@@ -1,11 +1,7 @@
 ---
 
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Gathering Videos "
 date: 2015-03-23
-pagination:
-  enabled: true
 slug: kubernetes-gathering-videos
 url: /blog/2015/03/kubernetes-gathering-videos/
 ---

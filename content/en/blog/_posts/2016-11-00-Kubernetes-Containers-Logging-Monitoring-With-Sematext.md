@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Containers Logging and Monitoring with Sematext "
 date: 2016-11-18
-pagination:
-  enabled: true
 slug: kubernetes-containers-logging-monitoring-with-sematext
 url: /blog/2016/11/kubernetes-containers-logging-monitoring-with-sematext/
 ---

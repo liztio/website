@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How Weave built a multi-deployment solution for Scope using Kubernetes "
 date: 2015-12-12
-pagination:
-  enabled: true
 slug: how-weave-built-a-multi-deployment-solution-for-scope-using-kubernetes
 url: /blog/2015/12/how-weave-built-a-multi-deployment-solution-for-scope-using-kubernetes/
 ---

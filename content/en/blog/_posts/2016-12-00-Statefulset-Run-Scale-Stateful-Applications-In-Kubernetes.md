@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " StatefulSet: Run and Scale Stateful Applications Easily in Kubernetes "
 date: 2016-12-20
-pagination:
-  enabled: true
 slug: statefulset-run-scale-stateful-applications-in-kubernetes
 url: /blog/2016/12/statefulset-run-scale-stateful-applications-in-kubernetes/
 ---

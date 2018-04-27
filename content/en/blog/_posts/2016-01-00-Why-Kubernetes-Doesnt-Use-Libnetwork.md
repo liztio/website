@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Why Kubernetes doesn’t use libnetwork "
 date: 2016-01-14
-pagination:
-  enabled: true
 slug: why-kubernetes-doesnt-use-libnetwork
 url: /blog/2016/01/why-kubernetes-doesnt-use-libnetwork/
 ---

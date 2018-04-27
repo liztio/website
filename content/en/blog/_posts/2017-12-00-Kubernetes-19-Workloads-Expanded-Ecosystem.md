@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes 1.9: Apps Workloads GA and Expanded Ecosystem "
 date: 2017-12-15
-pagination:
-  enabled: true
 slug: kubernetes-19-workloads-expanded-ecosystem
 url: /blog/2017/12/kubernetes-19-workloads-expanded-ecosystem/
 ---

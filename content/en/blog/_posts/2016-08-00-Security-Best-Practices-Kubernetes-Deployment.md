@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Security Best Practices for Kubernetes Deployment "
 date: 2016-08-31
-pagination:
-  enabled: true
 slug: security-best-practices-kubernetes-deployment
 url: /blog/2016/08/security-best-practices-kubernetes-deployment/
 ---

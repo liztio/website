@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Managing Kubernetes Pods, Services and Replication Controllers with Puppet "
 date: 2015-12-17
-pagination:
-  enabled: true
 slug: managing-kubernetes-pods-services-and-replication-controllers-with-puppet
 url: /blog/2015/12/managing-kubernetes-pods-services-and-replication-controllers-with-puppet/
 ---

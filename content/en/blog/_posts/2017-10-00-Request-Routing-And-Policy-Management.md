@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Request Routing and Policy Management with the Istio Service Mesh "
 date: 2017-10-10
-pagination:
-  enabled: true
 slug: request-routing-and-policy-management
 url: /blog/2017/10/request-routing-and-policy-management/
 ---

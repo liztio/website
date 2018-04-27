@@ -1,6 +1,4 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " CNCF Partners With The Linux Foundation To Launch New Kubernetes Certification, Training and Managed Service Provider Program "
 date: 2016-11-08
 slug: kubernetes-certification-training-and-managed-service-provider-program

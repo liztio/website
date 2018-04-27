@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Using Kubernetes Namespaces to Manage Environments "
 date: 2015-08-28
-pagination:
-  enabled: true
 slug: using-kubernetes-namespaces-to-manage
 url: /blog/2015/08/using-kubernetes-namespaces-to-manage/
 ---

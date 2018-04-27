@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Faster than a speeding Latte "
 date: 2015-04-06
-pagination:
-  enabled: true
 slug: faster-than-speeding-latte
 url: /blog/2015/04/faster-than-speeding-latte/
 ---

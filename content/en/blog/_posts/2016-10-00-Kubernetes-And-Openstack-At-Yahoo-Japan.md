@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: "  How We Architected and Run Kubernetes on OpenStack at Scale at Yahoo! JAPAN "
 date: 2016-10-24
-pagination:
-  enabled: true
 slug: kubernetes-and-openstack-at-yahoo-japan
 url: /blog/2016/10/kubernetes-and-openstack-at-yahoo-japan/
 ---

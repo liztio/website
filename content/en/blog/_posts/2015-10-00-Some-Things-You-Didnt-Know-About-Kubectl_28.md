@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Some things you didn’t know about kubectl "
 date: 2015-10-28
-pagination:
-  enabled: true
 slug: some-things-you-didnt-know-about-kubectl_28
 url: /blog/2015/10/some-things-you-didnt-know-about-kubectl_28/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Challenges of a Remotely Managed, On-Premises, Bare-Metal Kubernetes Cluster "
 date: 2016-08-02
-pagination:
-  enabled: true
 slug: challenges-remotely-managed-onpremise-kubernetes-cluster
 url: /blog/2016/08/challenges-remotely-managed-onpremise-kubernetes-cluster/
 ---

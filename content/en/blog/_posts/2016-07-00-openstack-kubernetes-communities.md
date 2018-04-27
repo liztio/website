@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Why OpenStack's embrace of Kubernetes is great for both communities "
 date: 2016-07-26
-pagination:
-  enabled: true
 slug: openstack-kubernetes-communities
 url: /blog/2016/07/openstack-kubernetes-communities/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " One million requests per second: Dependable and dynamic distributed systems at scale "
 date: 2015-11-11
-pagination:
-  enabled: true
 slug: one-million-requests-per-second-dependable-and-dynamic-distributed-systems-at-scale
 url: /blog/2015/11/one-million-requests-per-second-dependable-and-dynamic-distributed-systems-at-scale/
 ---

@@ -1,10 +1,6 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " How we improved Kubernetes Dashboard UI in 1.4 for your production needs​ "
 date: 2016-10-03
-pagination:
-  enabled: true
 slug: production-kubernetes-dashboard-ui-1.4-improvements_3
 url: /blog/2016/10/production-kubernetes-dashboard-ui-1.4-improvements_3/
 ---
