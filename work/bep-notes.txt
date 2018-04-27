@@ -14,7 +14,7 @@ Current
 * Blog, handle callouts {:
 * Finish 404 checker and diff
 * ToC disk CSS
-* Check inline toc vs no toc
+* Check inline toc vs no toc toc_hide
 * Merge master (font, header etc.)
 
 For Migration

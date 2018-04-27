@@ -1,6 +1,6 @@
 {{ define "content" }}
 	 {{ with .Content }}
-	 {{ $.Render "content_page" }}
+	 {{ partial "docs/content_page" $ }}
 	 {{ else }}
     {{ if ge (len .Pages) 1 }}
     {{ $page := index .Pages 0 }}
