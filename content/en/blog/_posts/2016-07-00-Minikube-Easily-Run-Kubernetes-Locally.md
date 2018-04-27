@@ -65,7 +65,7 @@ Minikube also comes with the Kubernetes Dashboard. To open this up in your brows
 
  ![](https://lh5.googleusercontent.com/PZOe7HAMTJoO_U-r6mR8bXJc7pRIaw33BSQ_SafMY-DPSJB5tiw9SooUvCbtOCJEqQqvnHqngDfFJwWy9Oj3svyo8oTQnzy5srKwZEcBh7fm44n_9YImeJEGhvfNVnx0cfjZ7mcU)
 
- ![](https://lh3.googleusercontent.com/fshhlXr1e39gsMKWbVUGb7rrGcy4uP44ML3Jt7-Sr3ZryoMw802xpkAMaz7ayjQNGtAYl3wpKJgwfefuug1FWHbinr1usN9jwFIAJFKeVeZxaiKtalHXP322_D5otR0Asvw6MUD_){: .big-img}
+ ![](https://lh3.googleusercontent.com/fshhlXr1e39gsMKWbVUGb7rrGcy4uP44ML3Jt7-Sr3ZryoMw802xpkAMaz7ayjQNGtAYl3wpKJgwfefuug1FWHbinr1usN9jwFIAJFKeVeZxaiKtalHXP322_D5otR0Asvw6MUD_)
 
 
 

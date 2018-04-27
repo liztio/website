@@ -17,7 +17,7 @@ And of course we use Wercker to build Wercker, and deploy itself onto Kubernetes
 Because we are a platform for running multi-service cloud-native code we've made many design decisions around isolation. On the base level we use [CoreOS](http://coreos.com/) and [cloud-init](https://coreos.com/os/docs/latest/cloud-config.html) to bootstrap a cluster of heterogeneous nodes which I have named Patricians, Peasants, as well as controller nodes that don't have a cool name and are just called Controllers. Maybe we should switch to Constables.  
 
 
- ![k8s-architecture.jpg](https://lh5.googleusercontent.com/i_Gtd1J9dekCxy7jJYZDZX0XmAmGD4f8qhrYG60FdVqnM87l-si44BGHjFdEFACZcx2E-rgRZNxuvniYDninlHAl9ZHyF2-jJjKUl-QQH8Au29hwVTbnDc0tP1Rv_Yd8mvt1tfoX){: .big-img}
+ ![k8s-architecture.jpg](https://lh5.googleusercontent.com/i_Gtd1J9dekCxy7jJYZDZX0XmAmGD4f8qhrYG60FdVqnM87l-si44BGHjFdEFACZcx2E-rgRZNxuvniYDninlHAl9ZHyF2-jJjKUl-QQH8Au29hwVTbnDc0tP1Rv_Yd8mvt1tfoX)
 
 
 

@@ -114,7 +114,7 @@ F5s also need to have their [load balancing pool](https://support.f5.com/kb/en-u
 
 
 
- ![kubernetes_f5_messaging.png](https://lh4.googleusercontent.com/2wfBbW3zxYLPg8Xgl6GIAE9Xt9afjZfTAyfR0H6EzfdHAJyDjg7N1RCpZLoLG9N9wVAnsczXUBicJ4QUydCOJ1uZ6A1SP44ki-XAnpDYTiL5cLaXFoi2YtKjKYxC5hFoCoOs7nWM){:.big-img}
+ ![kubernetes_f5_messaging.png](https://lh4.googleusercontent.com/2wfBbW3zxYLPg8Xgl6GIAE9Xt9afjZfTAyfR0H6EzfdHAJyDjg7N1RCpZLoLG9N9wVAnsczXUBicJ4QUydCOJ1uZ6A1SP44ki-XAnpDYTiL5cLaXFoi2YtKjKYxC5hFoCoOs7nWM)
 
 
 

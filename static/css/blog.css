@@ -239,6 +239,7 @@ h3.post-title{
   padding: 5px;
   width: inherit;
 }
+
 .post-body .tr-caption-container {
   color: #666666;
 }
@@ -382,6 +383,10 @@ body {
   .blog-content ul , .blog-content li {
     list-style:initial;
     margin-left: 1em;
+  }
+
+  .blog-content img {
+    max-width: 90%; 
   }
 
   /* .blog-content .pagination {

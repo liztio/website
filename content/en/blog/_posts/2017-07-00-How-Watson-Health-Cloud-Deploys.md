@@ -31,11 +31,11 @@ Here is a snapshot of Watson Care Manager, running inside a Kubernetes cluster:
 
 
 
- ![](https://lh4.googleusercontent.com/LeKfLOkNldqReFh47f2AuFU42dhvKDwDxac_Psil_bdZWldKY80ZZi4Rv3n0--jq8Mqq9qRFVa1AbLIt9TIPLLRVmon4DaBsltFYbUJikrOp0qcavJQ9XHjRL-A1yvWR6mTNayBP){:.big-img}
+ ![](https://lh4.googleusercontent.com/LeKfLOkNldqReFh47f2AuFU42dhvKDwDxac_Psil_bdZWldKY80ZZi4Rv3n0--jq8Mqq9qRFVa1AbLIt9TIPLLRVmon4DaBsltFYbUJikrOp0qcavJQ9XHjRL-A1yvWR6mTNayBP)
 
 
 
- ![](https://lh3.googleusercontent.com/EU3DgtFKagWp5S0UpKj-wRgx8WK2nvQ2BG-4dGio57pGNj42A7Lip9IARBba34hIm84-_7zwWt6iImQE8beSqLxpzXm-2w_84M_X2IHQ7jvpWtIDMF81hmq6N4hGSxp6DQoFW5qX){:.big-img}
+ ![](https://lh3.googleusercontent.com/EU3DgtFKagWp5S0UpKj-wRgx8WK2nvQ2BG-4dGio57pGNj42A7Lip9IARBba34hIm84-_7zwWt6iImQE8beSqLxpzXm-2w_84M_X2IHQ7jvpWtIDMF81hmq6N4hGSxp6DQoFW5qX)
 
 
 
@@ -57,7 +57,7 @@ Kubelet running in each worker node regularly polls the kube API server. If ther
 
 Process Flow:
 
-| ![](https://lh6.googleusercontent.com/jckmDLJIsy6m8Dxj6GZ6yv5vmQqrZXAi42eJz8iIefl2A87LXoRJUubCkSh05Ptaojt_faEFq4G6UMfZZYVOUiaEzt8Erp51xbyRWW_08qn9vvz-WvztBNlrG431YgI6880-ZULO){:.big-img} |
+| ![](https://lh6.googleusercontent.com/jckmDLJIsy6m8Dxj6GZ6yv5vmQqrZXAi42eJz8iIefl2A87LXoRJUubCkSh05Ptaojt_faEFq4G6UMfZZYVOUiaEzt8Erp51xbyRWW_08qn9vvz-WvztBNlrG431YgI6880-ZULO) |
 | UCD –&nbsp;IBM UrbanCode Deploy is a tool for automating application deployments through your environments. WH Cluster – Kubernetes worker node. |
 
 
@@ -103,7 +103,7 @@ If needed, run a rolling update to update the existing pod.
 
 
 
- ![](https://lh4.googleusercontent.com/laBRZK_ifwLXGkLL8fl0fZbUmm-HI4nC-tUNIFAy2wg4UHQT97reKyNOrNydYS8PmnhgqsBQctYCLTjJF12KR_uuVUdqiNx-B1OP1YrBwL2vi5SlEO9RSFQEbs-X6FoMHw0QK53A){:.big-img}
+ ![](https://lh4.googleusercontent.com/laBRZK_ifwLXGkLL8fl0fZbUmm-HI4nC-tUNIFAy2wg4UHQT97reKyNOrNydYS8PmnhgqsBQctYCLTjJF12KR_uuVUdqiNx-B1OP1YrBwL2vi5SlEO9RSFQEbs-X6FoMHw0QK53A)
 
 
 
@@ -115,7 +115,7 @@ Provision a cluster in Armada with \<x\> worker nodes. Create Kubernetes control
 
 
 
-| ![](https://lh6.googleusercontent.com/iFKlbBX8rjWTuygIfjImdxP8R7xXuvaaoDwldEIC3VRL03XIehxagz8uePpXllYMSxoyai5a6N-0NB4aTGK9fwwd8leFyfypxtbmaWBK-b2Kh9awcA76-_82F7ZZl7lgbf0gyFN7){:.big-img} |
+| ![](https://lh6.googleusercontent.com/iFKlbBX8rjWTuygIfjImdxP8R7xXuvaaoDwldEIC3VRL03XIehxagz8uePpXllYMSxoyai5a6N-0NB4aTGK9fwwd8leFyfypxtbmaWBK-b2Kh9awcA76-_82F7ZZl7lgbf0gyFN7) |
 | UCD: IBM UrbanCode Deploy is a tool for automating application deployments through your environments. Armada: Kubernetes implementation of IBM. WH Docker Registry: Docker Private image registry. Common agent containers: We expect to configure our services to use the WHC mandatory agents. We deployed all ion containers. |
 
 
@@ -130,7 +130,7 @@ Logmet is a cloud logging service that helps to collect, store, and analyze an a
 
 The application pod mounts the application logging directory to the storage space, which is created by persistent volume claim, and stores the logs, which are not lost even when the pod dies. Kibana is an open source data visualization plugin for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster.
 
- ![](https://lh3.googleusercontent.com/Fat60VoOQ6CBxHgAdva9Xwcu1X4coZFlld1eS7ZrB4MbTR9HbwyuXgQ6CncXxeZ_mWqWzpTatB7bOB199QCcCaY8905yAqzMO0-Rx4NNnYj94uXHEy_dwLbLVFQJvQTu8cGW8HSz){:.big-img}
+ ![](https://lh3.googleusercontent.com/Fat60VoOQ6CBxHgAdva9Xwcu1X4coZFlld1eS7ZrB4MbTR9HbwyuXgQ6CncXxeZ_mWqWzpTatB7bOB199QCcCaY8905yAqzMO0-Rx4NNnYj94uXHEy_dwLbLVFQJvQTu8cGW8HSz)
 
 
 

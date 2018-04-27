@@ -10,7 +10,7 @@ It's possible nowadays to put almost any application in a container and run it. 
 I've outlined [seven principles][1]for containerized applications to follow in order to be fully cloud-native.   
 
 | ----- |
-| ![][2]{: .big-img}  |
+| ![][2]  |
 | Container Design Principles |
 
 

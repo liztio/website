@@ -6,7 +6,7 @@ url: /blog/2017/07/Happy-Second-Birthday-Kubernetes
 ---
 As we do every July, we’re excited to celebrate Kubernetes 2nd birthday! In the two years since GA 1.0 launched as an open source project, [Kubernetes](http://kubernetes.io/docs/whatisk8s/) (abbreviated as K8s) has grown to become the highest velocity cloud-related project. With more than 2,611 diverse contributors, from independents to leading global companies, the project has had 50,685 commits in the last 12 months. Of the 54 million projects on GitHub, Kubernetes is in the top 5 for number of unique developers contributing code. It also has [more pull requests and issue comments](https://www.cncf.io/blog/2017/02/27/measuring-popularity-kubernetes-using-bigquery/) than any other project on GitHub. &nbsp;
 
- ![Screen Shot 2017-07-18 at 9.39.42 AM.png](https://lh3.googleusercontent.com/ldb4PfuqammWmcPiFpMa48ALxD0kGrSre0WGMpuXKqAqnKhyWEmIcJXnQcAK2sdVCiE5cvw0H2FXtLt_dVihAk4b-XTA2HIQba3A0irnRaIHup4bhFUwPLSSFmw3zFk9ZOt61TKc){:.big-img}
+ ![Screen Shot 2017-07-18 at 9.39.42 AM.png](https://lh3.googleusercontent.com/ldb4PfuqammWmcPiFpMa48ALxD0kGrSre0WGMpuXKqAqnKhyWEmIcJXnQcAK2sdVCiE5cvw0H2FXtLt_dVihAk4b-XTA2HIQba3A0irnRaIHup4bhFUwPLSSFmw3zFk9ZOt61TKc)
 
 Figure 1: Kubernetes [Rankings](https://www.cncf.io/blog/2017/02/27/measuring-popularity-kubernetes-using-bigquery)
 
@@ -16,7 +16,7 @@ At the center of the community are [Special Interest Groups](https://github.com/
 
 
 
- ![Screen Shot 2017-07-18 at 11.32.07 AM.png](https://lh3.googleusercontent.com/XkN1qNDVOvRTCnY1kGVadCl6IqtI-MzSBVjEDduUpqYgScn9VN5xvlp2EPfqhmJzZbqZv40vlxkV7y9DfU4Fq4CCwYJvbF17bJKM4UB59JR8lELWyLvkrsuI4rB51sw_omXqoAq-){:.big-img}
+ ![Screen Shot 2017-07-18 at 11.32.07 AM.png](https://lh3.googleusercontent.com/XkN1qNDVOvRTCnY1kGVadCl6IqtI-MzSBVjEDduUpqYgScn9VN5xvlp2EPfqhmJzZbqZv40vlxkV7y9DfU4Fq4CCwYJvbF17bJKM4UB59JR8lELWyLvkrsuI4rB51sw_omXqoAq-)
 
 
 
@@ -125,37 +125,37 @@ At the one year anniversary of the Kubernetes 1.0 launch, there were 130 Kuberne
 
 
 
- ![](https://lh5.googleusercontent.com/xTwKqYyvb-f7a_OYFhoNTdxh65zX8Q02u172jqLrif0VYm1KdKOGuK-HgIfO3I4o7VZeATa3E5TBLJbbM70xzxOzXFcy34p3OSWTnH_m5LliZKU134FAHMECqYZxDofOwD-h2CMR){:.big-img}
+ ![](https://lh5.googleusercontent.com/xTwKqYyvb-f7a_OYFhoNTdxh65zX8Q02u172jqLrif0VYm1KdKOGuK-HgIfO3I4o7VZeATa3E5TBLJbbM70xzxOzXFcy34p3OSWTnH_m5LliZKU134FAHMECqYZxDofOwD-h2CMR)
 
 Celebrating at the K8s birthday party in San Francisco
 
 
 
- ![k8sbday-rtp.jpg-large](https://lh3.googleusercontent.com/YBqyvEtkND8hHlflmGq7wNUQquk0le13TfRO7eFMiN9ecDPModhCCe6pBvP_BrjrLFRPsn9RpMiR4bal2PazNbqO_KlkKBEB6L2EaOU1LhJuv6bIsWW-mkr3ffGqTPfbJKjaqCQK){:.big-img}
+ ![k8sbday-rtp.jpg-large](https://lh3.googleusercontent.com/YBqyvEtkND8hHlflmGq7wNUQquk0le13TfRO7eFMiN9ecDPModhCCe6pBvP_BrjrLFRPsn9RpMiR4bal2PazNbqO_KlkKBEB6L2EaOU1LhJuv6bIsWW-mkr3ffGqTPfbJKjaqCQK)
 
 Celebrating in RTP, NC with a presentation from Jason McGee, VP and CTO, IBM Cloud Platform. Photo courtesy of [@FranklyBriana](https://twitter.com/FranklyBriana)
 
 
 
- ![k8sbday-sg.jpg-large](https://lh6.googleusercontent.com/KtleeU4vkSvalQqiCj4tiDcDjAStZ17Ttxx_KTuKR-Mm2Og35bsZLYTttu_HoJyJxF5wAFTDrXOowGtfXiplCaZjh8_YKnO8gUDhtib79o3kf80VWmL0tV8nHrn_MMBOFLOS_8XZ){:.big-img}
+ ![k8sbday-sg.jpg-large](https://lh6.googleusercontent.com/KtleeU4vkSvalQqiCj4tiDcDjAStZ17Ttxx_KTuKR-Mm2Og35bsZLYTttu_HoJyJxF5wAFTDrXOowGtfXiplCaZjh8_YKnO8gUDhtib79o3kf80VWmL0tV8nHrn_MMBOFLOS_8XZ)
 
 The Kubernetes Singapore meetup celebrating with an intro to GKE. Photo courtesy of [@hunternield](https://twitter.com/hunternield)
 
 
 
- ![](https://lh6.googleusercontent.com/JZ_moLy996JVn-ajABO0-T7g4B8IHDnhI4chHAp6so_9gyQsbApDWyk0SOMUWPeLSbNph50YQFjZcqQaWth5QckbMln6Jz3lpk1EjKRvba6rR_OZUgdU3fW6FNG-guiCTvixMOMV){:.big-img} ![](https://lh3.googleusercontent.com/62TuMsCRMOXk8ly-MEy0yYmNY09zRBSWM6IgmU5BmcDnLvx2lEqsBdtEYsK_QV7GCGYF5XoY-mhLruxiBz0UZbq9CFzJ_twg5NuX5CoHHYEOzjTw3sp57NnS2eM-iMQLBC5dRdiC){:.big-img}
+ ![](https://lh6.googleusercontent.com/JZ_moLy996JVn-ajABO0-T7g4B8IHDnhI4chHAp6so_9gyQsbApDWyk0SOMUWPeLSbNph50YQFjZcqQaWth5QckbMln6Jz3lpk1EjKRvba6rR_OZUgdU3fW6FNG-guiCTvixMOMV) ![](https://lh3.googleusercontent.com/62TuMsCRMOXk8ly-MEy0yYmNY09zRBSWM6IgmU5BmcDnLvx2lEqsBdtEYsK_QV7GCGYF5XoY-mhLruxiBz0UZbq9CFzJ_twg5NuX5CoHHYEOzjTw3sp57NnS2eM-iMQLBC5dRdiC)
 
 New York celebrated with mini k8s cupcakes and a presentation on the history of cloud native from CNCF Executive Director, Dan Kohn. Photo courtesy of [@arieljatib](https://twitter.com/arieljatib) and [@coreos](https://twitter.com/coreos?lang=en)
 
 
 
- ![](https://lh6.googleusercontent.com/XomXc8LI79M1M5XLmZmXUpRYSOBj5HUwYTxOlgBKwoC00P8jWr-Aqam_c_IS9S69RWGt6hFc50BLHPQN41ZEV8Wsx4QRhym4hWGjlgDbLYMKJpsZ4CfGkLPh_rInZy5PrttqPmQJ){:.big-img} ![](https://lh4.googleusercontent.com/HlNGI5bwJBNFf9q5UkqM2l0--ieJegbbnF5lqiVas6Rp5PzKJ-XHnEjUxWQnvE21WUKrp5HiKLi3VoiG-QFZFSPPTQ74rV9nGxC-d4xFwZzENGdOWUSCwSdzd4XcgGjyAGNgqi72){:.big-img}
+ ![](https://lh6.googleusercontent.com/XomXc8LI79M1M5XLmZmXUpRYSOBj5HUwYTxOlgBKwoC00P8jWr-Aqam_c_IS9S69RWGt6hFc50BLHPQN41ZEV8Wsx4QRhym4hWGjlgDbLYMKJpsZ4CfGkLPh_rInZy5PrttqPmQJ) ![](https://lh4.googleusercontent.com/HlNGI5bwJBNFf9q5UkqM2l0--ieJegbbnF5lqiVas6Rp5PzKJ-XHnEjUxWQnvE21WUKrp5HiKLi3VoiG-QFZFSPPTQ74rV9nGxC-d4xFwZzENGdOWUSCwSdzd4XcgGjyAGNgqi72)
 
 Quebec City had custom k8s cupcakes too! Photo courtesy of [@zig\_max](https://twitter.com/zig_max)[](https://twitter.com/zig_max)
 
 
 
- ![](https://lh6.googleusercontent.com/4JzZ0zCe98tfL5pMgTKDWPQo4HPfGq6WvArQgOU7FbwtjoiRIQiJWZmke7KDlL0m22jpEFmzYg92dJx6aXySiM37VKaOuf7sybdplRvw4F5gJlL9lP-lEO87m735Gd4QZYMiYB2Y){:.big-img}
+ ![](https://lh6.googleusercontent.com/4JzZ0zCe98tfL5pMgTKDWPQo4HPfGq6WvArQgOU7FbwtjoiRIQiJWZmke7KDlL0m22jpEFmzYg92dJx6aXySiM37VKaOuf7sybdplRvw4F5gJlL9lP-lEO87m735Gd4QZYMiYB2Y)
 
 Beijing celebrated with custom k8s lollipops. Photo courtesy of [@maxwell9215](https://twitter.com/maxwell9215)
 

@@ -136,7 +136,7 @@ The metrics from all Kubernetes nodes are collected in a single SPM App, which a
 
 
 
-| ![](https://lh3.googleusercontent.com/THk0zW4Q2YUxPF7pcdcg8WVbut4_BZPFsHuqtBet3AnijJ84w8TYGmNQ5F_CCmOz3W7_DWuacFOZWtJQDGR7I_jRJIf6LIxT8uxuLr4DSPbFC2BOUHgGncgXqIaBGo-L-zrQnDVa){: .big-img} |
+| ![](https://lh3.googleusercontent.com/THk0zW4Q2YUxPF7pcdcg8WVbut4_BZPFsHuqtBet3AnijJ84w8TYGmNQ5F_CCmOz3W7_DWuacFOZWtJQDGR7I_jRJIf6LIxT8uxuLr4DSPbFC2BOUHgGncgXqIaBGo-L-zrQnDVa) |
 | Host and Container Metrics from the Kubernetes Cluster |
 
 
@@ -153,7 +153,7 @@ Host Metrics such as CPU, Memory and Disk space usage. Docker images and contain
 
 
 
- ![](https://lh5.googleusercontent.com/CJ7BYLNV0dx6CSWpmFSFgDteCjzQYcVOEz5W5gUOa6rK_H1Z6ozImfRJLIWH3X5YCOOSH-EfFuMo4Tdj0EaC7XTZ0bpmCmIsw7hWrB_1ctxkdI7JC5dhBA3umCmr1QG0SqovIDa6){:.big-img}
+ ![](https://lh5.googleusercontent.com/CJ7BYLNV0dx6CSWpmFSFgDteCjzQYcVOEz5W5gUOa6rK_H1Z6ozImfRJLIWH3X5YCOOSH-EfFuMo4Tdj0EaC7XTZ0bpmCmIsw7hWrB_1ctxkdI7JC5dhBA3umCmr1QG0SqovIDa6)
 
 
 
@@ -172,7 +172,7 @@ Container Memory and Memory Fail Counters. These metrics are important to watch 
 - Set memory limits according to the observations
 - Continue monitoring of memory, memory fail counters, and Out-Of-Memory events. If OOM events happen, the container memory limits may need to be increased, or debugging is required to find the reason for the high memory consumptions.
 
-| ![](https://lh6.googleusercontent.com/Qq1_FhJRC72H0fvc71Oy_RqxbmBe8IZ4L4JTtADxBfLAjopRv2tJW5Fvc8DstD6iOj9JKfNt8U2gWAxzedx9tdnHuld-k1agDMAXDyWM-AuLOs7IDi-KNxEj_p-Kwef12SjeAiVc){: .big-img} |
+| ![](https://lh6.googleusercontent.com/Qq1_FhJRC72H0fvc71Oy_RqxbmBe8IZ4L4JTtADxBfLAjopRv2tJW5Fvc8DstD6iOj9JKfNt8U2gWAxzedx9tdnHuld-k1agDMAXDyWM-AuLOs7IDi-KNxEj_p-Kwef12SjeAiVc) |
 | Container memory usage, limits and fail counters |
 
 
@@ -180,7 +180,7 @@ Container CPU usage and throttled CPU time. The CPU usage can be limited by CPU 
 
 
 
- ![](https://lh5.googleusercontent.com/iSMZcZROnz6jovMg9XVlHSYFSiOgpgbrcJ0dVK7aXRaXq0psyAHE_Y4mN3aD0k2yRjH-Lgr-X3prNtBexFNmaNdWNXFd0MNnDSwjo8hbgNXydgRWjaT1X-_xbD6f_U92z9VMf4C7){: .big-img}
+ ![](https://lh5.googleusercontent.com/iSMZcZROnz6jovMg9XVlHSYFSiOgpgbrcJ0dVK7aXRaXq0psyAHE_Y4mN3aD0k2yRjH-Lgr-X3prNtBexFNmaNdWNXFd0MNnDSwjo8hbgNXydgRWjaT1X-_xbD6f_U92z9VMf4C7)
 
 
 

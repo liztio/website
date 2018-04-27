@@ -96,7 +96,7 @@ Think of namespaces as acting a bit like VLANs on a Kubernetes cluster. Each nam
 
 You can use the [demo application I mentioned earlier](https://github.com/containers101/demochat) that has a Node.js frontend with a MongoDB.   
 
- ![](https://lh4.googleusercontent.com/YzQzEdIMwWt3lGR9Q4RTELvaB_fYYo2QKqkeXhfTCDnIVX4FBx_quYNgAbo6Wc_wpk0anl7Co3RDwDWnrOyibog9V9DISOZYQqiFE9T4ErlDYuqOGWiRw3-zk4p4WcURaOVg3Dkn){: .big-img}
+ ![](https://lh4.googleusercontent.com/YzQzEdIMwWt3lGR9Q4RTELvaB_fYYo2QKqkeXhfTCDnIVX4FBx_quYNgAbo6Wc_wpk0anl7Co3RDwDWnrOyibog9V9DISOZYQqiFE9T4ErlDYuqOGWiRw3-zk4p4WcURaOVg3Dkn)
 
 Here’s the info we need to pass:  
 

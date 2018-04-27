@@ -29,7 +29,7 @@ Today I am pleased to announce that the [Cloud Native Computing Foundation](http
 
 
 
- ![Screen Shot 2017-03-22 at 10.59.04 AM.png](https://lh4.googleusercontent.com/h9D3-poSxGMelrhvKE2PBX-_pXRJJZF4NfW8ShyxzOrQekZvgZuIlaphkg_35QPKGG-Z22dTcFymj48qO5nXQjuVussmThewiceMQ9Hr7bUm5YRaJhTpDuCU2kJKQjTyZXcslreH){:.big-img}
+ ![Screen Shot 2017-03-22 at 10.59.04 AM.png](https://lh4.googleusercontent.com/h9D3-poSxGMelrhvKE2PBX-_pXRJJZF4NfW8ShyxzOrQekZvgZuIlaphkg_35QPKGG-Z22dTcFymj48qO5nXQjuVussmThewiceMQ9Hr7bUm5YRaJhTpDuCU2kJKQjTyZXcslreH)
 
 
 

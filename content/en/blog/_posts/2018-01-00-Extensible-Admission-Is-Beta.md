@@ -116,7 +116,7 @@ If you build your webhook admission server to also be an extension API server, i
 - Your extension API servers and kube-apiserver automatically (without any config) make use of their in-cluster credentials to communicate with the webhook.
 - Extension API servers do not leak their service account token to your webhook because they go through kube-apiserver, which is a secure front proxy.
 
- ![](https://lh6.googleusercontent.com/FeXoJLmbhf5exSBQu6Wxd2sIEqzkKPbRA_iv6T2QmJbhRsO4FyPtgAAbHdAmuTrE0jVEUzftfxcPndN8ACzstfsX9XTFdQFrioS1srvYgVP3l99R6x-vvd3RfBA4eWttaKRWj6iA){:.big-img}  
+ ![](https://lh6.googleusercontent.com/FeXoJLmbhf5exSBQu6Wxd2sIEqzkKPbRA_iv6T2QmJbhRsO4FyPtgAAbHdAmuTrE0jVEUzftfxcPndN8ACzstfsX9XTFdQFrioS1srvYgVP3l99R6x-vvd3RfBA4eWttaKRWj6iA)  
 _Source: [https://drive.google.com/a/redhat.com/file/d/12nC9S2fWCbeX\_P8nrmL6NgOSIha4HDNp](https://drive.google.com/a/redhat.com/file/d/12nC9S2fWCbeX_P8nrmL6NgOSIha4HDNp)_   
 
 In short: a secure topology makes use of all security mechanisms of API server aggregation and additionally requires no additional configuration.  

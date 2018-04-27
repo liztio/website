@@ -65,7 +65,7 @@ Another approach is to use a peer scheduler that coordinates with the Kubernetes
 
 With this approach, Kubernetes acts as a resource manager, making resources available to a separate HPC scheduler. Cluster administrators can use a visual interface to allocate resources based on policy or simply drag sliders via a web UI to allocate different proportions of the Kubernetes environment to non-container (HPC) workloads, and native Kubernetes applications and services.
 
- ![](https://lh6.googleusercontent.com/wSBBl5d-YL4_UCYgvHpE_XzijtqftSi6PTHJLGfHr5nAxmTj945jQB-pMNIGLovWwKWGnEsPjCkCPrUMWZEs9UHnQPPDSWPEl-Gl76Yczd-Yn65pEE8mKC-Asj3zP5xyfZc-r2qU-YmmOyBhLQ){:.big-img}
+ ![](https://lh6.googleusercontent.com/wSBBl5d-YL4_UCYgvHpE_XzijtqftSi6PTHJLGfHr5nAxmTj945jQB-pMNIGLovWwKWGnEsPjCkCPrUMWZEs9UHnQPPDSWPEl-Gl76Yczd-Yn65pEE8mKC-Asj3zP5xyfZc-r2qU-YmmOyBhLQ)
 
 From a client perspective, the HPC scheduler runs as a service deployed in Kubernetes pods, operating just as it would on a bare metal cluster. Navops Command provides additional scheduling features including things like resource reservation, run-time quotas, workload preemption and more. This environment works equally well for on-premise, cloud-based or hybrid deployments.
 

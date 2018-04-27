@@ -663,6 +663,11 @@ func (m *mover) contentMigrate_Replacements() error {
 			s = strings.Replace(s, `pagination:
   enabled: true
 `, "", 1)
+
+			// This isn't supported in Hugo. Doing with a shortcode isn't practical.
+			s = strings.Replace(s, "{: .big-img}", "", -1)
+			s = strings.Replace(s, "{:.big-img}", "", -1)
+
 			return s, nil
 		},
 	}

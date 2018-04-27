@@ -23,7 +23,7 @@ Cluster creation and node attach/detach operations are exposed to administrators
 
 
 
- ![clusters_and_containervisors_view.png](https://lh3.googleusercontent.com/Tn67P9fhhPqCNF6xYl6mfVehG8AtLcLOM0NMW3YukBkWB5cSpYofkLQo1vrqsZiDBON05GC4ZQwWgEV9YBdoNA6Hzy_loS0cvT3BzkxmLesk6UsX_xugsrGppJD-Mc8fjHIF2QrU){: .big-img}
+ ![clusters_and_containervisors_view.png](https://lh3.googleusercontent.com/Tn67P9fhhPqCNF6xYl6mfVehG8AtLcLOM0NMW3YukBkWB5cSpYofkLQo1vrqsZiDBON05GC4ZQwWgEV9YBdoNA6Hzy_loS0cvT3BzkxmLesk6UsX_xugsrGppJD-Mc8fjHIF2QrU)
 
 
 **Cluster initialization**  
@@ -32,7 +32,7 @@ The first time one or more nodes are attached to a cluster, PMK configures the n
 
 
 
- ![architecture.png](https://lh6.googleusercontent.com/ZQZoFL6tDpkiberG_X1CREitwNIDCHnRajnOlJqByU-4HzRQi1RRoDlGj7pGRaqD2a7Yg4xBwQx7oHp_mR8ie96O5w_KMT84av-JMsPMHXeoBpVYn3iJKeGZkWG4q0J06OZMuLIe){: .big-img}
+ ![architecture.png](https://lh6.googleusercontent.com/ZQZoFL6tDpkiberG_X1CREitwNIDCHnRajnOlJqByU-4HzRQi1RRoDlGj7pGRaqD2a7Yg4xBwQx7oHp_mR8ie96O5w_KMT84av-JMsPMHXeoBpVYn3iJKeGZkWG4q0J06OZMuLIe)
 
 
 **Containerized kubelet?**  

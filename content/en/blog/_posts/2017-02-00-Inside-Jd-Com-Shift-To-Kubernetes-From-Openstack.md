@@ -59,7 +59,7 @@ Most of the JDOS 2.0 components (GitLab / Jenkins / Harbor / Logstash / Elastic 
 
 
 
- ![D:\百度云同步盘\徐新坤-新人培训计划\docker\MAE\分享\cicd.png](https://lh4.googleusercontent.com/s3hP_s27l4FiV1rR0dcJEg4dAZL9caJbk-kiDnZyfykt5ldXdcsfxlDEdneZJA9L8sPzOvxJI8WyZV0Cm1CI_b_oABKzBwazoEe86yCd9E75Dm0UBfRU2AgzYYzJ5ukxBIME977-mT9GA6XTGw){:.big-img}
+ ![D:\百度云同步盘\徐新坤-新人培训计划\docker\MAE\分享\cicd.png](https://lh4.googleusercontent.com/s3hP_s27l4FiV1rR0dcJEg4dAZL9caJbk-kiDnZyfykt5ldXdcsfxlDEdneZJA9L8sPzOvxJI8WyZV0Cm1CI_b_oABKzBwazoEe86yCd9E75Dm0UBfRU2AgzYYzJ5ukxBIME977-mT9GA6XTGw)
 
 
 

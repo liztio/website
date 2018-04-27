@@ -43,7 +43,7 @@ Overall, from a technical perspective, containerd is a very good alternative con
 
 [Cri-containerd](https://github.com/kubernetes-incubator/cri-containerd) is exactly that: an implementation of CRI for containerd. It operates on the same node as the Kubelet and containerd. Layered between Kubernetes and containerd, cri-containerd handles all CRI service requests from the Kubelet and uses containerd to manage containers and container images. Cri-containerd manages these service requests in part by forming containerd service requests while adding sufficient additional function to support the CRI requirements.  
 
- ![](https://lh6.googleusercontent.com/4NGAPzwhkL0GTNjkAEFN9iWX_Wc0ZE-AZxAxEw4E5aOntuGmv764b3ZYQUyapSnP9BrlUs2rUyo5kiCrj5QuiMHw3-dz2vPUDma029Qt3tej9QABEHFSsOBsq6LjLfFhTBgMhAAc){:.big-img}  
+ ![](https://lh6.googleusercontent.com/4NGAPzwhkL0GTNjkAEFN9iWX_Wc0ZE-AZxAxEw4E5aOntuGmv764b3ZYQUyapSnP9BrlUs2rUyo5kiCrj5QuiMHw3-dz2vPUDma029Qt3tej9QABEHFSsOBsq6LjLfFhTBgMhAAc)  
 
 Compared with the current Docker CRI implementation ([dockershim](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubelet/dockershim)), cri-containerd eliminates an extra hop in the stack, making the stack more stable and efficient.
 
@@ -52,7 +52,7 @@ Compared with the current Docker CRI implementation ([dockershim](https://github
 ## Architecture
 Cri-containerd uses containerd to manage the full container lifecycle and all container images. As also shown below, cri-containerd manages pod networking via [CNI](https://github.com/containernetworking/cni) (another CNCF project).  
 
- ![](https://lh5.googleusercontent.com/sfkhKO3jiLZ9_TtPpxTsKxkbe1KHg1nrfqkbJYrjN2DbNQE_y31NJVSyDIXe0oQjSwVcQ4gFCyr1MZ9_V4GZuuiHwuU3Pq6ldpRhcRiiuTJaRVuezPK9KFLKovP8mQ6sXTYF_eru){:.big-img}  
+ ![](https://lh5.googleusercontent.com/sfkhKO3jiLZ9_TtPpxTsKxkbe1KHg1nrfqkbJYrjN2DbNQE_y31NJVSyDIXe0oQjSwVcQ4gFCyr1MZ9_V4GZuuiHwuU3Pq6ldpRhcRiiuTJaRVuezPK9KFLKovP8mQ6sXTYF_eru)  
 
 Let’s use an example to demonstrate how cri-containerd works for the case when Kubelet creates a single-container pod:  
 

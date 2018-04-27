@@ -47,7 +47,7 @@ After extensive development/feature [discussions](https://docs.google.com/docume
 
  To help bootstrap this effort, the Resource Management Working Group had its first face-to-face kickoff meeting in May 2017. Thanks to Google for hosting!   
 
-  ![20170502_100834.jpg](https://lh3.googleusercontent.com/eL16-GnX335XcVta2u8nt3UgtoJMGuo2Xfqj3SJ34slepm_xzl6G4WmcBtFIIiaw_gYi-h5FsMnXA8GCl3xqhZGy44Gt6GmB5Ajy4McCdANkFQUy26z02e5rZU88lN-NFO774GgE){:.big-img}
+  ![20170502_100834.jpg](https://lh3.googleusercontent.com/eL16-GnX335XcVta2u8nt3UgtoJMGuo2Xfqj3SJ34slepm_xzl6G4WmcBtFIIiaw_gYi-h5FsMnXA8GCl3xqhZGy44Gt6GmB5Ajy4McCdANkFQUy26z02e5rZU88lN-NFO774GgE)
 
  Folks from Intel, NVIDIA, Google, IBM, Red Hat. and Microsoft (among others) participated.&nbsp;  
 You can read the outcomes of that 3-day meeting [here](https://docs.google.com/document/d/13_nk75eItkpbgZOt62In3jj0YuPbGPC_NnvSCHpgvUM/edit).  

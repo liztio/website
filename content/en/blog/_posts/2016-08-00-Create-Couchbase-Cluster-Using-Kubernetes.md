@@ -44,7 +44,7 @@ The worker RC use the exact same image as master RC. This keeps the cluster homo
 
 
 
- ![](https://lh6.googleusercontent.com/yS4MqPJG6hQeFa8jcLL9CKy0dD6waghxzFAccS5OIDQJwGNsRmBN531RsByypTBILdJ0yFT3HmbaXOCKgiUr836zx50uOnxa5SIeWb1VaOqo_adepGnJe4L-LATAQtlrQgte7Je1){: .big-img}
+ ![](https://lh6.googleusercontent.com/yS4MqPJG6hQeFa8jcLL9CKy0dD6waghxzFAccS5OIDQJwGNsRmBN531RsByypTBILdJ0yFT3HmbaXOCKgiUr836zx50uOnxa5SIeWb1VaOqo_adepGnJe4L-LATAQtlrQgte7Je1)
 
 
 
@@ -208,25 +208,25 @@ Wait for ~3 mins for the load balancer to be ready to receive requests. Couchbas
 
 
 
- ![](https://lh5.googleusercontent.com/LFD6JM9zdP7iriH501VipG06GYEs98aEnWJABvxkZZBZeNJpmXXd2FZFQ9C8nn8gOySQoyrzsgR0c021EGmGWobkgFEgSuYt4lfp6lLooYaX4WhisFPHF_7qqUK4TQKhS9w0G0vb){: .big-img}
+ ![](https://lh5.googleusercontent.com/LFD6JM9zdP7iriH501VipG06GYEs98aEnWJABvxkZZBZeNJpmXXd2FZFQ9C8nn8gOySQoyrzsgR0c021EGmGWobkgFEgSuYt4lfp6lLooYaX4WhisFPHF_7qqUK4TQKhS9w0G0vb)
 
 
 The image used in the configuration file is configured with the Administrator username and password password. Enter the credentials to see the console:
 
 
 
- ![](https://lh3.googleusercontent.com/iyU_n0wfoxl3ItXmRVW6xPHMHWQV72okNvLmXxn2Cc3NR4NCtgGzkNXOB_ZuiU_dulID-wQKKsQMVgFoAuSlxItYdJrBRECWAa25Xqp9M3-f8u0KEUXx9jYQPskkv-jJagvB9Sje){: .big-img}
+ ![](https://lh3.googleusercontent.com/iyU_n0wfoxl3ItXmRVW6xPHMHWQV72okNvLmXxn2Cc3NR4NCtgGzkNXOB_ZuiU_dulID-wQKKsQMVgFoAuSlxItYdJrBRECWAa25Xqp9M3-f8u0KEUXx9jYQPskkv-jJagvB9Sje)
 
 
 
 Click on Server Nodes to see how many Couchbase nodes are part of the cluster. As expected, it shows only one node:
 
 
- ![](https://lh5.googleusercontent.com/TPeK0R9HFs73TxGhK2y37ui1R0dtpTCTHM4ItrBxjWIHP8lhilPGpZbnOl_d9PaLu4DzUPHvbShX1IXUDgglpRskx6wAiHEM1520kyYYlgKiEZWaJBXd0Coy-tL7Zty2tdHHBSUb){: .big-img}
+ ![](https://lh5.googleusercontent.com/TPeK0R9HFs73TxGhK2y37ui1R0dtpTCTHM4ItrBxjWIHP8lhilPGpZbnOl_d9PaLu4DzUPHvbShX1IXUDgglpRskx6wAiHEM1520kyYYlgKiEZWaJBXd0Coy-tL7Zty2tdHHBSUb)
 
 Click on Data Buckets to see a sample bucket that was created as part of the image:
 
- ![](https://lh5.googleusercontent.com/kj-v_sgXzeFTY_Dm6IZyTbZ6QgRKn_zIxqsCmpVqlaykOMvVejgiRvvyAs1qyqDWMJDya58XBtWBQJrd04XHp7VfQ_SdzssmfwzRvodwynIXqqJLT_NPsBbJ7soJSeswynFFUvVk){: .big-img}
+ ![](https://lh5.googleusercontent.com/kj-v_sgXzeFTY_Dm6IZyTbZ6QgRKn_zIxqsCmpVqlaykOMvVejgiRvvyAs1qyqDWMJDya58XBtWBQJrd04XHp7VfQ_SdzssmfwzRvodwynIXqqJLT_NPsBbJ7soJSeswynFFUvVk)
 
 
 This shows the travel-sample bucket is created and has 31,591 JSON documents.  
@@ -322,7 +322,7 @@ Couchbase Web Console gets updated to show that a new Couchbase node is added. T
 
 
 
- ![](https://lh4.googleusercontent.com/cyrpBtTCFq3rv5YcMvgVdhQN_hQ5WXVxhJSvFdIMQY3GIFJgYVGUpCBrGAp6MBqxHSzfxyEUddF2ijoMncJxKvAgGlKkDMuLOyu0kQKaWi78OW0dmXUtiNQcs0rEEvR_akFtb4UB){: .big-img}
+ ![](https://lh4.googleusercontent.com/cyrpBtTCFq3rv5YcMvgVdhQN_hQ5WXVxhJSvFdIMQY3GIFJgYVGUpCBrGAp6MBqxHSzfxyEUddF2ijoMncJxKvAgGlKkDMuLOyu0kQKaWi78OW0dmXUtiNQcs0rEEvR_akFtb4UB)
 
 
 
@@ -381,7 +381,7 @@ Pending Rebalance tab of Couchbase Web Console shows that 3 servers have now bee
 
 
 
- ![](https://lh4.googleusercontent.com/WhruCJSzQs3HpqxcklPGe7vqHQ8Ie1XUZk88vZxrngLcgRowT3Kj_-abNPOQ3t_Jzt-pi6Gn2PGXsncAnh6TGdQr71T1pls7FfgszjTJojf72Wk-Aq-obgf1WslrEvjK0gTLmS0W){: .big-img}
+ ![](https://lh4.googleusercontent.com/WhruCJSzQs3HpqxcklPGe7vqHQ8Ie1XUZk88vZxrngLcgRowT3Kj_-abNPOQ3t_Jzt-pi6Gn2PGXsncAnh6TGdQr71T1pls7FfgszjTJojf72Wk-Aq-obgf1WslrEvjK0gTLmS0W)
 
 Rebalance Couchbase Cluster
 
@@ -389,7 +389,7 @@ Finally, click on Rebalance button to rebalance the cluster. A message window sh
 
 
 
- ![](https://lh6.googleusercontent.com/xy-hy554W3dopsGDRYPhMdmaLLh3mknBtZNOHs6U5jqX5SX46u8-pExyt5kRaLGLzaypgX8nXDt2RQd29_AXCgHbzkr3vVYe9OteDX0tUjGnsTGSwrazvk6ziBkj52OM1yNN7dea){: .big-img}
+ ![](https://lh6.googleusercontent.com/xy-hy554W3dopsGDRYPhMdmaLLh3mknBtZNOHs6U5jqX5SX46u8-pExyt5kRaLGLzaypgX8nXDt2RQd29_AXCgHbzkr3vVYe9OteDX0tUjGnsTGSwrazvk6ziBkj52OM1yNN7dea)
 
 
 
@@ -397,7 +397,7 @@ Once all the nodes are rebalanced, Couchbase cluster is ready to serve your requ
 
 
 
- ![](https://lh5.googleusercontent.com/WoxQdHde7aws5lc3g1OaG3xDwZtZA1OhLpeHJOtTJnuW4-OrT9VhyVENoWyYYfRaE-h2HDxp3mS2XIj5_P2Uyg-p7ApL8BjgtEfNQscvQd0i7HnSPBy7Ow9PiIsP1IyIlM89-f_V){: .big-img}
+ ![](https://lh5.googleusercontent.com/WoxQdHde7aws5lc3g1OaG3xDwZtZA1OhLpeHJOtTJnuW4-OrT9VhyVENoWyYYfRaE-h2HDxp3mS2XIj5_P2Uyg-p7ApL8BjgtEfNQscvQd0i7HnSPBy7Ow9PiIsP1IyIlM89-f_V)
 
 
 

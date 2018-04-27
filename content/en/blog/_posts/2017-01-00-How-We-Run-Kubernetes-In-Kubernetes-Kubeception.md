@@ -44,7 +44,7 @@ And wouldn’t it be nice to have an API and frontend for that?
 
 Based on the above requirements we set out to build what we call Giantnetes - or if you’re into movies, Kubeception. At the most basic abstraction it is an outer Kubernetes cluster (the actual Giantnetes), which is used to run and manage multiple completely isolated user Kubernetes clusters.  
 
- ![](https://lh6.googleusercontent.com/jWRQBd96sPwtiG6vE_4DPAvEWrRnXTWVfWE3O4_JeCXYzSaAZPpVQA-s5K8W-GTZdQBYeC-g3rS3LMB_vgz6h8-EVQps0JIcaxoeXI8T6aVOowWtWdxRB78b_K3bxzfvVWGb5cWM){: .big-img}
+ ![](https://lh6.googleusercontent.com/jWRQBd96sPwtiG6vE_4DPAvEWrRnXTWVfWE3O4_JeCXYzSaAZPpVQA-s5K8W-GTZdQBYeC-g3rS3LMB_vgz6h8-EVQps0JIcaxoeXI8T6aVOowWtWdxRB78b_K3bxzfvVWGb5cWM)
 
 
 
@@ -67,7 +67,7 @@ Then, to create the inner Kubernetes clusters, we initiate a few pods, which con
 Currently this means we are starting Pods with Docker containers that in turn start VMs with KVM and qemu. However, we are looking into doing this with [rkt qemu-kvm](https://github.com/coreos/rkt/blob/master/Documentation/running-kvm-stage1.md), which would result in using a rktnetes setup for our Giantnetes.  
 
 
- ![](https://lh3.googleusercontent.com/fl8PIu5NgS4vRmUDuAGzni3uW-5RTYD0U22rF6fXr_UBfta4cLhQa2CsRNvDrmc2TiIZDRairTDYpn8QiU3Cjf6m8v74vFENCy9MHa3MgvNNEvvcwrwOxhvMe-pNITCDpV41bWBc){:.big-img}
+ ![](https://lh3.googleusercontent.com/fl8PIu5NgS4vRmUDuAGzni3uW-5RTYD0U22rF6fXr_UBfta4cLhQa2CsRNvDrmc2TiIZDRairTDYpn8QiU3Cjf6m8v74vFENCy9MHa3MgvNNEvvcwrwOxhvMe-pNITCDpV41bWBc)
 
 
 

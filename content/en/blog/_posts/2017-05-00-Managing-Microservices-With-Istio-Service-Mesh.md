@@ -140,7 +140,7 @@ We can now point the browser to http://$BOOKINFO\_URL/productpage, and see:
 
 
 
- ![](https://lh3.googleusercontent.com/AP3bEJR9uqsXufk5kZqD4DaRUs9ynuybfM8KBJlv_sF0g6A8LRO606jr_Z8xL71TrKWt_OfTXDJCcISZGy6ucj4KVZVFPFT8NCOOf6PpEZ0XVKlw-fgRP0iJvaBKuZaH-dySdJZ-){: .big-img}
+ ![](https://lh3.googleusercontent.com/AP3bEJR9uqsXufk5kZqD4DaRUs9ynuybfM8KBJlv_sF0g6A8LRO606jr_Z8xL71TrKWt_OfTXDJCcISZGy6ucj4KVZVFPFT8NCOOf6PpEZ0XVKlw-fgRP0iJvaBKuZaH-dySdJZ-)
 
 
 
@@ -271,7 +271,7 @@ We can now open a browser at http://$GRAFANA\_URL/dashboard/db/istio-dashboard a
 
 
 
- ![istio-dashboard-k8s-blog.png](https://lh5.googleusercontent.com/yFBKYWEmNxs-8VLtlJIG4BV0dUzqrvCfhWLh2CrGHyTtH5dArQy-owua3vdMCSjkdjtk8E3ZmEz32EupRL28WHALLm9MqJwCJrs1N5yv8typUJiLS_ExsO-uleaZ3bgbPraC8lgi){:.big-img}
+ ![istio-dashboard-k8s-blog.png](https://lh5.googleusercontent.com/yFBKYWEmNxs-8VLtlJIG4BV0dUzqrvCfhWLh2CrGHyTtH5dArQy-owua3vdMCSjkdjtk8E3ZmEz32EupRL28WHALLm9MqJwCJrs1N5yv8typUJiLS_ExsO-uleaZ3bgbPraC8lgi)
 
 
 

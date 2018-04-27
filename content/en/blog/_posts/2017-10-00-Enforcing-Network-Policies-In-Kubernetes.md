@@ -36,7 +36,7 @@ Once you install a networking plugin that implements Network Policies, you need 
 ## Example: restricting traffic to a pod
 The following example of a network policy blocks all in-cluster traffic to a set of web server pods, except the pods allowed by the policy configuration.   
 
- ![](https://lh4.googleusercontent.com/e8JzhKYICOzh44sHcedjt4IRRpw2zpFNbJ2UY83fBdWYCIvFVSlHJNmIwLzIHVxrScc2eNCyv37mm903TVT9VkMuHPxe_5Hk8CvJTqGsSK7WtEDCbn1Q25S-o_kHcEiKUUl1NV9g){:.big-img}
+ ![](https://lh4.googleusercontent.com/e8JzhKYICOzh44sHcedjt4IRRpw2zpFNbJ2UY83fBdWYCIvFVSlHJNmIwLzIHVxrScc2eNCyv37mm903TVT9VkMuHPxe_5Hk8CvJTqGsSK7WtEDCbn1Q25S-o_kHcEiKUUl1NV9g)
 
 
 To achieve this setup, create a NetworkPolicy with the following manifest:  

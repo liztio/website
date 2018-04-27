@@ -12,7 +12,7 @@ A quick recap before unwrapping our shiny new features: Dashboard was initially 
 Real time visualization is a strength that UI’s have over CLI’s, and with 1.4 we’re happy to capitalize on that capability with the introduction of real-time CPU and memory usage graphs for all workloads running on your cluster. Even with the numerous third-party solutions for monitoring, Dashboard should include at least some basic out-of-the box functionality in this area. Next up on the roadmap for graphs is extending the timespan the graph represents, adding drill-down capabilities to reveal more details, and improving the UX of correlating data between different graphs.  
 
 
-[![](https://lh5.googleusercontent.com/q2xNqiQkdcaAY9UdAlxXJkhofpb-AwMKoxE8Jdd3qRB0v8qffi4_s8GUaszmYGclNemAWCrEmbTqegKPfRoUgYHy9aRAYILXqRX1BCdLBQCUGHd-Euv0PuT5VI9viT3iSXBRHshv)](https://lh5.googleusercontent.com/q2xNqiQkdcaAY9UdAlxXJkhofpb-AwMKoxE8Jdd3qRB0v8qffi4_s8GUaszmYGclNemAWCrEmbTqegKPfRoUgYHy9aRAYILXqRX1BCdLBQCUGHd-Euv0PuT5VI9viT3iSXBRHshv){:.big-img}
+[![](https://lh5.googleusercontent.com/q2xNqiQkdcaAY9UdAlxXJkhofpb-AwMKoxE8Jdd3qRB0v8qffi4_s8GUaszmYGclNemAWCrEmbTqegKPfRoUgYHy9aRAYILXqRX1BCdLBQCUGHd-Euv0PuT5VI9viT3iSXBRHshv)](https://lh5.googleusercontent.com/q2xNqiQkdcaAY9UdAlxXJkhofpb-AwMKoxE8Jdd3qRB0v8qffi4_s8GUaszmYGclNemAWCrEmbTqegKPfRoUgYHy9aRAYILXqRX1BCdLBQCUGHd-Euv0PuT5VI9viT3iSXBRHshv)
 
 
 
@@ -29,7 +29,7 @@ In 1.1, all resources were simply stacked on top of each other in a single page.
 
 
 
-[![](https://lh4.googleusercontent.com/wam1i4Y3GGLwNFxynWYK17me9UDCaw3yo0dDqqTt7Y79bJ5YK7uHd3yreRnftPOtRkOvo-CjlWNPEx2raBdCN5JTxG2fU3fwqeIPsDaeuqhnWl0IrSYQ32uC7cVt2q51LQNhialX){:.big-img}](https://lh4.googleusercontent.com/wam1i4Y3GGLwNFxynWYK17me9UDCaw3yo0dDqqTt7Y79bJ5YK7uHd3yreRnftPOtRkOvo-CjlWNPEx2raBdCN5JTxG2fU3fwqeIPsDaeuqhnWl0IrSYQ32uC7cVt2q51LQNhialX)
+[![](https://lh4.googleusercontent.com/wam1i4Y3GGLwNFxynWYK17me9UDCaw3yo0dDqqTt7Y79bJ5YK7uHd3yreRnftPOtRkOvo-CjlWNPEx2raBdCN5JTxG2fU3fwqeIPsDaeuqhnWl0IrSYQ32uC7cVt2q51LQNhialX)](https://lh4.googleusercontent.com/wam1i4Y3GGLwNFxynWYK17me9UDCaw3yo0dDqqTt7Y79bJ5YK7uHd3yreRnftPOtRkOvo-CjlWNPEx2raBdCN5JTxG2fU3fwqeIPsDaeuqhnWl0IrSYQ32uC7cVt2q51LQNhialX)
 
 
 
@@ -43,23 +43,23 @@ I am a cluster operator and a customer pings me warning that their app, Kubernet
 
 
 
- ![](https://lh5.googleusercontent.com/R95VuEQ8GkjTTeJXX-4EE-f-oD4UXYCPGZ5et4YYLuUiB0K3hXSndyFPYHmrKeySBc2t3tMy4B9mT-dr8rIr0WRQLq4Bhe6ygA4GqNLSYvvZcsmdGxeozw3jr8fSDCinG0NSsAjp){:.big-img}
+ ![](https://lh5.googleusercontent.com/R95VuEQ8GkjTTeJXX-4EE-f-oD4UXYCPGZ5et4YYLuUiB0K3hXSndyFPYHmrKeySBc2t3tMy4B9mT-dr8rIr0WRQLq4Bhe6ygA4GqNLSYvvZcsmdGxeozw3jr8fSDCinG0NSsAjp)
 
 Once in the relevant Namespace, I check out my Deployments to see if anything seems awry. Sure enough, I notice a spike in CPU usage.  
 
- ![](https://lh5.googleusercontent.com/rViAg6xFe219i7qxeBRU62-1SFBLI6VIg3pbU5HBmvIKsb3KJFr5RldP0vziVXao3u-hWM3EMvzTNnSFRQWCTViaQiVbAv_PTjd87s7GOZelroeL4gjcfFU3JljrOKKnWL3Wzy5c){:.big-img}
+ ![](https://lh5.googleusercontent.com/rViAg6xFe219i7qxeBRU62-1SFBLI6VIg3pbU5HBmvIKsb3KJFr5RldP0vziVXao3u-hWM3EMvzTNnSFRQWCTViaQiVbAv_PTjd87s7GOZelroeL4gjcfFU3JljrOKKnWL3Wzy5c)
 
 I realize we need to perform a rolling update to a newer version of that app that can handle the increased requests it’s evidently getting, so I update this Deployment’s image, which in turn creates a new [Replica Set](http://kubernetes.io/docs/user-guide/replicasets/).  
 
 
 
- ![](https://lh4.googleusercontent.com/RdA8N8LPDwnAb-RDX4MHNmHvxc8YRlID79-5WmGJQb7NYuz8oZseVorzATQZWOTTQ_-yp8roniNKuBqmQewzYzyvBRdHcQf_VENm2Qqde0v6LW9-L1FLmqsUx8h9Z5RYfpD_alXx){:.big-img}
+ ![](https://lh4.googleusercontent.com/RdA8N8LPDwnAb-RDX4MHNmHvxc8YRlID79-5WmGJQb7NYuz8oZseVorzATQZWOTTQ_-yp8roniNKuBqmQewzYzyvBRdHcQf_VENm2Qqde0v6LW9-L1FLmqsUx8h9Z5RYfpD_alXx)
 
 Now that that Replica Set’s been created, I can open the logs for one of its pods to confirm that it’s been successfully connected to the API server.  
 
 
 
- ![](https://lh3.googleusercontent.com/zg_lrCL0kH7ai6ZUGz4YKwIfQpwLXnF-mvK9UUL3TZ4ryNLSCSW7Anha5VjoEdwlkSp8-Fhgz16srzPTpoHzguwrGllPp10m2O_rFAfm2W1tq_5ow4FzfAwYVM4Sm1-HuMtcDY34){:.big-img}
+ ![](https://lh3.googleusercontent.com/zg_lrCL0kH7ai6ZUGz4YKwIfQpwLXnF-mvK9UUL3TZ4ryNLSCSW7Anha5VjoEdwlkSp8-Fhgz16srzPTpoHzguwrGllPp10m2O_rFAfm2W1tq_5ow4FzfAwYVM4Sm1-HuMtcDY34)
 
 Easy as that, we’ve debugged our issue. Dashboard provided us a centralized location to scan for the origin of the problem, and once we had that identified we were able to drill down and address the root of the problem.  
 
