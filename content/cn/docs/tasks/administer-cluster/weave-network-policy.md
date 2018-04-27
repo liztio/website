@@ -2,6 +2,7 @@
 approvers:
 - bboreham
 title: 使用 Weave 网络来提供 NetworkPolicy
+content_template: templates/task
 ---
 
 {{% capture overview %}}
@@ -68,7 +69,6 @@ spec:
   containers:
   - name: pod1
     image: nginx
-content_template: templates/task
 ---
 kind: Pod
 apiVersion: v1

@@ -8,6 +8,7 @@ redirect_from:
 - "/docs/admin/limitrange/index.html"
 - "/docs/tasks/configure-pod-container/limit-range/"
 - "/docs/tasks/configure-pod-container/limit-range.html"
+content_template: templates/task
 ---
 
 {{% capture overview %}}
@@ -75,7 +76,6 @@ $ kubectl describe limits mylimits --namespace=limit-example
 Name:   mylimits
 Namespace:  limit-example
 Type        Resource      Min      Max      Default Request      Default Limit      Max Limit/Request Ratio
-content_template: templates/task
 ----        --------      ---      ---      ---------------      -------------      -----------------------
 Pod         cpu           200m     2        -                    -                  -
 Pod         memory        6Mi      1Gi      -                    -                  -

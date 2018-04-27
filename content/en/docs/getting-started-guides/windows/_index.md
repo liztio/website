@@ -1,5 +1,6 @@
 ---
 title: Using Windows Server Containers in Kubernetes
+toc_hide: true
 ---
 {{< note >}}
 **Note:** These instructions were recently updated based on Windows Server platform enhancements and the Kubernetes v1.9 release
@@ -329,7 +330,6 @@ data:
   example.property.1: hello
   example.property.2: world
 
-toc_hide: true
 ---
 
 apiVersion: v1

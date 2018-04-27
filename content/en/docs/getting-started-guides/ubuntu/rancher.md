@@ -1,5 +1,6 @@
 ---
 title: Rancher Integration with Ubuntu Kubernetes
+content_template: templates/task
 ---
 
 {{% capture overview %}}
@@ -270,7 +271,6 @@ spec:
       protocol: TCP
   selector:
     app: rancher
-content_template: templates/task
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress

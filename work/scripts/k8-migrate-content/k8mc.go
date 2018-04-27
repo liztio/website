@@ -87,9 +87,7 @@ func (f contentFixers) fix(path, s string) (string, error) {
 }
 
 var (
-	frontmatterRe = regexp.MustCompile(`(?s)---
-(.*)
----(\n?)`)
+	frontmatterRe = regexp.MustCompile(`(?s)^\s{0,10}---(.*?)\n---(\s{1,2})`)
 )
 
 type mover struct {
@@ -987,8 +985,7 @@ func addKeyValue(key string, value interface{}) func(path string, s string) (str
 }
 
 func appendToFrontMatter(src, addition string) string {
-	return frontmatterRe.ReplaceAllString(src, fmt.Sprintf(`---
-$1
+	return frontmatterRe.ReplaceAllString(src, fmt.Sprintf(`---$1
 %s
 ---$2`, addition))
 

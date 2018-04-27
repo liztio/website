@@ -7,6 +7,7 @@ redirect_from:
 - "/docs/concepts/abstractions/init-containers.html"
 - "/docs/user-guide/pods/init-container/"
 - "/docs/user-guide/pods/init-container.html"
+content_template: templates/concept
 ---
 
 {{% capture overview %}}
@@ -165,7 +166,6 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 9376
-content_template: templates/concept
 ---
 kind: Service
 apiVersion: v1

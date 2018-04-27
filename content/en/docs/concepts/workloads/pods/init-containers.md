@@ -2,6 +2,7 @@
 reviewers:
 - erictune
 title: Init Containers
+content_template: templates/concept
 ---
 
 {{% capture overview %}}
@@ -164,7 +165,6 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 9376
-content_template: templates/concept
 ---
 kind: Service
 apiVersion: v1

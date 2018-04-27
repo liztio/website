@@ -9,6 +9,7 @@ redirect_from:
 - "/docs/admin/resourcequota/walkthrough.html"
 - "/docs/tasks/configure-pod-container/apply-resource-quota-limit/"
 - "/docs/tasks/configure-pod-container/apply-resource-quota-limit.html"
+content_template: templates/task
 ---
 
 {{% capture overview %}}
@@ -374,7 +375,6 @@ Namespace:          quota-scopes
 Scopes:             NotBestEffort
  * Matches all pods that do not have best effort quality of service.
 Resource            Used  Hard
-content_template: templates/task
 --------            ----  ----
 limits.cpu          400m  2
 limits.memory       1Gi   2Gi

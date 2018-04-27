@@ -5,6 +5,8 @@ title: " Create a Couchbase cluster using Kubernetes "
 date: 2016-08-15
 pagination:
   enabled: true
+slug: create-couchbase-cluster-using-kubernetes
+url: /blog/2016/08/create-couchbase-cluster-using-kubernetes/
 ---
 _Editor’s note: today’s guest post is by Arun Gupta, Vice President Developer Relations at Couchbase, showing how to setup a Couchbase cluster with Kubernetes._  
 
@@ -85,8 +87,6 @@ spec:
             value: MASTER  
         ports:  
         - containerPort: 8091  
-slug: create-couchbase-cluster-using-kubernetes
-url: /blog/2016/08/create-couchbase-cluster-using-kubernetes/
 ----  
 apiVersion: v1  
 kind: Service  

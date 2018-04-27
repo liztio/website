@@ -3,6 +3,7 @@ reviewers:
 - davidopp
 - thockin
 title: DNS for Services and Pods
+content_template: templates/concept
 ---
 {{% capture overview %}}
 This page provides an overview of DNS support by Kubernetes.
@@ -115,7 +116,6 @@ spec:
       - sleep
       - "3600"
     name: busybox
-content_template: templates/concept
 ---
 apiVersion: v1
 kind: Pod

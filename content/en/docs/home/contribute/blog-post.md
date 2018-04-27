@@ -4,6 +4,7 @@ reviewers:
 - zacharysarah
 - kbarnard10
 - sarahkconway
+content_template: templates/task
 ---
 
 {{% capture overview %}}
@@ -80,7 +81,6 @@ For example:
 layout: blog
 title: Welcome to the Kubernetes Blog!
 date:  Saturday, March 20, 2015
-content_template: templates/task
 ---
 ```
 

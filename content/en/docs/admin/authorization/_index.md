@@ -5,6 +5,7 @@ reviewers:
 - deads2k
 - liggitt
 title: Overview
+content_template: templates/concept
 ---
 
 {{% capture overview %}}
@@ -58,7 +59,6 @@ used and whether or not the request acts on an individual resource or a
 collection of resources:
 
 HTTP verb | request verb
-content_template: templates/concept
 ----------|---------------
 POST      | create
 GET, HEAD | get (for individual resources), list (for collections)

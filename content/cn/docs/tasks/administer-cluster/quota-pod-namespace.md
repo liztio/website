@@ -1,6 +1,5 @@
 ﻿---
 title: 配置命名空间下pod总数
-content_template: templates/task
 ---
 
 

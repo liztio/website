@@ -5,12 +5,12 @@ title: " Kubernetes Community Meeting Notes - 20160114 "
 date: 2016-01-28
 pagination:
   enabled: true
+slug: kubernetes-community-meeting-notes
+url: /blog/2016/01/kubernetes-community-meeting-notes/
 ---
 #####  January 14 - RackN demo, testing woes, and KubeCon EU CFP.
 ---
  Note taker: Joe Beda
-slug: kubernetes-community-meeting-notes
-url: /blog/2016/01/kubernetes-community-meeting-notes/
 ---
 * Demonstration: Automated Deploy on Metal, AWS and others w/ Digital Rebar, Rob Hirschfeld  and Greg Althaus from RackN
 

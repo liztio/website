@@ -5,6 +5,8 @@ title: " Scaling Stateful Applications using Kubernetes Pet Sets and FlexVolumes
 date: 2016-08-29
 pagination:
   enabled: true
+slug: stateful-applications-using-kubernetes-datera
+url: /blog/2016/08/stateful-applications-using-kubernetes-datera/
 ---
 _Editor’s note: today’s guest post is by Shailesh Mittal, Software Architect and Ashok Rajagopalan, Sr Director Product at Datera Inc, talking about Stateful Application provisioning with Kubernetes on Datera Elastic Data Fabric._  
 
@@ -385,8 +387,6 @@ spec:
 
     app: nginx
 
-slug: stateful-applications-using-kubernetes-datera
-url: /blog/2016/08/stateful-applications-using-kubernetes-datera/
 ---
 
 apiVersion: apps/v1alpha1
