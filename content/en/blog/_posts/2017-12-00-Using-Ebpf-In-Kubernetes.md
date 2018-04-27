@@ -2,7 +2,7 @@
 title: Using eBPF in Kubernetes
 date: 2017-12-07
 slug: using-ebpf-in-kubernetes
-url: /blog/2017/12/using-ebpf-in-kubernetes/
+url: /blog/2017/12/Using-Ebpf-In-Kubernetes
 ---
 
 ## Introduction

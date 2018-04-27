@@ -2,7 +2,7 @@
 title: " Hypernetes: Bringing Security and Multi-tenancy to Kubernetes "
 date: 2016-05-24
 slug: hypernetes-security-and-multi-tenancy-in-kubernetes
-url: /blog/2016/05/hypernetes-security-and-multi-tenancy-in-kubernetes/
+url: /blog/2016/05/Hypernetes-Security-And-Multi-Tenancy-In-Kubernetes
 ---
 _Today’s guest post is written by Harry Zhang and Pengfei Ni, engineers at HyperHQ, describing a new hypervisor based container called HyperContainer_  
 

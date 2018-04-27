@@ -2,7 +2,7 @@
 title: " Scaling neural network image classification using Kubernetes with TensorFlow Serving  "
 date: 2016-03-23
 slug: scaling-neural-network-image-classification-using-kubernetes-with-tensorflow-serving
-url: /blog/2016/03/scaling-neural-network-image-classification-using-kubernetes-with-tensorflow-serving/
+url: /blog/2016/03/Scaling-Neural-Network-Image-Classification-Using-Kubernetes-With-Tensorflow-Serving
 ---
 In 2011, Google developed an internal deep learning infrastructure called [DistBelief](http://research.google.com/pubs/pub40565.html), which allowed Googlers to build ever larger [neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and scale training to thousands of cores. Late last year, Google [introduced TensorFlow](http://googleresearch.blogspot.com/2015/11/tensorflow-googles-latest-machine_9.html), its second-generation machine learning system. TensorFlow is general, flexible, portable, easy-to-use and, most importantly, developed with the open source community.
 

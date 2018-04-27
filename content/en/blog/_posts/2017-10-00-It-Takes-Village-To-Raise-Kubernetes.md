@@ -2,7 +2,7 @@
 title: " It Takes a Village to Raise a Kubernetes "
 date: 2017-10-26
 slug: it-takes-village-to-raise-kubernetes
-url: /blog/2017/10/it-takes-village-to-raise-kubernetes/
+url: /blog/2017/10/It-Takes-Village-To-Raise-Kubernetes
 ---
 **_Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2017/10/five-days-of-kubernetes-18.html) on what's new in Kubernetes 1.8, written by Jaice Singer DuMars from Microsoft._**
 

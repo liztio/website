@@ -2,7 +2,7 @@
 title: " Five Days of Kubernetes 1.8 "
 date: 2017-10-24
 slug: five-days-of-kubernetes-18
-url: /blog/2017/10/five-days-of-kubernetes-18/
+url: /blog/2017/10/Five-Days-Of-Kubernetes-18
 ---
 Kubernetes 1.8 is live, made possible by hundreds of contributors pushing thousands of commits in this latest releases.  
 

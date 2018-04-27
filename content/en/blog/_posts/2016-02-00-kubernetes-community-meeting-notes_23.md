@@ -2,7 +2,7 @@
 title: " Kubernetes Community Meeting Notes - 20160218 "
 date: 2016-02-23
 slug: kubernetes-community-meeting-notes_23
-url: /blog/2016/02/kubernetes-community-meeting-notes_23/
+url: /blog/2016/02/kubernetes-community-meeting-notes_23
 ---
 #####  February 18th - kmachine demo, clusterops SIG formed, new k8s.io website preview, 1.2 update and planning 1.3
 The Kubernetes contributing community meets most Thursdays at 10:00PT to discuss the project's status via videoconference. Here are the notes from the latest meeting.

@@ -2,7 +2,7 @@
 title: " Cloud Native Application Interfaces "
 date: 2016-09-01
 slug: cloud-native-application-interfaces
-url: /blog/2016/09/cloud-native-application-interfaces/
+url: /blog/2016/09/Cloud-Native-Application-Interfaces
 ---
 
 

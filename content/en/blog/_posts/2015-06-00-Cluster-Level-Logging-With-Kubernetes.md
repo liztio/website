@@ -2,7 +2,7 @@
 title: " Cluster Level Logging with Kubernetes "
 date: 2015-06-11
 slug: cluster-level-logging-with-kubernetes
-url: /blog/2015/06/cluster-level-logging-with-kubernetes/
+url: /blog/2015/06/Cluster-Level-Logging-With-Kubernetes
 ---
 
 

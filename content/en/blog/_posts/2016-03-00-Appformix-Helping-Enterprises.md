@@ -2,7 +2,7 @@
 title: " AppFormix: Helping Enterprises Operationalize Kubernetes "
 date: 2016-03-29
 slug: appformix-helping-enterprises
-url: /blog/2016/03/appformix-helping-enterprises/
+url: /blog/2016/03/Appformix-Helping-Enterprises
 ---
 _Today’s guest post is written Sumeet Singh, founder and CEO of [AppFormix](http://www.appformix.com/), a cloud infrastructure performance optimization service helping enterprise operators streamline their cloud operations on any OpenStack or Kubernetes cloud._  
 

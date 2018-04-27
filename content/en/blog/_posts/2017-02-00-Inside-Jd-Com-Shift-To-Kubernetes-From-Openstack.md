@@ -2,7 +2,7 @@
 title: " Inside JD.com's Shift to Kubernetes from OpenStack "
 date: 2017-02-10
 slug: inside-jd-com-shift-to-kubernetes-from-openstack
-url: /blog/2017/02/inside-jd-com-shift-to-kubernetes-from-openstack/
+url: /blog/2017/02/Inside-Jd-Com-Shift-To-Kubernetes-From-Openstack
 ---
 _Editor's note: Today’s post is by the Infrastructure Platform Department team at JD.com about their transition from OpenStack to Kubernetes. JD.com is one of China’s largest companies and the first Chinese Internet company to make the Global Fortune 500 list._  
 

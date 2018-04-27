@@ -2,7 +2,7 @@
 title: " Building Globally Distributed Services using Kubernetes Cluster Federation "
 date: 2016-10-14
 slug: globally-distributed-services-kubernetes-cluster-federation
-url: /blog/2016/10/globally-distributed-services-kubernetes-cluster-federation/
+url: /blog/2016/10/Globally-Distributed-Services-Kubernetes-Cluster-Federation
 ---
 _Editor's note: Today’s post is by Allan Naim, Product Manager, and Quinton Hoole, Staff Engineer at Google, showing how to deploy a multi-homed service behind a global load balancer and have requests sent to the closest cluster._  
 

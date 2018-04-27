@@ -2,7 +2,7 @@
 title: " Fission: Serverless Functions as a Service for Kubernetes "
 date: 2017-01-30
 slug: fission-serverless-functions-as-service-for-kubernetes
-url: /blog/2017/01/fission-serverless-functions-as-service-for-kubernetes/
+url: /blog/2017/01/Fission-Serverless-Functions-As-Service-For-Kubernetes
 ---
 _Editor's note: Today’s post is by Soam Vasani, Software Engineer at Platform9 Systems, talking about a new open source Serverless Function (FaaS) framework for Kubernetes._&nbsp;  
 

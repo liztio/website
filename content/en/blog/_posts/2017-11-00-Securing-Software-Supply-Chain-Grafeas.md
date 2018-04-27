@@ -2,7 +2,7 @@
 title: " Securing Software Supply Chain with Grafeas "
 date: 2017-11-03
 slug: securing-software-supply-chain-grafeas
-url: /blog/2017/11/securing-software-supply-chain-grafeas/
+url: /blog/2017/11/Securing-Software-Supply-Chain-Grafeas
 ---
  **_Editor's note: This post is written by Kelsey Hightower, Staff Developer Advocate at Google, and Sandra Guo, Product Manager at Google._**  
 

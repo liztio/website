@@ -2,7 +2,7 @@
 title: " Run Deep Learning with PaddlePaddle on Kubernetes "
 date: 2017-02-08
 slug: run-deep-learning-with-paddlepaddle-on-kubernetes
-url: /blog/2017/02/run-deep-learning-with-paddlepaddle-on-kubernetes/
+url: /blog/2017/02/Run-Deep-Learning-With-Paddlepaddle-On-Kubernetes
 ---
 
 _Editor's note: Today's post is a joint post from the deep learning team at Baidu and the etcd team at CoreOS._  

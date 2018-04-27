@@ -2,7 +2,7 @@
 title: " Minikube: easily run Kubernetes locally  "
 date: 2016-07-11
 slug: minikube-easily-run-kubernetes-locally
-url: /blog/2016/07/minikube-easily-run-kubernetes-locally/
+url: /blog/2016/07/Minikube-Easily-Run-Kubernetes-Locally
 ---
 _Editor's note: This is the first post in a [series of in-depth articles](http://blog.kubernetes.io/2016/07/five-days-of-kubernetes-1.3.html) on what's new in Kubernetes 1.3&nbsp;_  
 

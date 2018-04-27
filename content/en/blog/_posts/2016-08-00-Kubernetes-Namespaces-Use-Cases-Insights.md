@@ -2,7 +2,7 @@
 title: " Kubernetes Namespaces: use cases and insights "
 date: 2016-08-16
 slug: kubernetes-namespaces-use-cases-insights
-url: /blog/2016/08/kubernetes-namespaces-use-cases-insights/
+url: /blog/2016/08/Kubernetes-Namespaces-Use-Cases-Insights
 ---
 
 _“Who's on first, What's on second, I Don't Know's on third”&nbsp;_

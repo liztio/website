@@ -2,7 +2,7 @@
 title: Kubernetes Community Meeting Notes - 20160121
 date: 2016-01-28
 slug: kubernetes-community-meeting-notes_28
-url: /blog/2016/01/kubernetes-community-meeting-notes_28/
+url: /blog/2016/01/Kubernetes-Community-Meeting-Notes_28
 ---
 #### January 21 - Configuration, Federation and Testing, oh my.&nbsp;
 

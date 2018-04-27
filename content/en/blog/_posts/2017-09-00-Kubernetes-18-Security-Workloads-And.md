@@ -2,7 +2,7 @@
 title: " Kubernetes 1.8: Security, Workloads and Feature Depth "
 date: 2017-09-29
 slug: kubernetes-18-security-workloads-and
-url: /blog/2017/09/kubernetes-18-security-workloads-and/
+url: /blog/2017/09/Kubernetes-18-Security-Workloads-And
 ---
 _Editor's note: today's post is by Aparna Sinha, Group Product Manager, Kubernetes, Google; Ihor Dvoretskyi, Developer Advocate, CNCF; Jaice Singer DuMars, Kubernetes Ambassador, Microsoft; and Caleb Miles, Technical Program Manager, CoreOS on the latest release of Kubernetes 1.8._  
 

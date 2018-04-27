@@ -2,7 +2,7 @@
 title: " Docker and Kubernetes and AppC  "
 date: 2015-05-18
 slug: docker-and-kubernetes-and-appc
-url: /blog/2015/05/docker-and-kubernetes-and-appc/
+url: /blog/2015/05/Docker-And-Kubernetes-And-Appc
 ---
 Recently we announced the intent in Kubernetes, our open source cluster manager, to support AppC and RKT, an alternative container format that has been driven by CoreOS with input from many companies (including Google). &nbsp;This announcement has generated a surprising amount of buzz and has been construed as a move from Google to support Appc over Docker. &nbsp;Many have taken it as signal that Google is moving away from supporting Docker. &nbsp;I would like to take a moment to clarify Google’s position in this.
 

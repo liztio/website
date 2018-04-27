@@ -2,7 +2,7 @@
 title: " Stateful Applications in Containers!? Kubernetes 1.3 Says “Yes!” "
 date: 2016-07-13
 slug: stateful-applications-in-containers-kubernetes
-url: /blog/2016/07/stateful-applications-in-containers-kubernetes/
+url: /blog/2016/07/stateful-applications-in-containers-kubernetes
 ---
 
 _Editor's note: today’s guest post is from Mark Balch, VP of Products at Diamanti, who’ll share more about the contributions they’ve made to Kubernetes._    

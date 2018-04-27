@@ -2,7 +2,7 @@
 title: "  Managing microservices with the Istio service mesh "
 date: 2017-05-31
 slug: managing-microservices-with-istio-service-mesh
-url: /blog/2017/05/managing-microservices-with-istio-service-mesh/
+url: /blog/2017/05/Managing-Microservices-With-Istio-Service-Mesh
 ---
 
 _Today’s post is by the Istio team showing how you can get visibility, resiliency, security and control for your microservices in Kubernetes._  

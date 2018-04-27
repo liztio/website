@@ -2,7 +2,7 @@
 title: " Kubernetes and the Mesosphere DCOS "
 date: 2015-04-22
 slug: kubernetes-and-mesosphere-dcos
-url: /blog/2015/04/kubernetes-and-mesosphere-dcos/
+url: /blog/2015/04/Kubernetes-And-Mesosphere-Dcos
 ---
 
 # Kubernetes and the Mesosphere DCOS

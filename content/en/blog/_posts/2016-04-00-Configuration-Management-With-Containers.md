@@ -2,7 +2,7 @@
 title: " Configuration management with Containers "
 date: 2016-04-04
 slug: configuration-management-with-containers
-url: /blog/2016/04/configuration-management-with-containers/
+url: /blog/2016/04/Configuration-Management-With-Containers
 ---
 _Editor’s note: this is our seventh post in a [series of in-depth posts](http://blog.kubernetes.io/2016/03/five-days-of-kubernetes-12.html) on what's new in Kubernetes 1.2_  
 

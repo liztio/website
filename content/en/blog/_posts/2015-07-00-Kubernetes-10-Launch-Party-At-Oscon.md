@@ -2,7 +2,7 @@
 title: " Kubernetes 1.0 Launch Event at OSCON "
 date: 2015-07-02
 slug: kubernetes-10-launch-party-at-oscon
-url: /blog/2015/07/kubernetes-10-launch-party-at-oscon/
+url: /blog/2015/07/Kubernetes-10-Launch-Party-At-Oscon
 ---
 In case you haven't heard, the Kubernetes project team & community have some awesome stuff lined up for our release event at OSCON in a few weeks.  
 

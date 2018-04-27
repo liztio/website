@@ -2,7 +2,7 @@
 title: " Weekly Kubernetes Community Hangout Notes - April 3 2015 "
 date: 2015-04-04
 slug: weekly-kubernetes-community-hangout
-url: /blog/2015/04/weekly-kubernetes-community-hangout/
+url: /blog/2015/04/Weekly-Kubernetes-Community-Hangout
 ---
 # Kubernetes: Weekly Kubernetes Community Hangout Notes
 

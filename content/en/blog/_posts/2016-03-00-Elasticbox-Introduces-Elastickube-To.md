@@ -2,7 +2,7 @@
 title: " ElasticBox introduces ElasticKube to help manage Kubernetes within the enterprise "
 date: 2016-03-11
 slug: elasticbox-introduces-elastickube-to
-url: /blog/2016/03/elasticbox-introduces-elastickube-to/
+url: /blog/2016/03/Elasticbox-Introduces-Elastickube-To
 ---
 Today’s guest post is brought to you by Brannan Matherson, from ElasticBox, who’ll discuss a new open source project to help standardize container deployment and management in enterprise environments. This highlights the advantages of authentication and user management for containerized applications
 

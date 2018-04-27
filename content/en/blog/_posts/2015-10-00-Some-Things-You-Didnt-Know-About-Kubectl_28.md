@@ -2,7 +2,7 @@
 title: " Some things you didn’t know about kubectl "
 date: 2015-10-28
 slug: some-things-you-didnt-know-about-kubectl_28
-url: /blog/2015/10/some-things-you-didnt-know-about-kubectl_28/
+url: /blog/2015/10/Some-Things-You-Didnt-Know-About-Kubectl_28
 ---
 [kubectl](https://github.com/kubernetes/kubernetes/blob/master/docs/user-guide/kubectl-overview.md) is the command line tool for interacting with Kubernetes clusters. Many people use it every day to deploy their container workloads into production clusters. But there’s more to kubectl than just `kubectl create -f or kubectl rolling-update`. kubectl is a veritable multi-tool of container orchestration and management. Below we describe some of the features of kubectl that you may not have seen.   
 

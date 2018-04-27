@@ -2,7 +2,7 @@
 title: " How Bitmovin is Doing Multi-Stage Canary Deployments with Kubernetes in the Cloud and On-Prem "
 date: 2017-04-21
 slug: multi-stage-canary-deployments-with-kubernetes-in-the-cloud-onprem
-url: /blog/2017/04/multi-stage-canary-deployments-with-kubernetes-in-the-cloud-onprem/
+url: /blog/2017/04/Multi-Stage-Canary-Deployments-With-Kubernetes-In-The-Cloud-Onprem
 ---
 _Editor's Note: Today’s post is by Daniel Hoelbling-Inzko, Infrastructure Architect at Bitmovin, a company that provides services that transcode digital video and audio to streaming formats, sharing insights about their use of Kubernetes._  
 

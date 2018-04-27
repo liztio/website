@@ -2,7 +2,7 @@
 title: " High Performance Networking with EC2 Virtual Private Clouds "
 date: 2017-08-11
 slug: high-performance-networking-with-ec2
-url: /blog/2017/08/high-performance-networking-with-ec2/
+url: /blog/2017/08/High-Performance-Networking-With-Ec2
 ---
 
 

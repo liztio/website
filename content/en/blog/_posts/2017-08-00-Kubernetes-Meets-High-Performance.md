@@ -2,7 +2,7 @@
 title: " Kubernetes Meets High-Performance Computing "
 date: 2017-08-22
 slug: kubernetes-meets-high-performance
-url: /blog/2017/08/kubernetes-meets-high-performance/
+url: /blog/2017/08/Kubernetes-Meets-High-Performance
 ---
 Editor's note: today's post is by Robert Lalonde, general manager at Univa, on supporting mixed HPC and containerized applications &nbsp;
 

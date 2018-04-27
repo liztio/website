@@ -637,7 +637,8 @@ func (m *mover) contentMigrate_Replacements() error {
 			// 2018-01-00-Core-Workloads-Api-Ga.md
 			re := regexp.MustCompile(`\d{4}-\d{2}-\d{2}-(.*?)\.md`)
 			m := re.FindStringSubmatch(path)
-			slug := strings.ToLower(strings.Replace(strings.TrimSpace(m[1]), " ", "-", -1))
+			namePart := strings.TrimSpace(m[1])
+			slug := strings.ToLower(strings.Replace(namePart, " ", "-", -1))
 			s, err := addKeyValue("slug", slug)(path, s)
 			if err != nil {
 				return s, err
@@ -649,7 +650,7 @@ func (m *mover) contentMigrate_Replacements() error {
 			m = re.FindStringSubmatch(path)
 			if len(m) > 1 {
 				spl := strings.Split(m[1], "-")
-				return addKeyValue("url", pth.Join("/blog", spl[0], spl[1], slug)+"/")(path, s)
+				return addKeyValue("url", pth.Join("/blog", spl[0], spl[1], namePart))(path, s)
 			}
 			return s, err
 

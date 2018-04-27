@@ -2,7 +2,7 @@
 title: " Thousand Instances of Cassandra using Kubernetes Pet Set "
 date: 2016-07-13
 slug: thousand-instances-of-cassandra-using-kubernetes-pet-set
-url: /blog/2016/07/thousand-instances-of-cassandra-using-kubernetes-pet-set/
+url: /blog/2016/07/Thousand-Instances-Of-Cassandra-Using-Kubernetes-Pet-Set
 ---
 
 _Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2016/07/five-days-of-kubernetes-1.3.html) on what's new in Kubernetes 1.3_    

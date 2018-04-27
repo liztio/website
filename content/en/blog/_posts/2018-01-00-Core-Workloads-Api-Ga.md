@@ -2,7 +2,7 @@
 title: "Core Workloads API GA"
 date: 2018-01-15
 slug: core-workloads-api-ga
-url: /blog/2018/01/core-workloads-api-ga/
+url: /blog/2018/01/Core-Workloads-Api-Ga
 ---
 
 ## DaemonSet, Deployment, ReplicaSet, and StatefulSet are GA

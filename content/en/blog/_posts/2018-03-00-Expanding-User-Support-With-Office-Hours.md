@@ -2,7 +2,7 @@
 title: "Expanding User Support with Office Hours"
 date: 2018-03-14
 slug: expanding-user-support-with-office-hours
-url: /blog/2018/03/expanding-user-support-with-office-hours/
+url: /blog/2018/03/Expanding-User-Support-With-Office-Hours
 ---
 
 **Today's post is by Jorge Castro and Ilya Dmitichenko on Kubernetes office hours.**

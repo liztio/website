@@ -2,7 +2,7 @@
 title: " Weekly Kubernetes Community Hangout Notes - July 10 2015 "
 date: 2015-07-13
 slug: weekly-kubernetes-community-hangout
-url: /blog/2015/07/weekly-kubernetes-community-hangout/
+url: /blog/2015/07/Weekly-Kubernetes-Community-Hangout
 ---
 
 Every week the Kubernetes contributing community meet virtually over Google Hangouts. We want anyone who's interested to know what's discussed in this forum.

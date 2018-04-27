@@ -2,7 +2,7 @@
 title: " Adding Support for Kubernetes in Rancher "
 date: 2016-04-08
 slug: adding-support-for-kubernetes-in-rancher
-url: /blog/2016/04/adding-support-for-kubernetes-in-rancher/
+url: /blog/2016/04/Adding-Support-For-Kubernetes-In-Rancher
 ---
 _Today’s guest post is written by Darren Shepherd, Chief Architect at Rancher Labs, an open-source software platform for managing containers._  
 

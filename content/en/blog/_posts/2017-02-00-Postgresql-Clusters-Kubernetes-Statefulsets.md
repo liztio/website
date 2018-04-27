@@ -2,7 +2,7 @@
 title: " Deploying PostgreSQL Clusters using StatefulSets "
 date: 2017-02-24
 slug: postgresql-clusters-kubernetes-statefulsets
-url: /blog/2017/02/postgresql-clusters-kubernetes-statefulsets/
+url: /blog/2017/02/Postgresql-Clusters-Kubernetes-Statefulsets
 ---
 _Editor’s note: Today’s guest post is by Jeff McCormick, a developer at Crunchy Data, showing how to build a PostgreSQL cluster using the new Kubernetes StatefulSet feature._  
 

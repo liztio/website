@@ -2,7 +2,7 @@
 title: " Configuring Private DNS Zones and Upstream Nameservers in Kubernetes "
 date: 2017-04-04
 slug: configuring-private-dns-zones-upstream-nameservers-kubernetes
-url: /blog/2017/04/configuring-private-dns-zones-upstream-nameservers-kubernetes/
+url: /blog/2017/04/Configuring-Private-Dns-Zones-Upstream-Nameservers-Kubernetes
 ---
 _Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2017/03/five-days-of-kubernetes-1.6.html) on what's new in Kubernetes 1.6_  
 

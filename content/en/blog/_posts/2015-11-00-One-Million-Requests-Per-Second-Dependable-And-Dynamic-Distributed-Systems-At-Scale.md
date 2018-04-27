@@ -2,7 +2,7 @@
 title: " One million requests per second: Dependable and dynamic distributed systems at scale "
 date: 2015-11-11
 slug: one-million-requests-per-second-dependable-and-dynamic-distributed-systems-at-scale
-url: /blog/2015/11/one-million-requests-per-second-dependable-and-dynamic-distributed-systems-at-scale/
+url: /blog/2015/11/One-Million-Requests-Per-Second-Dependable-And-Dynamic-Distributed-Systems-At-Scale
 ---
 
 Recently, I’ve gotten in the habit of telling people that building a reliable service isn’t that hard. If you give me two Compute Engine virtual machines, a Cloud Load balancer, supervisord and nginx, I can create you a static web service that will serve a static web page, effectively forever.  

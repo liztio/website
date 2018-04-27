@@ -2,7 +2,7 @@
 title: " The Distributed System ToolKit: Patterns for Composite Containers "
 date: 2015-06-29
 slug: the-distributed-system-toolkit-patterns
-url: /blog/2015/06/the-distributed-system-toolkit-patterns/
+url: /blog/2015/06/The-Distributed-System-Toolkit-Patterns
 ---
 Having had the privilege of presenting some ideas from Kubernetes at DockerCon 2015, I thought I would make a blog post to share some of these ideas for those of you who couldn’t be there.  
 

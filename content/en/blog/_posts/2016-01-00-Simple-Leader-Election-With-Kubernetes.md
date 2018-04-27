@@ -2,7 +2,7 @@
 title: " Simple leader election with Kubernetes and Docker "
 date: 2016-01-11
 slug: simple-leader-election-with-kubernetes
-url: /blog/2016/01/simple-leader-election-with-kubernetes/
+url: /blog/2016/01/Simple-Leader-Election-With-Kubernetes
 ---
 
 ####  Overview

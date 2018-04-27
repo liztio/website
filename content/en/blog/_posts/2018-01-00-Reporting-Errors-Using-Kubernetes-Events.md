@@ -3,7 +3,7 @@ title: "Reporting Errors from Control Plane to Applications Using Kubernetes Eve
 date: 2018-01-25
 published: true
 slug: reporting-errors-using-kubernetes-events
-url: /blog/2018/01/reporting-errors-using-kubernetes-events/
+url: /blog/2018/01/Reporting-Errors-Using-Kubernetes-Events
 ---
 
 At [Box](https://www.box.com/), we manage several large scale Kubernetes clusters that serve as an internal platform as a service (PaaS) for hundreds of deployed microservices. The majority of those microservices are applications that power box.com for over 80,000 customers. The PaaS team also deploys several services affiliated with the platform infrastructure as the _control plane_.  

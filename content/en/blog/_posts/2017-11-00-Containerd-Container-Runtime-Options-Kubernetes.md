@@ -2,7 +2,7 @@
 title: "  Containerd Brings More Container Runtime Options for Kubernetes "
 date: 2017-11-02
 slug: containerd-container-runtime-options-kubernetes
-url: /blog/2017/11/containerd-container-runtime-options-kubernetes/
+url: /blog/2017/11/Containerd-Container-Runtime-Options-Kubernetes
 ---
  **_Editor's note: Today's post is by Lantao Liu, Software Engineer at Google, and Mike Brown, Open Source Developer Advocate at IBM._**  
 

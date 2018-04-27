@@ -2,7 +2,7 @@
 title: " Kubernetes Community Meeting Notes - 20160114 "
 date: 2016-01-28
 slug: kubernetes-community-meeting-notes
-url: /blog/2016/01/kubernetes-community-meeting-notes/
+url: /blog/2016/01/Kubernetes-Community-Meeting-Notes
 ---
 #####  January 14 - RackN demo, testing woes, and KubeCon EU CFP.
 ---

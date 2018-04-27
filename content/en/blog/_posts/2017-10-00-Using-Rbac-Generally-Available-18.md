@@ -2,7 +2,7 @@
 title: " Using RBAC, Generally Available in Kubernetes v1.8 "
 date: 2017-10-28
 slug: using-rbac-generally-available-18
-url: /blog/2017/10/using-rbac-generally-available-18/
+url: /blog/2017/10/Using-Rbac-Generally-Available-18
 ---
 **_Editor's note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2017/10/five-days-of-kubernetes-18.html) on what's new in Kubernetes 1.8. Today’s post comes from Eric Chiang, software engineer, CoreOS, and SIG-Auth co-lead._**  
 

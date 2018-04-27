@@ -2,7 +2,7 @@
 title: " Windows Server Support Comes to Kubernetes "
 date: 2016-12-21
 slug: windows-server-support-kubernetes
-url: /blog/2016/12/windows-server-support-kubernetes/
+url: /blog/2016/12/Windows-Server-Support-Kubernetes
 ---
 _Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2016/12/five-days-of-kubernetes-1.5.html) on what's new in Kubernetes 1.5_  
 

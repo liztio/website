@@ -2,7 +2,7 @@
 title: " Introducing Kubeflow - A Composable, Portable, Scalable ML Stack Built for Kubernetes "
 date: 2017-12-21
 slug: introducing-kubeflow-composable
-url: /blog/2017/12/introducing-kubeflow-composable/
+url: /blog/2017/12/Introducing-Kubeflow-Composable
 ---
 
 **_Today’s post is by David Aronchick and Jeremy Lewi, a PM and Engineer on the Kubeflow project, a new open source Github repo dedicated to making using machine learning (ML) stacks on Kubernetes easy, fast and extensible._**  

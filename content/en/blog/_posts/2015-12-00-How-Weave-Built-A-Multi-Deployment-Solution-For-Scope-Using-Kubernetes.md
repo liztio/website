@@ -2,7 +2,7 @@
 title: " How Weave built a multi-deployment solution for Scope using Kubernetes "
 date: 2015-12-12
 slug: how-weave-built-a-multi-deployment-solution-for-scope-using-kubernetes
-url: /blog/2015/12/how-weave-built-a-multi-deployment-solution-for-scope-using-kubernetes/
+url: /blog/2015/12/How-Weave-Built-A-Multi-Deployment-Solution-For-Scope-Using-Kubernetes
 ---
 _Today we hear from Peter Bourgon, Software Engineer at Weaveworks, a company that provides software for developers to network, monitor and control microservices-based apps in docker containers. Peter tells us what was involved in selecting and deploying Kubernetes&nbsp;_  
 

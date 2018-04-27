@@ -2,7 +2,7 @@
 title: " Weekly Kubernetes Community Hangout Notes - July 17 2015 "
 date: 2015-07-23
 slug: weekly-kubernetes-community-hangout_23
-url: /blog/2015/07/weekly-kubernetes-community-hangout_23/
+url: /blog/2015/07/Weekly-Kubernetes-Community-Hangout_23
 ---
 
 

@@ -2,7 +2,7 @@
 title: " Introducing Container Runtime Interface (CRI) in Kubernetes "
 date: 2016-12-19
 slug: container-runtime-interface-cri-in-kubernetes
-url: /blog/2016/12/container-runtime-interface-cri-in-kubernetes/
+url: /blog/2016/12/Container-Runtime-Interface-Cri-In-Kubernetes
 ---
 _Editor’s note: this post is part of a [series of in-depth articles](http://blog.kubernetes.io/2016/12/five-days-of-kubernetes-1.5.html) on what's new in Kubernetes 1.5_  
 

@@ -2,7 +2,7 @@
 title: " Kubernetes in the Enterprise with Fujitsu’s Cloud Load Control "
 date: 2016-03-11
 slug: kubernetes-in-enterprise-with-fujitsus
-url: /blog/2016/03/kubernetes-in-enterprise-with-fujitsus/
+url: /blog/2016/03/Kubernetes-In-Enterprise-With-Fujitsus
 ---
 Today’s guest post is by Florian Walker, Product Manager at Fujitsu and working on Cloud Load Control, an offering focused on the usage of Kubernetes in an enterprise context. Florian tells us what potential Fujitsu sees in Kubernetes, and how they make it accessible to enterprises.
 
