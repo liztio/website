@@ -6,7 +6,7 @@
 {{ with .Params.content_template }}
 {{ partial . $p }}
 {{ else }}
-{{ if not .Params.toc_hide}}
+{{ if and (not .Params.toc_hide) (not (.HasShortcode "toc")) }}
 {{ .TableOfContents }}
 {{ end }}
 {{ .Content }}
