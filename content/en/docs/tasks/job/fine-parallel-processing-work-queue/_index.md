@@ -3,7 +3,6 @@ title: Fine Parallel Processing Using a Work Queue
 toc_hide: true
 ---
 
-* TOC
 {{< toc >}}
 
 # Example: Job with Work Queue with Multiple Work Items Per Pod

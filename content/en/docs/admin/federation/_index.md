@@ -12,7 +12,6 @@ toc_hide: true
 This guide explains how to set up cluster federation that lets us control multiple Kubernetes clusters.
 
 
-* TOC
 {{< toc >}}
 
 ## Prerequisites

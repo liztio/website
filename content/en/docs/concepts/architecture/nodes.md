@@ -5,7 +5,6 @@ reviewers:
 title: Nodes
 ---
 
-* TOC
 {{< toc >}}
 
 ## What is a node?

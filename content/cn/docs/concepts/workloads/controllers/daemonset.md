@@ -7,7 +7,6 @@ redirect_from:
 - "/docs/admin/daemons.html"
 ---
 
-* TOC
 {{< toc >}}
 
 

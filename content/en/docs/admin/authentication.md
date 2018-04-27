@@ -8,7 +8,6 @@ reviewers:
 title: Authenticating
 ---
 
-* TOC
 {{< toc >}}
 
 ## Users in Kubernetes

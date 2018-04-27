@@ -4,7 +4,6 @@ approvers:
 title: Kubernetes集群中使用Sysctls
 ---
 
-* TOC
 {{< toc >}}
 
 这篇文章描述了如何在Kubernetes集群中使用Sysctls。

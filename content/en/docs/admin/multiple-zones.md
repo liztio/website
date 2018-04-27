@@ -26,7 +26,6 @@ add similar support for other clouds or even bare metal, by simply arranging
 for the appropriate labels to be added to nodes and volumes).
 
 
-* TOC
 {{< toc >}}
 
 ## Functionality

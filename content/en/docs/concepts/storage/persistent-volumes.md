@@ -9,7 +9,6 @@ title: Persistent Volumes
 
 This document describes the current state of `PersistentVolumes` in Kubernetes. Familiarity with [volumes](/docs/concepts/storage/volumes/) is suggested.
 
-* TOC
 {{< toc >}}
 
 ## Introduction

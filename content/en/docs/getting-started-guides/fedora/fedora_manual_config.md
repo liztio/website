@@ -6,7 +6,6 @@ reviewers:
 title: Fedora (Single Node)
 ---
 
-* TOC
 {{< toc >}}
 
 ## Prerequisites

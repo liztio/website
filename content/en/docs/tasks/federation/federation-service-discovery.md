@@ -11,7 +11,6 @@ easy to achieve cross-cluster service discovery and availability zone
 fault tolerance for your Kubernetes applications.
 
 
-* TOC
 {{< toc >}}
 
 ## Prerequisites

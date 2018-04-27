@@ -6,7 +6,6 @@ reviewers:
 title: Network Plugins
 ---
 
-* TOC
 {{< toc >}}
 
 __Disclaimer__: Network plugins are in alpha. Its contents will change rapidly.

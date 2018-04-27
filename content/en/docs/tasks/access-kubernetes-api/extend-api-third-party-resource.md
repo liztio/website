@@ -7,7 +7,6 @@ title: Extend the Kubernetes API with ThirdPartyResources
 
 {{< feature-state for_k8s_version="1.7" state="deprecated" >}}
 
-* TOC
 {{< toc >}}
 
 ## What is ThirdPartyResource?

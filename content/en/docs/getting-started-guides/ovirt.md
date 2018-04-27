@@ -5,7 +5,6 @@ reviewers:
 title: oVirt
 ---
 
-* TOC
 {{< toc >}}
 
 ## What is oVirt

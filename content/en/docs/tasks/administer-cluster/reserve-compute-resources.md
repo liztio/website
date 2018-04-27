@@ -6,7 +6,6 @@ reviewers:
 title: Reserve Compute Resources for System Daemons
 ---
 
-* TOC
 {{< toc >}}
 
 Kubernetes nodes can be scheduled to `Capacity`. Pods can consume all the

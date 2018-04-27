@@ -6,7 +6,6 @@ reviewers:
 title: Guaranteed Scheduling For Critical Add-On Pods
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

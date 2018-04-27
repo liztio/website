@@ -33,7 +33,6 @@ that is updated whenever the set of `Pods` in a `Service` changes.  For
 non-native applications, Kubernetes offers a virtual-IP-based bridge to Services
 which redirects to the backend `Pods`.
 
-* TOC
 {{< toc >}}
 
 ## Defining a service

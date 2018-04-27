@@ -12,7 +12,6 @@ redirect_from:
 `PodSecurityPolicy` 类型的对象能够控制，是否可以向 Pod 发送请求，该 Pod 能够影响被应用到 Pod 和容器的 `SecurityContext`。
 查看 [Pod 安全策略建议](https://git.k8s.io/community/contributors/design-proposals/security-context-constraints.md) 获取更多信息。
 
-* TOC
 {{< toc >}}
 
 

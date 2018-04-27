@@ -11,7 +11,6 @@ redirect_from:
 - "/docs/user-guide/cron-jobs.html"
 ---
 
-* TOC
 {{< toc >}}
 
 

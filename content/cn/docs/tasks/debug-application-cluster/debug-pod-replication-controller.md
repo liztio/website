@@ -2,7 +2,6 @@
 title: 调试Pods和Replication Controllers
 ---
 
-* TOC
 {{< toc >}}
 
 ## 调试Pods

@@ -4,7 +4,6 @@ reviewers:
 title: Set up High-Availability Kubernetes Masters
 ---
 
-* TOC
 {{< toc >}}
 
 Kubernetes version 1.5 adds alpha support for replicating Kubernetes masters in `kube-up` or `kube-down` scripts for Google Compute Engine.

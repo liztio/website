@@ -6,7 +6,6 @@ reviewers:
 title: Using RBAC Authorization
 ---
 
-* TOC
 {{< toc >}}
 
 Role-Based Access Control ("RBAC") uses the "rbac.authorization.k8s.io" API group 

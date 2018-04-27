@@ -8,7 +8,6 @@ redirect_from:
 - "/docs/user-guide/add-entries-to-pod-etc-hosts-with-host-aliases.md"
 ---
 
-* TOC
 {{< toc >}}
 
 

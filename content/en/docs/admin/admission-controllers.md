@@ -9,7 +9,6 @@ reviewers:
 title: Using Admission Controllers
 ---
 
-* TOC
 {{< toc >}}
 
 ## What are they?

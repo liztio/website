@@ -6,7 +6,6 @@ reviewers:
 title: Auditing
 ---
 
-* TOC
 {{< toc >}}
 
 {{< feature-state state="beta" >}}

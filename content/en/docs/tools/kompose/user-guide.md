@@ -9,7 +9,6 @@ redirect_from:
 - "/docs/tools/kompose/index.html"
 ---
 
-* TOC
 {{< toc >}}
 
 # Kubernetes + Compose = Kompose

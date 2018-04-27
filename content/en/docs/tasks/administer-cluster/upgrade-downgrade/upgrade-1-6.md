@@ -4,7 +4,6 @@ reviewers:
 title: Cluster Management Guide for Version 1.6
 ---
 
-* TOC
 {{< toc >}}
 
 This document outlines the potentially disruptive changes that exist in the 1.6 release cycle.  Operators, administrators, and developers should

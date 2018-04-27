@@ -22,7 +22,6 @@ If you already have a way to configure hosting resources, use [kubeadm](/docs/se
 [Custom solutions](#custom-solutions) vary from step-by-step instructions to general advice for setting up
 a Kubernetes cluster from scratch.
 
-* TOC
 {{< toc >}}
 
 # Local-machine Solutions

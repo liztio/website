@@ -6,7 +6,6 @@ reviewers:
 title: Configure Out Of Resource Handling
 ---
 
-* TOC
 {{< toc >}}
 
 This page explains how to configure out of resource handling with `kubelet`.

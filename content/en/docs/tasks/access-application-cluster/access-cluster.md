@@ -2,7 +2,6 @@
 title: Accessing Clusters
 ---
 
-* TOC
 {{< toc >}}
 
 ## Accessing the cluster API

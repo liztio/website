@@ -10,7 +10,6 @@ title: Developing Cloud Controller Manager
 be the preferred way to integrate Kubernetes with any cloud. This will ensure cloud providers
 can develop their features independently from the core Kubernetes release cycles.**
 
-* TOC
 {{< toc >}}
 
 ## Background

@@ -5,7 +5,6 @@ reviewers:
 title: Jobs - Run to Completion
 ---
 
-* TOC
 {{< toc >}}
 
 ## What is a Job?

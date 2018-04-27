@@ -4,7 +4,6 @@ reviewers:
 title: Perform Rolling Update Using a Replication Controller
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

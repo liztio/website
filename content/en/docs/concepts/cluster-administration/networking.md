@@ -13,7 +13,6 @@ default.  There are 4 distinct networking problems to solve:
 3. Pod-to-Service communications: this is covered by [services](/docs/concepts/services-networking/service/).
 4. External-to-Service communications: this is covered by [services](/docs/concepts/services-networking/service/).
 
-* TOC
 {{< toc >}}
 
 

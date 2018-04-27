@@ -8,7 +8,6 @@ reviewers:
 
 {{< feature-state state="beta" >}}
 
-* TOC
 {{< toc >}}
 
 Kubernetes keeps many aspects of how pods execute on nodes abstracted

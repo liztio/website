@@ -8,7 +8,6 @@ reviewers:
 title: DaemonSet
 ---
 
-* TOC
 {{< toc >}}
 
 ## What is a DaemonSet?

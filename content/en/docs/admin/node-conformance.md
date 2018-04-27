@@ -4,7 +4,6 @@ reviewers:
 title: Validate Node Setup
 ---
 
-* TOC
 {{< toc >}}
 
 ## Node Conformance Test

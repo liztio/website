@@ -10,7 +10,6 @@ This task shows some examples on using the `PodPreset` resource.
 You can get an overview of PodPresets at
 [Understanding Pod Presets](/docs/concepts/workloads/pods/podpreset/).
 
-* TOC
 {{< toc >}}
 
 ## Create a Pod Preset

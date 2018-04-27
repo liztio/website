@@ -9,7 +9,6 @@ passwords, OAuth tokens, and ssh keys.  Putting this information in a `secret`
 is safer and more flexible than putting it verbatim in a `pod` definition or in
 a docker image. See [Secrets design document](https://git.k8s.io/community/contributors/design-proposals/auth/secrets.md) for more information.
 
-* TOC
 {{< toc >}}
 
 ## Overview of Secrets

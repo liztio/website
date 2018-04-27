@@ -4,7 +4,6 @@ cn-approvers:
 title: 证书
 ---
 
-* TOC
 {{< toc >}}
 
 ## 创建证书

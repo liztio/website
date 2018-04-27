@@ -5,7 +5,6 @@ reviewers:
 title: Cluster Management
 ---
 
-* TOC
 {{< toc >}}
 
 This document describes several topics related to the lifecycle of a cluster: creating a new cluster,

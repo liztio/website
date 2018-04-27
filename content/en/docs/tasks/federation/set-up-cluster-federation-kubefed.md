@@ -4,7 +4,6 @@ reviewers:
 title: Set up Cluster Federation with Kubefed
 ---
 
-* TOC
 {{< toc >}}
 
 Kubernetes version 1.5 and above includes a new command line tool called

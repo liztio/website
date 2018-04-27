@@ -6,7 +6,6 @@ approvers:
 title: 网络策略
 ---
 
-* TOC
 {{< toc >}}
 
 网络策略（NetworkPolicy）是一种关于pod间及pod与其他网络端点间所允许的通信规则的规范。

@@ -4,7 +4,6 @@ reviewers:
 title: Kubelet authentication/authorization
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

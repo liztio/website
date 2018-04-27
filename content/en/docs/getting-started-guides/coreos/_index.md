@@ -3,7 +3,6 @@ title: CoreOS on AWS or GCE
 toc_hide: true
 ---
 
-* TOC
 {{< toc >}}
 
 There are multiple guides on running Kubernetes with [CoreOS](https://coreos.com/kubernetes/docs/latest/):

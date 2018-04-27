@@ -7,7 +7,6 @@ approvers:
 title: Master 节点通信
 ---
 
-* TOC
 {{< toc >}}
 
 

@@ -6,7 +6,6 @@ reviewers:
 title: Connecting Applications with Services
 ---
 
-* TOC
 {{< toc >}}
 
 ## The Kubernetes model for connecting containers

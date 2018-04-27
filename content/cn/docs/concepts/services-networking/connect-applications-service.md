@@ -6,7 +6,6 @@ approvers:
 title: 应用连接到 Service
 ---
 
-* TOC
 {{< toc >}}
 
 

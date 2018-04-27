@@ -6,7 +6,6 @@ reviewers:
 title: Master-Node communication
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

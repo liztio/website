@@ -5,7 +5,6 @@ approvers:
 title: kubectl Usage Conventions
 ---
 
-* TOC
 {{< toc >}}
 
 ## Using `kubectl` in Reusable Scripts

@@ -2,7 +2,6 @@
 title: Running Kubernetes on CenturyLink Cloud
 ---
 
-* TOC
 {: toc}
 
 These scripts handle the creation, deletion and expansion of Kubernetes clusters on CenturyLink Cloud.

@@ -6,7 +6,6 @@ reviewers:
 - liggit
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

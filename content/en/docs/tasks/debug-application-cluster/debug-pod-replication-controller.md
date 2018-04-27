@@ -4,7 +4,6 @@ reviewers:
 title: Debug Pods and Replication Controllers
 ---
 
-* TOC
 {{< toc >}}
 
 ## Debugging pods

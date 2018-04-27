@@ -5,7 +5,6 @@ reviewers:
 title: Monitor Node Health
 ---
 
-* TOC
 {{< toc >}}
 
 ## Node Problem Detector

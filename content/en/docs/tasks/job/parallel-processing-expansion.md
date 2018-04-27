@@ -2,7 +2,6 @@
 title: Parallel Processing using Expansions
 ---
 
-* TOC
 {{< toc >}}
 
 # Example: Multiple Job Objects from Template Expansion

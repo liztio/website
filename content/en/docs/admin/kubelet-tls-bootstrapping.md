@@ -6,7 +6,6 @@ reviewers:
 title: TLS bootstrapping
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

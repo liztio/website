@@ -8,7 +8,6 @@ title: Kubernetes Cloud Controller Manager
 
 {{< feature-state state="alpha" >}}
 
-* TOC
 {{< toc >}}
 
 ## Cloud Controller Manager

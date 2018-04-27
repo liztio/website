@@ -7,7 +7,6 @@ reviewers:
 title: Horizontal Pod Autoscaler Walkthrough
 ---
 
-* TOC
 {{< toc >}}
 
 Horizontal Pod Autoscaler automatically scales the number of pods

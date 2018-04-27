@@ -4,7 +4,6 @@ reviewers:
 title: Authenticating with Bootstrap Tokens
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

@@ -12,7 +12,6 @@ Dashboard also provides information on the state of Kubernetes resources in your
 
 ![Kubernetes Dashboard UI](/images/docs/ui-dashboard.png)
 
-* TOC
 {{< toc >}}
 
 ## Deploying the Dashboard UI

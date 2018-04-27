@@ -6,7 +6,6 @@ reviewers:
 title: CronJob
 ---
 
-* TOC
 {{< toc >}}
 
 ## What is a cron job?

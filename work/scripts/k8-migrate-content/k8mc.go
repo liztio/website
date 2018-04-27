@@ -583,6 +583,11 @@ func (m *mover) contentMigrate_Replacements() error {
 `), nil
 		},
 
+		// Remove dangling TOC
+		func(path, s string) (string, error) {
+			return strings.Replace(s, "* TOC\n", "", 1), nil
+		},
+
 		//
 
 		func(path, s string) (string, error) {

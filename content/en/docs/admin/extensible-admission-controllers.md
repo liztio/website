@@ -8,7 +8,6 @@ reviewers:
 title: Dynamic Admission Control
 ---
 
-* TOC
 {{< toc >}}
 
 ## Overview

@@ -3,7 +3,6 @@ reviewers:
 title: Pods
 ---
 
-* TOC
 {{< toc >}}
 
 

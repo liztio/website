@@ -7,7 +7,6 @@ reviewers:
 title: Using Node Authorization
 ---
 
-* TOC
 {{< toc >}}
 
 Node authorization is a special-purpose authorization mode that specifically authorizes API requests made by kubelets.

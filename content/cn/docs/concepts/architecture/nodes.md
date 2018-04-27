@@ -11,7 +11,6 @@ redirect_from:
 - "/docs/concepts/nodes/node.html"
 ---
 
-* TOC
 {{< toc >}}
 
 
