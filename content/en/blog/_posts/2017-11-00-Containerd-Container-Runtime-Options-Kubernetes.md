@@ -34,7 +34,7 @@ Containerd has a much smaller scope than Docker, provides a golang client API, a
 | Persistent Container Logging | Out, No persistent container log. Container STDIO is provided as FIFOs, which can be redirected/decorated as is required. | Kubernetes has specific requirements for persistent container logs, such as format and path etc. Container runtimes should not &nbsp;persist an unmanageable container log. (✔️) |
 | Metrics | In  Containerd provides container and snapshot metrics as part of the API. | Kubernetes expects container runtime to provide container metrics (CPU, Memory, writable layer size, etc.) and image filesystem usage (disk, inode usage, etc.). (✔️) |
 Overall, from a technical perspective, containerd is a very good alternative container runtime for Kubernetes.|
-{:.post-table}
+
 
 
 

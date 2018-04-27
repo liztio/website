@@ -55,12 +55,12 @@ The diagram below shows the flow of DNS queries specified in the configuration a
 Below is a table of example domain names and the destination of the queries for those domain names:
 
 | | |
-|--|--|
+|---|---|
 | Domain name | Server answering the query |
 | kubernetes.default.svc.cluster.local | kube-dns |
 | foo.acme.local | custom DNS (1.2.3.4) |
 | widget.com | upstream DNS (one of 8.8.8.8, 8.8.4.4) |
-{:.post-table}
+
 
 
 **ConfigMap Configuration Notes**

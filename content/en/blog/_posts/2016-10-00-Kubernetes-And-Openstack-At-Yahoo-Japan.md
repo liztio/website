@@ -33,7 +33,7 @@ We use following products in our CICD pipeline:
 
 
 | Function | Product |
-|--|--|
+|---|---|
 | Code registry | GitHub Enterprise |
 | CI tools | Jenkins |
 | Image registry | Artifactory |
@@ -41,7 +41,7 @@ We use following products in our CICD pipeline:
 | deploying Bare metal platform | OpenStack Ironic |
 | deploying VM platform |OpenStack |
 | deploying container platform | Kubernetes |
-{: .post-table}
+
 
 
 Image Creation. Each image creation workflow is shown in the next diagram.
@@ -120,7 +120,7 @@ Let’s focus on the container workflow to walk through how we use Kubernetes as
 
 
 |Function |Product |
-|--|--|
+|---|---|
 |Infrastructure Services |OpenStack |
 |Container Host |CentOS |
 |Container Cluster Manager |Kubernetes |
@@ -134,7 +134,7 @@ Let’s focus on the container workflow to walk through how we use Kubernetes as
 |Logging |Fluentd, Elasticsearch, Kibana |
 |Metrics |Heapster, Influxdb, Grafana |
 |Service Monitoring |Prometheus |
-{: .post-table}
+
 
 
 We use CentOS for Container Host (OpenStack instances) and install Docker, Kubernetes, Calico, etcd and so on. Of course, it is possible to run various container applications on Kubernetes. In fact, we run OpenStack as one of those applications. That's right, OpenStack on Kubernetes on OpenStack. We currently have more than 30 OpenStack clusters, that quickly become hard to manage and operate. As such, we wanted to create a simple, base OpenStack cluster to provide the basic functionality needed for Kubernetes and make our OpenStack environment easier to manage.
@@ -166,7 +166,7 @@ Let me explain Kubernetes architecture in some more detail. The architecture dia
 |kube-proxy |Configure iptable NAT tables to configure IP and load balance (ClusterIP) |
 |etcd |Distribute KVS to store Kubernetes and Calico information |
 |etcd-proxy |Run on each node and transfer client request to etcd clusters|
-{: .post-table}
+
 
 **Tenant Isolation** To enable multi-tenant usage like OpenStack, we utilize OpenStack Keystone for authentication and authorization.  
 

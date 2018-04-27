@@ -57,7 +57,7 @@ The following table contains percentiles (50th, 90th and 99th) of pod startup ti
 |50th percentile   |  .90s | 1.08s  | 1.33s  | 1.94s  |
 |90th percentile   |  1.29s |  1.49s |  1.72s |  2.50s |
 | 99th percentile  |  1.59s | 1.86s  | 2.56s  | 4.32s  |
-{: .post-table}
+
 
 As for api-responsiveness, the following graphs present 50th, 90th and 99th percentiles of latencies of API calls grouped by kind of operation and resource type. However, note that this also includes internal system API calls, not just those issued by users (in this case issued by the test itself).
 

@@ -26,7 +26,7 @@ So, without further ado, let’s get to the hardware.
 | 1 | ModMyPi Multi-Pi Stackable Raspberry Pi Case - Bolt Pack | [~$7](http://www.modmypi.com/raspberry-pi/cases/multi-pi-stacker/multi-pi-stackable-raspberry-pi-case-bolt-pack) |
 | 5 | Micro USB cable (white) 1ft long | ~ $10 |
 | 5 | UTP cat5 cable (white) 1ft long | ~ $10 |
-{: .post-table}
+
 
 <br>
 For a total of approximately $380 you will have a building set to create a Raspberry Pi cluster like we built! [1](#1)  

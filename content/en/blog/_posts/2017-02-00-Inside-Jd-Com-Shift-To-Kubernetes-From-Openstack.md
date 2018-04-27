@@ -36,11 +36,11 @@ When JDOS 1.0 grew from 2,000 containers to 100,000, we launched a new container
 
 
 
- ![D:\百度云同步盘\徐新坤-新人培训计划\docker\MAE\分享\arc.png](https://lh3.googleusercontent.com/Hs2DAPmZIbqGrWK8oZvBGBJzZbSwLHry7_go0PmCQFCoB_nEjidMOwD8pHlLjqXHqGXXu140RT4EXQq7OX-qgNHQci1G-0-nEavRxha-L02RFmR9WyKp3sHCuxY2qFWmnz0UIVfpfGL_ZLsQAA){:big-img}
+ ![D:\百度云同步盘\徐新坤-新人培训计划\docker\MAE\分享\arc.png](https://lh3.googleusercontent.com/Hs2DAPmZIbqGrWK8oZvBGBJzZbSwLHry7_go0PmCQFCoB_nEjidMOwD8pHlLjqXHqGXXu140RT4EXQq7OX-qgNHQci1G-0-nEavRxha-L02RFmR9WyKp3sHCuxY2qFWmnz0UIVfpfGL_ZLsQAA)
 
 
 |Function |Product |
-|--|--|
+|---|---|
 |Source Code Management |Gitlab |
 |Container Tool |Docker |
 |Container Networking |Cane |
@@ -49,7 +49,7 @@ When JDOS 1.0 grew from 2,000 containers to 100,000, we launched a new container
 |CI Tool |Jenkins |
 |Log Management |Logstash + Elastic Search |
 |Monitor |Prometheus |
-{:.post-table}
+
 
 In JDOS 2.0, we define two levels, system and application. A system consists of several applications and an application consists of several Pods which provide the same service. In general, a department can apply for one or more systems which directly corresponds to the namespace of Kubernetes. This means that the Pods of the same system will be in the same namespace.  
 

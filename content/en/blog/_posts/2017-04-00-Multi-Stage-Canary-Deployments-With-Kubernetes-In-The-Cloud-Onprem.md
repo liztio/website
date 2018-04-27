@@ -40,7 +40,7 @@ To overcome this oxymoron, we came up with a four-stage canary pipeline for each
 Once a new build is pushed, we deploy it to an internal stage that’s only accessible for our internal tests and the integration test suite. Once the internal test suite passes, QA reports no issues, and we don’t detect any abnormal behavior, we push the new build to our free stage. This means that 5% of our free users would get randomly assigned to this new build. After some time in this stage the build gets promoted to the next stage that gets 5% of our paid users routed to it. Only once the build has successfully passed all 3 of these hurdles, does it get deployed to the production tier, where it will receive all traffic from our remaining users as well as our enterprise customers, which are not part of the paid bucket and never see their traffic routed to a canary track.  
 
 
- ![](https://lh3.googleusercontent.com/4iiw1O-Ik8KeLSMh8Ubk9j4wh3Npelqon-ZJ8joGeXqpFoZvi6won9vLOBLyAEuHcFkigKYXH_twCVKWvjxL-YEJRAFbLbLP7Ry8DTMIAVKmrlp7pBIEnM5bE-22I7eZD3NBoMeB){:.big-image}
+ ![](https://lh3.googleusercontent.com/4iiw1O-Ik8KeLSMh8Ubk9j4wh3Npelqon-ZJ8joGeXqpFoZvi6won9vLOBLyAEuHcFkigKYXH_twCVKWvjxL-YEJRAFbLbLP7Ry8DTMIAVKmrlp7pBIEnM5bE-22I7eZD3NBoMeB)
 
 This setup makes us a pretty big Kubernetes installation by default, since all of our canary tiers are available at a minimum replication of 2. Since we are currently deploying around 30 microservices (and growing) to our clusters, it adds up to a minimum of 10 pods per service (8 application pods + minimum 2 HAProxy pods that do the canary routing). Although, in reality our preferred standard configuration is usually running 2 internal, 4 free, 4 others and 10 production pods alongside 4 HAProxy pods - totalling around 700 pods in total. This also means that we are running at least 150 services that provide a static ClusterIP to their underlying microservice canary tier.  
 
@@ -53,7 +53,7 @@ A typical deployment looks like this:
 | account-service-canary | account-service-canary-v1.17.0 | 4 |
 | account-service-paid | account-service-paid-v1.15.0 | 4 |
 | account-service-production | account-service-production-v1.15.0 | 10 |
-{: .post-table}
+
 
 An example service definition the production track will have the following label selectors:  
 

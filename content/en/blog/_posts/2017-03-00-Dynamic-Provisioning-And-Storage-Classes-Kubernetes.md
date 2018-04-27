@@ -70,13 +70,13 @@ The following table provides more detail on default storage classes pre-installe
 
 
 | Cloud Provider | Default StorageClass Name | Default Provisioner |
-|--|--|--|
+|---|---|---|
 | Amazon Web Services | gp2 | aws-ebs |
 | Microsoft Azure | standard | azure-disk |
 | Google Cloud Platform | standard | gce-pd |
 | OpenStack | standard | cinder |
 | VMware vSphere | thin | vsphere-volume |
-{:.post-table}
+
 
 While these pre-installed default storage classes are chosen to be “reasonable” for most storage users, [this guide](https://kubernetes.io/docs/tasks/administer-cluster/change-default-storage-class) provides instructions on how to specify your own default.  
 

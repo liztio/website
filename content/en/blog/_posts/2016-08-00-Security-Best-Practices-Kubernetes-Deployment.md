@@ -174,7 +174,7 @@ When designing your containers and pods, make sure that you configure the securi
 | SecurityContext->Capabilities |Controls the Linux capabilities assigned to the container.|
 | SecurityContext->readOnlyRootFilesystem |Controls whether a container will be able to write into the root filesystem.|
 | PodSecurityContext->runAsNonRoot |Prevents running a container with 'root' user as part of the pod|
-{: .post-table}
+
 
 
 

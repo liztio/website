@@ -16,7 +16,7 @@ Follow along and read what’s new:
 | Day 3 | [Advanced Scheduling in Kubernetes 1.6](http://blog.kubernetes.io/2017/03/advanced-scheduling-in-kubernetes.html) |
 | Day 4 | [Configuring Private DNS Zones and Upstream Nameservers in Kubernetes](http://blog.kubernetes.io/2017/04/configuring-private-dns-zones-upstream-nameservers-kubernetes.html) |
 |Day 5 |  [RBAC support in Kubernetes](http://blog.kubernetes.io/2017/04/rbac-support-in-kubernetes.html) |
-{:.post-table}
+
 
 
 **Connect**

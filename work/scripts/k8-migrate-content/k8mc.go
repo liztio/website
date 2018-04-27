@@ -665,8 +665,19 @@ func (m *mover) contentMigrate_Replacements() error {
 `, "", 1)
 
 			// This isn't supported in Hugo. Doing with a shortcode isn't practical.
-			s = strings.Replace(s, "{: .big-img}", "", -1)
-			s = strings.Replace(s, "{:.big-img}", "", -1)
+			s = m.removeCallout(s, "big-img")
+			s = m.removeCallout(s, "big-image")
+			s = m.removeCallout(s, "scale-yaml")
+			s = m.removeCallout(s, "post-table")
+			s = m.removeCallout(s, "blog-content")
+			s = m.removeCallout(s, "inline-link")
+			s = m.removeCallout(s, "sup")
+			s = m.removeCallout(s, "style")
+
+			// Tables needs at least 3 dashes. The blog seems to use ... 2.
+			// |--|--|
+			s = strings.Replace(s, "|--", "|---", -1)
+			s = strings.Replace(s, "|--|", "|---|", -1)
 
 			return s, nil
 		},
@@ -726,6 +737,11 @@ func (m *mover) contentMigrate_Replacements() error {
 	}
 	return nil
 
+}
+
+func (m *mover) removeCallout(s, c string) string {
+	re := regexp.MustCompile(fmt.Sprintf(`{:\s?\.?%s.*?}`, c))
+	return re.ReplaceAllString(s, "")
 }
 
 func (m *mover) contentMigrate_Final_Step() error {
@@ -1018,7 +1034,6 @@ func replaceCaptures(path, s string) (string, error) {
 	return re.ReplaceAllString(s, `{{% capture $1 %}}$2{{% /capture %}}`), nil
 }
 
-// TODO(bep) blog {: .scale-yaml} remove
 // Introduce them little by little to test
 var callouts = regexp.MustCompile("note|caution|warning")
 

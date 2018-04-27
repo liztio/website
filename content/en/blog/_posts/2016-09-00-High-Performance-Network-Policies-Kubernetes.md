@@ -120,13 +120,13 @@ The table below shows the results, measured in milliseconds for different reques
 Response Size
 
 |Policies |.5k |1k |10k |100k |1M |
-|--|--|--|--|--|
+|---|---|---|---|---|
 |0 |0.732 |0.738 |1.077 |2.532 |10.487 |
 |10 |0.744 |0.742 |1.084 |2.570 |10.556 |
 |50 |0.745 |0.755 |1.086 |2.580 |10.566 |
 |100 |0.762 |0.770 |1.104 |2.640 |10.597 |
 |200 |0.783 |0.783 |1.147 |2.652 |10.677 |
-{: .post-table}
+
 
 
 What we see here is that, as the number of policies increases, processing network policies introduces a very small delay, never more than 0.2ms, even after applying 200 policies. For all practical purposes, no meaningful delay is introduced when network policy is applied. Also worth noting is that doubling the response size from 0.5k to 1.0k had virtually no effect. This is because for very small responses, the fixed overhead of creating a new connection dominates the overall response time (i.e. the same number of packets are transferred).
@@ -152,13 +152,13 @@ Even as a percentage of baseline performance, the impact is still very small. Th
 Response Size
 
 |Policies | .5k | 1k | 10k | 100k | 1M |
-|--|--|--|--|--|---|
+|---|---|---|---|---|----|
 | 0 | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
 | 10 | -1.6% | -0.5% | -0.6% | -1.5% | -0.7% |
 | 50 | -1.8% | -2.3% | -0.8% | -1.9% | -0.8% |
 | 100 | -4.1% | -4.3% | -2.5% | -4.3% | -1.0% |
 | 200 | -7.0% | -6.1% | -6.5% | -4.7% | -1.8% |
-{: .post-table}
+
 
 
  ![](https://lh6.googleusercontent.com/Bwpuko0UBaTQrL0h9_wDtnmsa0ijk6KD82BDVtHCCMuM4zATPppHKLv9lDoWBYvTbO89nPqIIA5jLYMfdxv7O6jIwRqHg_chVvBOz0-yZ_j2YhXop5Tg2a-a86swu_tBQhEPVGH3)

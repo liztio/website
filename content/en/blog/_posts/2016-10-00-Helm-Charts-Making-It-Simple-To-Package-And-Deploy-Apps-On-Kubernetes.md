@@ -30,7 +30,7 @@ The following applications are now available:
 
 
 |Stable repository | Incubating repository |
-|--|--|
+|---|---|
 |[Drupal](https://github.com/kubernetes/charts/tree/master/stable/drupal) | [Consul](https://github.com/kubernetes/charts/tree/master/incubator/consul) |
 |[Jenkins](https://github.com/kubernetes/charts/tree/master/stable/jenkins)|[Elasticsearch](https://github.com/kubernetes/charts/tree/master/incubator/elasticsearch) |
 | [MariaDB](https://github.com/kubernetes/charts/tree/master/stable/mariadb) | [etcd](https://github.com/kubernetes/charts/tree/master/incubator/etcd) |
@@ -40,7 +40,7 @@ The following applications are now available:
 ||[Prometheus](https://github.com/kubernetes/charts/tree/master/incubator/prometheus)|
 |  | [Spark](https://github.com/kubernetes/charts/tree/master/incubator/spark)|
 |    | [ZooKeeper](https://github.com/kubernetes/charts/tree/master/incubator/zookeeper) |
-{: .post-table}
+
 
 **Example workflow for a Chart developer**  
 

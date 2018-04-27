@@ -389,6 +389,21 @@ body {
     max-width: 90%; 
   }
 
+  /* blog post specific styling */
+  .blog-content table, tr, td, th {
+    font-size: 20px;
+    border: solid;
+    border-color: black;
+    border-width: .5px;
+    padding: 5px;
+  }
+
+  .blog-content table {
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+
+
   /* .blog-content .pagination {
     width: inherit;
   } */
@@ -472,14 +487,6 @@ ul {
   display: block;
 }
 
-/* blog post specific styling */
-table.post-table ,.post-table tr, .post-table td, .post-table th {
-  font-size: 20px;
-  border: solid;
-  border-color: black;
-  border-width: .5px;
-  padding: 5px;
-}
 
 .yaml-scale code {
   font-size: small;

@@ -54,6 +54,6 @@ Kubernetes worker nodes rely on the kube-proxy to load-balance ingress network t
 | Kernel-Mode, Load Balancing |  Not Supported | ✔ | ✔ |
 | Support for DNS search suffixes per Pod (Docker update) | Kube-Proxy &nbsp;added multiple DNS suffixes to each request | ✔ | ✔ |
 | CNI Plugin Support |  Not Supported | ✔ | ✔ |
-  {:.post-table}
+  
 
  The Kubernetes SIG Windows group meets bi-weekly on Tuesdays at 12:30 PM ET. To join or view notes from previous meetings, check out this [document](https://docs.google.com/document/d/1Tjxzjjuy4SQsFSUVXZbvqVb64hjNAG5CQX8bK7Yda9w/edit#heading=h.kbz22d1yc431).

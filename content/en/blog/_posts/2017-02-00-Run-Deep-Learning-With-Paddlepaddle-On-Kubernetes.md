@@ -53,7 +53,7 @@ PaddlePaddle supports distributed training natively. There are two roles in a Pa
 
 
 
-| ![](https://lh5.googleusercontent.com/e7udXH-Vv2SZ7YSo3YLtQEQI6VvWfPJMsYAkdad5ZJJ9mYBJ-Du3soR1pgwD80tD9ZMrUliuQU1UhnposxFsCJaKI4grRlFSTJFS0xi9HQXHsU-5-qkghOn0IRYy6cy-YzuHF6Eq){:big-img} |
+| ![](https://lh5.googleusercontent.com/e7udXH-Vv2SZ7YSo3YLtQEQI6VvWfPJMsYAkdad5ZJJ9mYBJ-Du3soR1pgwD80tD9ZMrUliuQU1UhnposxFsCJaKI4grRlFSTJFS0xi9HQXHsU-5-qkghOn0IRYy6cy-YzuHF6Eq) |
 | Figure 1: Model is partitioned into two shards. Managed by two parameter servers respectively.  |
 
 
@@ -130,7 +130,7 @@ spec:
 We can see from the config that parallelism, completions are both set to 3. So this job will simultaneously start up 3 PaddlePaddle pods, and this job will be finished when all 3 pods finishes.  
 
 
-| [![](https://lh5.googleusercontent.com/cKVFdtLUnX7mtE76xRCAFaylVilAX6E0mBy17XTKOJwJQy6_rqF33v5lgeUjIpfN-2pT00OpD13mByawgOrjHpwGwJ8y99Vgoqridu1GklIkMnKysOE8jIUwvwfSySUgUDGkTkpz)](https://github.com/PaddlePaddle/Paddle/blob/develop/doc/howto/usage/k8s/src/start_paddle.py){:big-img} |
+| [![](https://lh5.googleusercontent.com/cKVFdtLUnX7mtE76xRCAFaylVilAX6E0mBy17XTKOJwJQy6_rqF33v5lgeUjIpfN-2pT00OpD13mByawgOrjHpwGwJ8y99Vgoqridu1GklIkMnKysOE8jIUwvwfSySUgUDGkTkpz)](https://github.com/PaddlePaddle/Paddle/blob/develop/doc/howto/usage/k8s/src/start_paddle.py) |
 |   
 
 Figure 2: Job A of three pods and Job B of one pod running on two nodes.

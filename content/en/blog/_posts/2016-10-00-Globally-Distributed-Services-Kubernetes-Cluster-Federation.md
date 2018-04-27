@@ -59,12 +59,12 @@ gce-us-central1-c    Ready     39s
 
 
 |You can download the source used in this blog post [here](https://github.com/allannaim/federated-ingress-sample). The source consists of the following files:|
-|--|--|
+|---|---|
 |configmaps/zonefetch.yaml| retrieves the zone from the instance metadata server and concatenates into volume mount path|
 |replicasets/nginx-rs.yaml | deploys a Pod consisting of an nginx and busybox container|
 |ingress/ingress.yaml | creates a load balancer with a global VIP  that distributes requests to the closest nginx backend|
 |services/nginx.yaml| exposes the nginx backend as an external service|
-{: .post-table}
+
 
 
 

@@ -9,13 +9,13 @@ With the help of our growing community of 1,000 contributors, we pushed some 5,0
 This progress is our commitment in continuing to make Kubernetes best way to manage your production workloads at scale.  
 
 | | Five Days of Kubernetes 1.5 |
-|--|--|
+|---|---|
 | Day 1 |  [Introducing Container Runtime Interface (CRI) in Kubernetes](http://blog.kubernetes.io/2016/12/container-runtime-interface-cri-in-kubernetes.html) |
 | Day 2 |  [StatefulSet: Run and Scale Stateful Applications Easily in Kubernetes](http://blog.kubernetes.io/2016/12/statefulset-run-scale-stateful-applications-in-kubernetes.html) |
 | Day 3 |  [Windows Server Support Comes to Kubernetes](http://blog.kubernetes.io/2016/12/windows-server-support-kubernetes.html) |
 | Day 4 |  [Cluster Federation in Kubernetes 1.5](http://blog.kubernetes.io/2016/12/cluster-federation-in-kubernetes-1.5.html)  |
 | Day 5 |  [Kubernetes supports OpenAPI](http://blog.kubernetes.io/2016/12/kubernetes-supports-openapi.html) |
-{: .post-table }
+
 
 
 Connect

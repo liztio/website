@@ -11,7 +11,6 @@ Current
 * Remove superflous "layout:"
 * GetPage in top partials
 * Search page lots of space on top? padding
-* Blog, handle callouts {:
 * Finish 404 checker and diff
 * Merge master (font, header etc.)
 

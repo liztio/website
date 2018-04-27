@@ -49,7 +49,7 @@ root       302     1  0 04:37 ?        00:00:14 /usr/bin/docker daemon -H unix:/
 
 root       722     1 11 04:38 ?        00:16:11 /usr/bin/docker -d -bip=10.0.97.1/24 -mtu=1472 -H fd:// --storage-driver=overlay -D
 ```
-{: .scale-yaml}
+
 
 
 The etcd and flannel containers must be up.
@@ -79,7 +79,7 @@ db034473b334        gcr.io/google\_containers/hyperkube-arm:v1.1.2   "/hyperkube
 
 f017f405ff4b        gcr.io/google\_containers/hyperkube-arm:v1.1.2   "/hyperkube proxy --m"   2 hours ago         Up 2 hours                              k8s-master-proxy
 ```
-{: .scale-yaml}
+
 
 ### Deploying the first pod and service on the cluster
 
@@ -106,7 +106,7 @@ busybox-fry54          1/1       Running   1          1h        127.0.0.1
 
 k8s-master-127.0.0.1   3/3       Running   6          1h        127.0.0.1
 ```
-{: .scale-yaml}
+
 
 Now the pod is running but the application is not generally accessible. That can be achieved by creating a service. The cluster IP-address is the IP-address the service is avalailable within the cluster. Use the IP-address of your master node as external IP and the service becomes available outside of the cluster (e.g. at http://192.168.192.161 in my case).
 ```
@@ -122,7 +122,7 @@ kubernetes   10.0.0.1     \<none\>            443/TCP   \<none\>        2h
 
 $ curl http://10.0.0.87:90/
 ```
-{: .scale-yaml}
+
 
 ```
 \<html\>
@@ -162,7 +162,7 @@ $ cp k8s-on-rpi-master/rootfs/etc/kubernetes/k8s.conf /etc/kubernetes/k8s.conf
 ```
 $ k8s-on-rpi-master/install-k8s-worker.sh
 ```
-{: .scale-yaml}
+
 
 
 The install script will install four services. These are the quite similar to ones on the master node, but with the difference that no etcd service is running and the kubelet service is configured as worker node.
@@ -189,7 +189,7 @@ busybox-j2slu          1/1       Running   0          1h        192.168.192.160
 
 k8s-master-127.0.0.1   3/3       Running   6          2h        127.0.0.1
 ```
-{: .scale-yaml}
+
 
 ### Enjoy your Kubernetes cluster!
 
