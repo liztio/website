@@ -756,6 +756,13 @@ html.search #docsContent h1 { margin-bottom: 0; border-bottom: 0; padding-bottom
 
 #home #caseStudiesWrapper a { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); color: #3371e3; font-weight: 400; }
 
+/* Google Search */
+.cse .gsc-control-cse, .gsc-control-cse { padding: 0; }
+
+.gsc-control-cse table, .gsc-control-cse-en table { margin: 0px !important; }
+
+.gsc-above-wrapper-area { border-bottom: 0; }
+
 hr { background-color: #999999; }
 
 h2 { margin-bottom: 15px !important; }
