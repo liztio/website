@@ -1,10 +1,8 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Kubernetes Community Meeting Notes - 20160211 "
-date:  Wednesday, February 16, 2016
-pagination:
-  enabled: true
+date: 2016-02-16
+slug: kubernetes-community-meeting-notes-20160211
+url: /blog/2016/02/Kubernetes-community-meeting-notes-20160211
 ---
 
 #####  February 11th - Pangaea Demo, #AWS SIG formed, release automation and documentation team introductions. 1.2 update and planning 1.3.
@@ -31,8 +29,7 @@ Note taker: Rob Hirschfeld
     * There will be some automated checks
     * Next week: preview of the new website during the community meeting
 * [@goltermann] 1.2 Release Watch (time +34 minutes)
-    * code slush date: 2/9/2016
-    * no major features or refactors accepted
+    * code slush     * no major features or refactors accepted
     * discussion about release criteria: we will hold release date for bugs
 * Testing flake surge is over (one time event and then maintain test stability)
 * 1.3 Planning (time +40 minutes)

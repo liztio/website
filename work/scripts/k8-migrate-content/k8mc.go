@@ -637,6 +637,9 @@ func (m *mover) contentMigrate_Replacements() error {
 			// 2018-01-00-Core-Workloads-Api-Ga.md
 			re := regexp.MustCompile(`\d{4}-\d{2}-\d{2}-(.*?)\.md`)
 			m := re.FindStringSubmatch(path)
+			if len(m) < 2 {
+				return s, nil
+			}
 			namePart := strings.TrimSpace(m[1])
 			slug := strings.ToLower(strings.Replace(namePart, " ", "-", -1))
 			s, err := addKeyValue("slug", slug)(path, s)
@@ -1123,13 +1126,11 @@ func fixDates(path, s string) (string, error) {
 	dateRe := regexp.MustCompile(`(date):\s*(.*)\s*\n`)
 
 	// Make text dates in front matter date into proper YAML dates.
-	var err error
-	s = dateRe.ReplaceAllStringFunc(s, func(s string) string {
+	replaced := dateRe.ReplaceAllStringFunc(s, func(s string) string {
 		m := dateRe.FindAllStringSubmatch(s, -1)
 		key, val := m[0][1], m[0][2]
-		var tt time.Time
 
-		tt, err = time.Parse("Monday, January 2, 2006", strings.TrimSpace(val))
+		tt, err := time.Parse("Monday, January 2, 2006", strings.TrimSpace(val))
 		if err != nil {
 			err = fmt.Errorf("Date Parse failed: %s: %s", key, err)
 			return ""
@@ -1138,5 +1139,9 @@ func fixDates(path, s string) (string, error) {
 		return fmt.Sprintf("%s: %s\n", key, tt.Format("2006-01-02"))
 	})
 
-	return s, err
+	if replaced != "" {
+		return replaced, nil
+	}
+
+	return s, nil
 }

@@ -1,10 +1,8 @@
 ---
-permalink: /blog/:year/:month/:title
-layout: blog
 title: " Weekly Kubernetes Community Hangout Notes - May 15 2015 "
-date:  Tuesday, May 18, 2015
-pagination:
-  enabled: true
+date: 2015-05-18
+slug: weekly-kubernetes-community-hangout_18
+url: /blog/2015/05/Weekly-Kubernetes-Community-Hangout_18
 ---
 Every week the Kubernetes contributing community meet virtually over Google Hangouts. We want anyone who's interested to know what's discussed in this forum.  
 
@@ -74,8 +72,7 @@ Every week the Kubernetes contributing community meet virtually over Google Hang
     * could add resources as arguments to the porcelain commands
     * kubectl run is a simplified command, but it could include some common things (image, command, ports). but could add resources
 * Kubernetes 1.0 Launch Event
-    * Save the date: July 21st in Portland, OR - a part of OSCON
-    * Blog posts, whitepapers, etc. welcome to be published
+    * Save the     * Blog posts, whitepapers, etc. welcome to be published
     * Event will be live streamed, mostly demos & customer talks, keynote
     * Big launch party in the evening
     * Kit to send more info in next couple weeks

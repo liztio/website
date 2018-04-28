@@ -1,11 +1,9 @@
 ---
-permalink: /blog/:year/:month/:title
 
-layout: blog
 title: " Kubernetes StatefulSets & DaemonSets Updates "
-date:  Thursday, September 27, 2017
-pagination:
-  enabled: true
+date: 2017-09-27
+slug: kubernetes-statefulsets-daemonsets
+url: /blog/2017/09/Kubernetes-Statefulsets-Daemonsets
 ---
 Editor's note: today's post is by Janet Kuo and Kenneth Owens, Software Engineers at Google.
 
@@ -635,9 +633,7 @@ In this section, we’re going to show you how to perform a rolling update on a 
 
 To follow along with this section of the blog, you need a working Kubernetes 1.7 cluster and kubectl version 1.7 or later. If you followed along with the first section, you can use the same cluster.
 
-## DaemonSet rolling update: Prometheus node exporters
-
-First, prepare the node exporter DaemonSet manifest to run a v0.13 Prometheus node exporter on every node in the cluster:
+## DaemonSet rolling upFirst, prepare the node exporter DaemonSet manifest to run a v0.13 Prometheus node exporter on every node in the cluster:
 
 
 
