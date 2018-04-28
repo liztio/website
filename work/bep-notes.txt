@@ -12,6 +12,7 @@ Current
 * GetPage in top partials
 * Finish 404 checker and diff
 * Must wait, Re Chinese PR Merge master (font, header etc.)
+* CSS toc: http://localhost:1313/docs/tutorials/
 
 For Migration
 -----------

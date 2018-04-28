@@ -38,9 +38,9 @@ date = ["date", ":filename", "publishDate", "lastmod"]
 
 # Be explicit about the output formats. We (currently) only want an RSS feed for the sections.
 [outputs]
-home = [ "HTML"]
+home = [ "HTML", "RSS"]
 page = [ "HTML"]
-section = [ "HTML", "RSS"]
+section = [ "HTML"]
 
 [outputFormats]
 [outputFormats.RSS]
