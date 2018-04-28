@@ -6,6 +6,8 @@
     {{ partial "docs/browse.html" (where .Parent.Sections ".Params.main_menu" true) }}
 {{ end }}
 
+{{ define "content-id" }}content{{ end }}
+
 {{ define "docs-portal-user-journey" }}
 {{ $data := .Site.Data }}
 <div id="user-persona-data" class="hide">

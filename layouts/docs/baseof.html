@@ -14,7 +14,7 @@
 		{{ block "deprecation" . }}{{ partial "deprecation-warning.html" . }}{{ end }}
 		<section id="encyclopedia">
 			{{ block "side-menu" . }}<div id="docsToc" style="display:none;"></div>{{ end }}
-			<div id="{{ block "content-id" . }}content{{ end }}">
+			<div id="{{ block "content-id" . }}docsContent{{ end }}">
 				{{ block "content" . }}{{ end }}
 				<div class="issue-button-container">
 					<p><a href=""><img src="https://kubernetes-site.appspot.com/UA-36037335-10/GitHub/{{ .Path }}?pixel" alt="Analytics" /></a></p>

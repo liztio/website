@@ -2,7 +2,6 @@
 {{ partial "docs/side-menu.html" . }}
 {{ end }}
 
-
 {{ define "content" }}
 <h1>{{ .Title }}</h1>
 <link href="{{ "css/glossary.css" | relURL }}" rel="stylesheet">
@@ -54,6 +53,4 @@
 	{{ end }}
 </ul>
 {{ end }}
-
-{{ define "content-id" }}docsContent{{ end }}
 
